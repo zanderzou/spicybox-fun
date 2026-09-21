@@ -1,0 +1,93 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Icon from "../components/Icon.astro";
+import PostCard from "../components/PostCard.astro";
+import { site } from "../data/site";
+import heroImage from "../assets/spicybox-adult-swimwear-editorial.jpg";
+
+const posts = (await getCollection("blog")).sort((a,b)=>b.data.publishDate.valueOf()-a.data.publishDate.valueOf());
+const faqs = [
+  { question:"What is SpicyBox?", answer:"SpicyBox is an adults-only browser service that turns an uploaded still image into an AI-generated photo or short video using preset templates. It is a visual generator, not an AI companion chat app." },
+  { question:"Is spicybox.fun the official SpicyBox website?", answer:"No. This is an independent editorial guide. Buttons marked official open spicy-box.com. We do not accept uploads, run the generator, sell credits, or manage SpicyBox accounts." },
+  { question:"Whose photo can I upload to SpicyBox?", answer:"The current SpicyBox Terms say you must be the person shown in every image you upload and must not upload an image of anyone else for AI processing. That rule is central to responsible use." },
+  { question:"Is SpicyBox free?", answer:"The product currently promotes a free first-generation route, while additional output may use credits. Allowances and checkout terms can change, so verify the live generator and payment screen before purchasing." },
+  { question:"Is SpicyBox private?", answer:"Its Privacy Policy says the service may process uploaded images, generated content, account data, technical data, analytics, and derived data. Review retention and deletion controls before uploading an intimate or identifiable image." },
+  { question:"What are good SpicyBox alternatives?", answer:"Promptchan is a broader prompt-led image and video workspace. OurDream AI combines character creation, chat, images, voice, and video. The better choice depends on whether you need fast template animation or a deeper creation system." },
+];
+const jsonLd = {"@context":"https://schema.org","@graph":[
+  {"@type":"WebSite","@id":`${site.url}/#website`,name:site.name,url:site.url,description:site.description,inLanguage:"en"},
+  {"@type":"Organization","@id":`${site.url}/#organization`,name:site.name,url:site.url,logo:`${site.url}/favicon.svg`},
+  {"@type":"WebPage","@id":`${site.url}/#webpage`,name:"SpicyBox Guide: AI Video Generator, Safety & Alternatives",url:site.url,isPartOf:{"@id":`${site.url}/#website`},about:["SpicyBox","AI image to video generator","adult AI video generator","SpicyBox safety","SpicyBox alternatives"]},
+  {"@type":"FAQPage",mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}}))}
+]};
+---
+<BaseLayout title="SpicyBox Guide: AI Video Generator, Safety & Alternatives" description={site.description} keywords={["SpicyBox","SpicyBox review","SpicyBox AI video generator","SpicyBox safety","SpicyBox alternatives","image to video AI"]} jsonLd={jsonLd}>
+  <section class="hero studio-hero">
+    <Image class="hero-image" src={heroImage} alt="Adult woman in mint swimwear posing on sunlit dunes" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
+    <div class="hero-scrim"></div>
+    <div class="hero-copy reveal">
+      <div class="eyebrow"><span></span>Independent SpicyBox guide · Adults 18+</div>
+      <h1>One photo.<br/><em>A moving scene.</em></h1>
+      <p>Understand the SpicyBox AI video generator, templates, credits, upload privacy, self-image rule, safety checks, and alternatives before you create.</p>
+      <div class="hero-actions"><a class="button primary" href="#workflow">See how it works <Icon name="arrow"/></a><a class="button ghost" href="/blog/is-spicybox-safe/">Read the safety guide</a></div>
+      <div class="proof-row"><span>Official rules checked</span><span>Primary sources linked</span><span>No uploads collected here</span></div>
+    </div>
+    <div class="feed-preview render-preview" aria-label="Illustrative image-to-video workflow">
+      <div class="feed-top"><span>RENDER / 01</span><b>Image → Video</b><i>●</i></div>
+      <div class="feed-card"><span class="feed-badge">SELF-IMAGE ONLY</span><strong>Upload.<br/>Choose. Animate.</strong><div class="feed-actions"><span>Photo</span><span>Template</span><span>Clip</span></div></div>
+      <div class="feed-progress"><span></span><span></span><span></span></div>
+    </div>
+    <div class="photo-credit">Photo: <a href="https://www.pexels.com/photo/11455866/" target="_blank" rel="noopener noreferrer">Fran Bertucci / Pexels</a> · no endorsement implied</div>
+  </section>
+
+  <section class="section answer-grid">
+    <div><div class="section-label">01 / Direct answer</div><h2>What is<br/><span>SpicyBox?</span></h2></div>
+    <div class="answer-copy"><p class="lead">SpicyBox is an adult AI image-to-video generator. You upload a still photo of yourself, select a visual template, and generate a new photo or short animated clip.</p><p>Its current Explore interface highlights trending templates, Mini-Movie and Cum Shorts categories, plus a personal collection. This independent guide focuses on the actual workflow, consent rule, uploaded-image privacy, credit economics, and practical alternatives.</p><div class="keyword-line"><span>SpicyBox review</span><span>AI video generator</span><span>image to video</span><span>upload privacy</span><span>SpicyBox alternatives</span></div></div>
+  </section>
+
+  <section class="section experience" id="workflow">
+    <div class="section-head"><div><div class="section-label">02 / SpicyBox workflow</div><h2>Three steps from<br/><span>still to motion.</span></h2></div><p>The interface is simple, but the first step matters most: the official Terms require every uploaded image to depict you—not another person.</p></div>
+    <div class="path-grid">
+      <article><div class="path-number">01</div><span>CONSENT GATE</span><h3>Use your own image</h3><p>Choose a clear adult photo of yourself. Do not upload a partner, creator, celebrity, stranger, or scraped image, even if it is publicly visible.</p><small>Official rule: uploader is the sole subject</small></article>
+      <article><div class="path-number">02</div><span>STYLE SELECTION</span><h3>Pick a template</h3><p>Explore trending and new visual treatments, then match the template to the framing and lighting of the source photo for a more coherent result.</p><small>Check previews before spending credits</small></article>
+      <article><div class="path-number">03</div><span>OUTPUT REVIEW</span><h3>Generate, inspect, delete</h3><p>Check anatomy, face stability, motion, artifacts, and privacy. Save only results you want and use available deletion controls for unwanted uploads or outputs.</p><small>Never assume generated means risk-free</small></article>
+    </div>
+  </section>
+
+  <section class="section feature-section" id="features">
+    <div class="feature-intro"><div class="section-label">03 / Feature map</div><h2>A fast studio,<br/><span>not a chatbot.</span></h2><p>SpicyBox is designed around visual transformation. Treat each generation as an upload-processing transaction and judge the output, controls, and credit cost together.</p></div>
+    <div class="feature-stack">
+      <article><div class="feature-icon"><Icon name="spark"/></div><div><small>DISCOVERY</small><h3>Explore and template feeds</h3><p>Browse trending, new, and favorite treatments. Shortcuts surface Mini-Movie and other adult animation formats without a complex prompt workflow.</p></div><span>01</span></article>
+      <article><div class="feature-icon"><Icon name="wand"/></div><div><small>GENERATION</small><h3>Photo and short video output</h3><p>The service describes AI-generated stills and short clips based on the uploaded source. Compare motion quality, face consistency, and failed-generation handling.</p></div><span>02</span></article>
+      <article><div class="feature-icon"><Icon name="heart"/></div><div><small>LIBRARY</small><h3>My Collection and favorites</h3><p>Collection tools help you return to saved results and preferred templates. Review what deletion actually removes before treating the library as private storage.</p></div><span>03</span></article>
+      <article><div class="feature-icon"><Icon name="lock"/></div><div><small>ECONOMICS</small><h3>Free entry and credit spend</h3><p>A free first generation can test the workflow. Before buying credits, note whether unsuccessful, unwanted, or low-quality results still consume them.</p></div><span>04</span></article>
+    </div>
+  </section>
+
+  <section class="section test-lab">
+    <div class="lab-visual"><div class="phone"><div class="phone-head"><span>PRE-GENERATION CHECK</span><b>18+</b></div><div class="signal-card"><small>UPLOAD STATUS</small><strong>Only me in frame</strong><div class="meter"><i></i></div></div><div class="metric"><b>01</b><span>Adult subject confirmed</span></div><div class="metric"><b>02</b><span>Image belongs to uploader</span></div><div class="metric"><b>03</b><span>Background identifiers removed</span></div><div class="metric"><b>04</b><span>Deletion route located</span></div></div></div>
+    <div class="lab-copy"><div class="section-label">04 / Safer upload routine</div><h2>Pause before<br/><span>the progress bar.</span></h2><p>An intimate generator can produce entertaining results, but the source image is personal data. A sixty-second check reduces avoidable consent, identity, and retention risk.</p><ol><li><b>01</b><div><strong>Confirm sole subject and ownership</strong><p>You are the only person shown and you control the photo.</p></div></li><li><b>02</b><div><strong>Strip avoidable identifiers</strong><p>Crop addresses, badges, location clues, other faces, and sensitive surroundings.</p></div></li><li><b>03</b><div><strong>Review retention and credits</strong><p>Know how uploads and outputs are handled, how deletion works, and what each attempt costs.</p></div></li></ol></div>
+  </section>
+
+  <section class="section" id="compare">
+    <div class="section-head"><div><div class="section-label">05 / Comparison desk</div><h2>SpicyBox vs.<br/><span>broader AI studios.</span></h2></div><p>Choose by workflow. A template-first transformer solves a different job from a prompt studio or a persistent AI companion platform.</p></div>
+    <div class="compare-table"><table><thead><tr><th>Platform</th><th>Strongest fit</th><th>Starting point</th><th>Key distinction</th><th>Read next</th></tr></thead><tbody>
+      <tr><td><strong>SpicyBox</strong><small>Template-first</small></td><td>Quick adult animation of your own photo</td><td>Upload + template</td><td>Official self-image-only rule</td><td><span class="badge">Fast workflow</span></td></tr>
+      <tr><td><strong>Promptchan</strong><small>Creator workspace</small></td><td>Prompt-led images, remixing, pose control, and video</td><td>Text, gallery remix, or image</td><td>More creative controls</td><td><a href="/blog/spicybox-vs-promptchan/">Full comparison →</a></td></tr>
+      <tr><td><strong>OurDream AI</strong><small>Companion system</small></td><td>Character creation, chat, memory, voice, images, and video</td><td>Character prompt or library</td><td>Persistent character experience</td><td><a href="/blog/spicybox-vs-ourdream-ai/">Full comparison →</a></td></tr>
+    </tbody></table></div>
+  </section>
+
+  <section class="section privacy" id="privacy">
+    <div class="privacy-copy"><div class="section-label">06 / Privacy before upload</div><h2>Your photo is input.<br/><span>Your identity is the risk surface.</span></h2><p>The SpicyBox Privacy Policy lists uploaded images, AI-generated content, account details, device and usage data, cookies, analytics, and derived data among the information it may process. Read the current policy and locate deletion controls before uploading anything sensitive.</p><a class="button ghost" href="/blog/is-spicybox-safe/">Open the SpicyBox safety checklist <Icon name="arrow"/></a></div>
+    <div class="privacy-card"><span>SELF-IMAGE CHECKLIST</span><h3>Before every generation</h3><ul><li><b>01</b><span>I am an adult and the sole person depicted.</span></li><li><b>02</b><span>I own or control this source image.</span></li><li><b>03</b><span>No location, ID, or private background detail is visible.</span></li><li><b>04</b><span>I reviewed upload, output, and deletion terms.</span></li><li><b>05</b><span>I understand that a generation may consume credits.</span></li></ul></div>
+  </section>
+
+  <section class="section"><div class="section-head"><div><div class="section-label">07 / SpicyBox blog</div><h2>Useful comparisons.<br/><span>Clear upload rules.</span></h2></div><a class="button ghost" href="/blog/">Browse every guide <Icon name="arrow"/></a></div><div class="post-grid">{posts.map((post,index)=><PostCard post={post} index={index}/>)}</div></section>
+
+  <section class="section faq"><div><div class="section-label">08 / Frequently asked</div><h2>SpicyBox<br/><span>questions, answered.</span></h2></div><div class="faq-list">{faqs.map((faq)=><details><summary>{faq.question}<span>+</span></summary><p>{faq.answer}</p></details>)}</div></section>
+
+  <section class="section final-cta"><div><div class="section-label">VERIFY THE LIVE PRODUCT</div><h2>Own the photo.<br/>Understand the output.</h2><p>Use only your own adult self-image, review privacy and credit terms, then confirm current templates and controls on the official service.</p></div><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">Visit official SpicyBox <Icon name="arrow"/></a></section>
+</BaseLayout>
