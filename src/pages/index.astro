@@ -5,7 +5,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Icon from "../components/Icon.astro";
 import PostCard from "../components/PostCard.astro";
 import { site } from "../data/site";
-import heroImage from "../assets/spicybox-adult-swimwear-editorial.jpg";
+import heroImage from "../assets/spicybox-user-studio-character.png";
+import secondaryImage from "../assets/spicybox-user-pink-character.jpg";
 
 const posts = (await getCollection("blog")).sort((a,b)=>b.data.publishDate.valueOf()-a.data.publishDate.valueOf());
 const faqs = [
@@ -25,7 +26,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 ---
 <BaseLayout title="SpicyBox Guide: AI Video Generator, Safety & Alternatives" description={site.description} keywords={["SpicyBox","SpicyBox review","SpicyBox AI video generator","SpicyBox safety","SpicyBox alternatives","image to video AI"]} jsonLd={jsonLd}>
   <section class="hero studio-hero">
-    <Image class="hero-image" src={heroImage} alt="Adult woman in mint swimwear posing on sunlit dunes" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
+    <Image class="hero-image" src={heroImage} alt="Adult fictional character in a stylized studio portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
     <div class="hero-scrim"></div>
     <div class="hero-copy reveal">
       <div class="eyebrow"><span></span>Independent SpicyBox guide · Adults 18+</div>
@@ -39,7 +40,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
       <div class="feed-card"><span class="feed-badge">SELF-IMAGE ONLY</span><strong>Upload.<br/>Choose. Animate.</strong><div class="feed-actions"><span>Photo</span><span>Template</span><span>Clip</span></div></div>
       <div class="feed-progress"><span></span><span></span><span></span></div>
     </div>
-    <div class="photo-credit">Photo: <a href="https://www.pexels.com/photo/11455866/" target="_blank" rel="noopener noreferrer">Fran Bertucci / Pexels</a> · no endorsement implied</div>
+    <div class="photo-credit">User-provided adult editorial · no endorsement implied</div>
   </section>
 
   <section class="section answer-grid">
@@ -76,6 +77,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 
   <section class="section seo-copy" aria-labelledby="spicybox-fun-research">
     <div class="section-head"><div><div class="section-label">06 / Detailed SpicyBox AI research</div><h2 id="spicybox-fun-research">A deeper SpicyBox AI guide<br/><span>for careful comparison.</span></h2></div><p>This text-led section expands the practical questions people ask after the first product overview.</p></div>
+    <figure class="seo-visual"><Image src={secondaryImage} alt="Adult fictional character in a pink editorial portrait" widths={[640,960,1280]} sizes="(max-width: 640px) 100vw, 1200px" loading="lazy" quality={84}/><figcaption><span>Template-ready source</span><strong>Simple framing helps expose motion artifacts and identity drift.</strong></figcaption></figure>
     <div class="seo-copy-grid">
       <article><h3>What to evaluate in a SpicyBox AI review</h3><p>A useful SpicyBox AI review should explain the actual job the product performs: adult AI image-to-video templates, self-image animation, credits, and short-form output. Look past headline feature counts and test whether the main workflow stays clear from setup to a usable result.</p><p>Our recommended method is to use only an adult self-image or licensed synthetic model and compare motion quality per paid attempt. Record setup time, consistency, failed attempts, feature limits, and the real cost of one repeatable session. That creates evidence you can compare instead of relying on marketing language.</p></article>
       <article><h3>SpicyBox AI features, cost, and output quality</h3><p>Feature availability and plan limits can change. Before paying, identify which actions are included, which consume credits or tokens, whether retries are charged, and whether exports carry restrictions. A low subscription price can become expensive when the workflow needs repeated generations.</p><p>Quality should mean more than visual polish. Score control, repeatability, continuity, speed, and how often the result is actually usable. Verify current pricing and plan details on the official service at checkout.</p></article>
