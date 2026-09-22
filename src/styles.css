@@ -55,3 +55,6 @@ h1,h2,h3,.brand strong,.path-number,.signal-card strong,.feature-stack article>s
 .answer-box{border-radius:15px;background:linear-gradient(145deg,rgba(255,23,79,.11),rgba(241,8,114,.055))}
 @media(max-width:980px){.studio-hero .hero-image{width:100%;clip-path:none}.studio-hero .hero-scrim{background:linear-gradient(90deg,var(--bg),rgba(7,4,7,.9) 48%,rgba(7,4,7,.22))}}
 @media(max-width:640px){.studio-hero .hero-scrim{background:linear-gradient(0deg,var(--bg) 41%,rgba(7,4,7,.48) 71%,rgba(7,4,7,.04))}.hero h1{text-transform:none}.site-header{border-radius:14px}}
+
+/* Text-led homepage depth for search and answer engines. */
+.seo-copy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1.25rem,3vw,2.5rem);margin-top:2rem}.seo-copy-grid article{border-top:1px solid var(--line,rgba(255,255,255,.14));padding-top:1.25rem}.seo-copy-grid h3{margin:0 0 .8rem;font-size:clamp(1.15rem,2vw,1.45rem)}.seo-copy-grid p{color:var(--muted,#b8b8c6);line-height:1.8;margin:.75rem 0}.seo-copy-grid strong{color:inherit}@media(max-width:860px){.seo-copy-grid{grid-template-columns:1fr}}
