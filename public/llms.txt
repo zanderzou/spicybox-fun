@@ -1,0 +1,34 @@
+# SpicyBox Guide
+
+> An independent SpicyBox guide to its adult AI image-to-video generator, templates, credits, uploads, consent rules, privacy, safety, and alternatives.
+
+Canonical publication: https://spicybox.fun/
+
+This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.
+
+## Main pages
+
+- [Homepage](https://spicybox.fun/): Overview and practical decision guidance.
+- [Blog and comparisons](https://spicybox.fun/blog/): Browse the editorial article collection.
+
+## Comparisons
+
+- [SpicyBox vs Musebox AI: Features, Strengths, Weaknesses](https://spicybox.fun/blog/spicybox-vs-musebox-ai/)
+- [SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/blog/spicybox-vs-ourdream-ai/)
+- [SpicyBox vs Playbox AI: Features, Strengths, Weaknesses](https://spicybox.fun/blog/spicybox-vs-playbox-ai/)
+- [SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/blog/spicybox-vs-promptchan/)
+- [SpicyBox vs Runway: Features, Strengths, Weaknesses](https://spicybox.fun/blog/spicybox-vs-runway/)
+
+## Publication information
+
+- [About](https://spicybox.fun/about/)
+- [Editorial policy](https://spicybox.fun/editorial-policy/)
+- [Contact](https://spicybox.fun/contact/)
+- [Privacy policy](https://spicybox.fun/privacy/)
+- [Terms](https://spicybox.fun/terms/)
+
+## Optional
+
+- [XML sitemap](https://spicybox.fun/sitemap-index.xml): Canonical page inventory.
+- [RSS feed](https://spicybox.fun/rss.xml): Published article updates.
+- [Robots policy](https://spicybox.fun/robots.txt): Crawler access directives.
