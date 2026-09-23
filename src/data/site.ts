@@ -1,5 +1,5 @@
 export const site = {
-  name: "SpicyBox Guide",
+  name: "SpicyBox",
   domain: "spicybox.fun",
   url: "https://spicybox.fun",
   description: "An independent SpicyBox guide to its adult AI image-to-video generator, templates, credits, uploads, consent rules, privacy, safety, and alternatives.",

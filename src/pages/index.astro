@@ -24,7 +24,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
   {"@type":"FAQPage",mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}}))}
 ]};
 ---
-<BaseLayout title="SpicyBox Guide: AI Video Generator, Safety & Alternatives" description={site.description} keywords={["SpicyBox","SpicyBox review","SpicyBox AI video generator","SpicyBox safety","SpicyBox alternatives","image to video AI"]} jsonLd={jsonLd}>
+<BaseLayout title="SpicyBox" description={site.description} keywords={["SpicyBox","SpicyBox review","SpicyBox AI video generator","SpicyBox safety","SpicyBox alternatives","image to video AI"]} jsonLd={jsonLd}>
   <section class="hero studio-hero">
     <Image class="hero-image" src={heroImage} alt="Adult fictional character in a stylized studio portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={86}/>
     <div class="hero-scrim"></div>
