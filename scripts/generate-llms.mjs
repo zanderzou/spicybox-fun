@@ -18,10 +18,22 @@ const articles=readdirSync(blog).filter(f=>f.endsWith('.md')).sort().map(f=>{
 const label=s=>s.replace(/[\[\]]/g,'');
 const links=[['Homepage','/','Overview and practical decision guidance.'],['Blog and comparisons','/blog/','Browse the editorial article collection.']];
 const optional=[['About','about'],['Editorial policy','editorial-policy'],['Contact','contact'],['Privacy policy','privacy'],['Terms','terms']].filter(([,slug])=>existsSync(path.join(pages,slug+'.astro'))||existsSync(path.join(pages,slug,'index.astro')));
+const localeNames=[
+ ['ja','Japanese'],['ko','Korean'],['zh-hant','Traditional Chinese'],['es','Spanish'],['pt-br','Brazilian Portuguese'],
+ ['ru','Russian'],['de','German'],['fr','French'],['ar','Arabic']
+];
+const localized=localeNames.flatMap(([slug,language])=>[
+ `### ${language} (${slug})`,'',
+ `- [SpicyBox — ${language} homepage](${origin}/${slug}/): Full localized product overview and FAQ.`,
+ `- [SpicyBox — ${language} comparisons](${origin}/${slug}/blog/): Five localized VS articles.`,
+ ...articles.map(article=>`- [${language}: ${label(article.title)}](${origin}/${slug}/blog/${article.slug}/)`),
+ ...optional.map(([title,page])=>`- [${language}: ${title}](${origin}/${slug}/${page}/)`),''
+]);
 const text=[`# ${name}`,'',`> ${description}`,'',`Canonical publication: ${origin}/`,'','This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.','',
  '## Main pages','',...links.map(([title,route,note])=>`- [${title}](${origin}${route}): ${note}`),'',
  '## Comparisons','',...articles.map(a=>`- [${label(a.title)}](${origin}/blog/${a.slug}/)`),'',
  '## Publication information','',...optional.map(([title,slug])=>`- [${title}](${origin}/${slug}/)`),'',
+ '## Complete language editions','',...localized,
  '## Optional','',`- [XML sitemap](${origin}/sitemap-index.xml): Canonical page inventory.`,`- [RSS feed](${origin}/rss.xml): Published article updates.`,`- [Robots policy](${origin}/robots.txt): Crawler access directives.`,''].join('\n');
 const destination=path.join(root,'public/llms.txt');
 if(process.argv.includes('--check')){
@@ -33,5 +45,5 @@ if(process.argv.includes('--check')){
   const route=decodeURIComponent(link.pathname);const file=path.join(out,route.endsWith('/')?route+'index.html':route);
   if(!existsSync(file))throw Error('Broken llms.txt link: '+link.href);
  }
- console.log(`${new URL(origin).hostname}: llms.txt current, ${articles.length} article links verified`);
+ console.log(`${new URL(origin).hostname}: llms.txt current, ${articles.length} English and ${localeNames.length * (articles.length + optional.length + 2)} localized page links verified`);
 }else{writeFileSync(destination,text);console.log(`Generated llms.txt for ${name}`);}

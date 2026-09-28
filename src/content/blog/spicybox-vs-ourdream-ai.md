@@ -2,7 +2,7 @@
 title: "SpicyBox vs OurDream AI: Video Tool or Companion?"
 description: "SpicyBox vs OurDream AI compared by image-to-video workflow, character creation, chat, memory, voice, privacy, consent, credits, and best fit."
 publishDate: 2026-09-20
-updatedDate: 2026-09-21
+updatedDate: 2026-09-28
 category: "Comparison"
 readTime: "8 min read"
 accent: "violet"
@@ -12,9 +12,9 @@ sources:
   - name: "SpicyBox — official product"
     url: "https://spicy-box.com/explore"
   - name: "SpicyBox — Terms of Use"
-    url: "https://spicy-box.com/assets/files/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
   - name: "SpicyBox — Privacy Policy"
-    url: "https://spicy-box.com/assets/files/SpicyBoxPrivacyPolicy.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "OurDream AI — official product overview"
     url: "https://land.ourdream.ai/"
 ---
@@ -28,7 +28,7 @@ sources:
 | Starting point | Upload + template | Character prompt, creator, or library |
 | Conversation | Not the core product | Chat, memory, instructions, and personas |
 | Media | Generated photos and short clips | Character-consistent images, voice, and video |
-| Real-person input | Terms require the uploader to be the sole subject | Official overview says real-person likenesses are blocked |
+| Real-person input | Terms require the uploader to be the sole subject | Check its current likeness and upload rules before using a real person's image |
 
 ## SpicyBox is a transformation tool
 
@@ -48,7 +48,7 @@ If you only want one short transformation, those layers may be unnecessary. If y
 
 SpicyBox's current Terms establish a strict upload condition: the user must be the person depicted in every image submitted for AI processing. Do not use another person's photo, regardless of whether the image is public or whether you believe the person would approve.
 
-OurDream's current official overview says real-person likenesses are blocked. Its workflow is better understood as creating fictional adults. That offers a privacy advantage when the desired result does not need to resemble the user.
+OurDream's character-creation workflow is better understood as creating fictional adults. That can reduce the need to upload an identifiable photo when the desired result does not need to resemble the user. Check its current likeness and upload rules separately before using any real person's image.
 
 Neither platform should be used for non-consensual intimate imagery, impersonation, harassment, or ambiguous-age content. Keep every character and source subject clearly adult.
 
@@ -86,4 +86,3 @@ Choose **SpicyBox** when the source is your own adult photo, you prefer a templa
 Choose **OurDream AI** when you want a fictional adult character with personality, memory, conversation, voice, images, and video that continue across sessions.
 
 The cleanest decision rule is duration. SpicyBox is for transforming a moment. OurDream is for maintaining a character. Start with the smaller, less sensitive test that proves the workflow you actually need.
-

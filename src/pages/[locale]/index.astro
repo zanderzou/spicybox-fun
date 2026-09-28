@@ -1,0 +1,48 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { home } from "../../data/localized-home";
+import { comparisons, locales, routeFor, ui, type Locale } from "../../data/locales";
+import { site } from "../../data/site";
+import heroImage from "../../assets/spicybox-user-studio-character.png";
+import secondaryImage from "../../assets/spicybox-user-pink-character.jpg";
+
+export function getStaticPaths() {
+  return locales.map((entry) => ({ params: { locale: entry.slug } }));
+}
+const locale = Astro.params.locale as Locale;
+const copy = home[locale];
+const label = ui[locale];
+const lang = locales.find((entry) => entry.slug === locale)!.lang;
+const jsonLd = { "@context": "https://schema.org", "@graph": [
+  { "@type": "WebPage", name: "SpicyBox", url: `${site.url}/${locale}/`, description: copy.description, inLanguage: lang, isPartOf: { "@type": "WebSite", name: "SpicyBox", url: site.url } },
+  { "@type": "FAQPage", mainEntity: copy.faqs.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) }
+] };
+---
+<BaseLayout locale={locale} title="SpicyBox" description={copy.description} jsonLd={jsonLd}>
+  <section class="locale-hero">
+    <Image src={heroImage} alt={copy.imageAlt[0]} widths={[640,960,1280,1536]} sizes="(max-width: 760px) 100vw, 58vw" loading="eager" fetchpriority="high" quality={84} />
+    <div class="locale-hero-copy"><span class="locale-eyebrow">{copy.eyebrow}</span><h1>SpicyBox</h1><p class="locale-tagline">{copy.tagline}</p><p>{copy.lead}</p>
+      <div class="locale-hero-actions"><a class="button primary" href="#workflow">{label.workflow} →</a><a class="button ghost" href={routeFor(locale, "blog")}>{label.blog} →</a></div>
+    </div>
+  </section>
+
+  <section class="locale-section" id="overview"><span class="section-label">01 · SpicyBox</span><h2>{copy.overview.heading}</h2>{copy.overview.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>
+  <section class="locale-section" id="workflow"><span class="section-label">02 · {label.workflow}</span><h2>{copy.workflow.heading}</h2><p class="locale-lead">{copy.workflow.lead}</p>
+    <ol class="locale-steps">{copy.workflow.steps.map(([heading, detail], index) => <li><span>0{index + 1}</span><div><h3>{heading}</h3><p>{detail}</p></div></li>)}</ol>
+  </section>
+  <section class="locale-section" id="compare"><span class="section-label">03 · {label.compare}</span><h2>{copy.compare.heading}</h2><p class="locale-lead">{copy.compare.lead}</p>
+    <div class="locale-grid">{copy.compare.cards.map(([heading, detail], index) => <a href={routeFor(locale, `blog/${comparisons[index].slug}`)}><span class="locale-card-kicker">SpicyBox vs {comparisons[index].name}</span><h3>{heading}</h3><p>{detail}</p><strong>{label.read} →</strong></a>)}</div>
+  </section>
+  <section class="locale-section locale-media"><div><span class="section-label">04 · {label.priceNote}</span><h2>{copy.costs.heading}</h2>{copy.costs.paragraphs.map((paragraph) => <p>{paragraph}</p>)}<a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener" target="_blank">{label.sources} ↗</a></div>
+    <Image src={secondaryImage} alt={copy.imageAlt[1]} widths={[480,720,960]} sizes="(max-width: 760px) 100vw, 400px" loading="lazy" quality={82} />
+  </section>
+  <section class="locale-section" id="privacy"><span class="section-label">05 · {label.privacy}</span><h2>{copy.privacy.heading}</h2>{copy.privacy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>
+  <section class="locale-section locale-faq"><span class="section-label">06 · FAQ</span><h2>{label.questions}</h2>{copy.faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+  <section class="locale-section"><span class="section-label">07 · {label.sources}</span><h2>{label.sources}</h2><p>{label.priceNote}</p><ul class="locale-source-list">
+    <li><a href="https://spicy-box.com/explore" rel="noopener" target="_blank">SpicyBox · Explore ↗</a></li>
+    <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener" target="_blank">SpicyBox · Terms ↗</a></li>
+    <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" rel="noopener" target="_blank">SpicyBox · Privacy ↗</a></li>
+  </ul></section>
+  <section class="locale-section locale-end"><h2>SpicyBox</h2><p>{label.independent} {label.selfImage}</p><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">{label.official} ↗</a></section>
+</BaseLayout>

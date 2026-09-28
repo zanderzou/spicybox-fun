@@ -13,11 +13,11 @@ This is an independent editorial publication, not the official provider. Article
 
 ## Comparisons
 
-- [SpicyBox vs Musebox AI: Features, Strengths, Weaknesses](https://spicybox.fun/blog/spicybox-vs-musebox-ai/)
+- [SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/blog/spicybox-vs-musebox-ai/)
 - [SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/blog/spicybox-vs-ourdream-ai/)
-- [SpicyBox vs Playbox AI: Features, Strengths, Weaknesses](https://spicybox.fun/blog/spicybox-vs-playbox-ai/)
+- [SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/blog/spicybox-vs-playbox-ai/)
 - [SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/blog/spicybox-vs-promptchan/)
-- [SpicyBox vs Runway: Features, Strengths, Weaknesses](https://spicybox.fun/blog/spicybox-vs-runway/)
+- [SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/blog/spicybox-vs-runway/)
 
 ## Publication information
 
@@ -26,6 +26,143 @@ This is an independent editorial publication, not the official provider. Article
 - [Contact](https://spicybox.fun/contact/)
 - [Privacy policy](https://spicybox.fun/privacy/)
 - [Terms](https://spicybox.fun/terms/)
+
+## Complete language editions
+
+### Japanese (ja)
+
+- [SpicyBox — Japanese homepage](https://spicybox.fun/ja/): Full localized product overview and FAQ.
+- [SpicyBox — Japanese comparisons](https://spicybox.fun/ja/blog/): Five localized VS articles.
+- [Japanese: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/ja/blog/spicybox-vs-musebox-ai/)
+- [Japanese: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/ja/blog/spicybox-vs-ourdream-ai/)
+- [Japanese: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/ja/blog/spicybox-vs-playbox-ai/)
+- [Japanese: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/ja/blog/spicybox-vs-promptchan/)
+- [Japanese: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/ja/blog/spicybox-vs-runway/)
+- [Japanese: About](https://spicybox.fun/ja/about/)
+- [Japanese: Editorial policy](https://spicybox.fun/ja/editorial-policy/)
+- [Japanese: Contact](https://spicybox.fun/ja/contact/)
+- [Japanese: Privacy policy](https://spicybox.fun/ja/privacy/)
+- [Japanese: Terms](https://spicybox.fun/ja/terms/)
+
+### Korean (ko)
+
+- [SpicyBox — Korean homepage](https://spicybox.fun/ko/): Full localized product overview and FAQ.
+- [SpicyBox — Korean comparisons](https://spicybox.fun/ko/blog/): Five localized VS articles.
+- [Korean: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/ko/blog/spicybox-vs-musebox-ai/)
+- [Korean: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/ko/blog/spicybox-vs-ourdream-ai/)
+- [Korean: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/ko/blog/spicybox-vs-playbox-ai/)
+- [Korean: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/ko/blog/spicybox-vs-promptchan/)
+- [Korean: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/ko/blog/spicybox-vs-runway/)
+- [Korean: About](https://spicybox.fun/ko/about/)
+- [Korean: Editorial policy](https://spicybox.fun/ko/editorial-policy/)
+- [Korean: Contact](https://spicybox.fun/ko/contact/)
+- [Korean: Privacy policy](https://spicybox.fun/ko/privacy/)
+- [Korean: Terms](https://spicybox.fun/ko/terms/)
+
+### Traditional Chinese (zh-hant)
+
+- [SpicyBox — Traditional Chinese homepage](https://spicybox.fun/zh-hant/): Full localized product overview and FAQ.
+- [SpicyBox — Traditional Chinese comparisons](https://spicybox.fun/zh-hant/blog/): Five localized VS articles.
+- [Traditional Chinese: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/zh-hant/blog/spicybox-vs-musebox-ai/)
+- [Traditional Chinese: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/zh-hant/blog/spicybox-vs-ourdream-ai/)
+- [Traditional Chinese: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/zh-hant/blog/spicybox-vs-playbox-ai/)
+- [Traditional Chinese: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/zh-hant/blog/spicybox-vs-promptchan/)
+- [Traditional Chinese: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/zh-hant/blog/spicybox-vs-runway/)
+- [Traditional Chinese: About](https://spicybox.fun/zh-hant/about/)
+- [Traditional Chinese: Editorial policy](https://spicybox.fun/zh-hant/editorial-policy/)
+- [Traditional Chinese: Contact](https://spicybox.fun/zh-hant/contact/)
+- [Traditional Chinese: Privacy policy](https://spicybox.fun/zh-hant/privacy/)
+- [Traditional Chinese: Terms](https://spicybox.fun/zh-hant/terms/)
+
+### Spanish (es)
+
+- [SpicyBox — Spanish homepage](https://spicybox.fun/es/): Full localized product overview and FAQ.
+- [SpicyBox — Spanish comparisons](https://spicybox.fun/es/blog/): Five localized VS articles.
+- [Spanish: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/es/blog/spicybox-vs-musebox-ai/)
+- [Spanish: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/es/blog/spicybox-vs-ourdream-ai/)
+- [Spanish: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/es/blog/spicybox-vs-playbox-ai/)
+- [Spanish: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/es/blog/spicybox-vs-promptchan/)
+- [Spanish: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/es/blog/spicybox-vs-runway/)
+- [Spanish: About](https://spicybox.fun/es/about/)
+- [Spanish: Editorial policy](https://spicybox.fun/es/editorial-policy/)
+- [Spanish: Contact](https://spicybox.fun/es/contact/)
+- [Spanish: Privacy policy](https://spicybox.fun/es/privacy/)
+- [Spanish: Terms](https://spicybox.fun/es/terms/)
+
+### Brazilian Portuguese (pt-br)
+
+- [SpicyBox — Brazilian Portuguese homepage](https://spicybox.fun/pt-br/): Full localized product overview and FAQ.
+- [SpicyBox — Brazilian Portuguese comparisons](https://spicybox.fun/pt-br/blog/): Five localized VS articles.
+- [Brazilian Portuguese: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/pt-br/blog/spicybox-vs-musebox-ai/)
+- [Brazilian Portuguese: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/pt-br/blog/spicybox-vs-ourdream-ai/)
+- [Brazilian Portuguese: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/pt-br/blog/spicybox-vs-playbox-ai/)
+- [Brazilian Portuguese: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/pt-br/blog/spicybox-vs-promptchan/)
+- [Brazilian Portuguese: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/pt-br/blog/spicybox-vs-runway/)
+- [Brazilian Portuguese: About](https://spicybox.fun/pt-br/about/)
+- [Brazilian Portuguese: Editorial policy](https://spicybox.fun/pt-br/editorial-policy/)
+- [Brazilian Portuguese: Contact](https://spicybox.fun/pt-br/contact/)
+- [Brazilian Portuguese: Privacy policy](https://spicybox.fun/pt-br/privacy/)
+- [Brazilian Portuguese: Terms](https://spicybox.fun/pt-br/terms/)
+
+### Russian (ru)
+
+- [SpicyBox — Russian homepage](https://spicybox.fun/ru/): Full localized product overview and FAQ.
+- [SpicyBox — Russian comparisons](https://spicybox.fun/ru/blog/): Five localized VS articles.
+- [Russian: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/ru/blog/spicybox-vs-musebox-ai/)
+- [Russian: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/ru/blog/spicybox-vs-ourdream-ai/)
+- [Russian: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/ru/blog/spicybox-vs-playbox-ai/)
+- [Russian: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/ru/blog/spicybox-vs-promptchan/)
+- [Russian: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/ru/blog/spicybox-vs-runway/)
+- [Russian: About](https://spicybox.fun/ru/about/)
+- [Russian: Editorial policy](https://spicybox.fun/ru/editorial-policy/)
+- [Russian: Contact](https://spicybox.fun/ru/contact/)
+- [Russian: Privacy policy](https://spicybox.fun/ru/privacy/)
+- [Russian: Terms](https://spicybox.fun/ru/terms/)
+
+### German (de)
+
+- [SpicyBox — German homepage](https://spicybox.fun/de/): Full localized product overview and FAQ.
+- [SpicyBox — German comparisons](https://spicybox.fun/de/blog/): Five localized VS articles.
+- [German: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/de/blog/spicybox-vs-musebox-ai/)
+- [German: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/de/blog/spicybox-vs-ourdream-ai/)
+- [German: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/de/blog/spicybox-vs-playbox-ai/)
+- [German: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/de/blog/spicybox-vs-promptchan/)
+- [German: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/de/blog/spicybox-vs-runway/)
+- [German: About](https://spicybox.fun/de/about/)
+- [German: Editorial policy](https://spicybox.fun/de/editorial-policy/)
+- [German: Contact](https://spicybox.fun/de/contact/)
+- [German: Privacy policy](https://spicybox.fun/de/privacy/)
+- [German: Terms](https://spicybox.fun/de/terms/)
+
+### French (fr)
+
+- [SpicyBox — French homepage](https://spicybox.fun/fr/): Full localized product overview and FAQ.
+- [SpicyBox — French comparisons](https://spicybox.fun/fr/blog/): Five localized VS articles.
+- [French: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/fr/blog/spicybox-vs-musebox-ai/)
+- [French: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/fr/blog/spicybox-vs-ourdream-ai/)
+- [French: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/fr/blog/spicybox-vs-playbox-ai/)
+- [French: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/fr/blog/spicybox-vs-promptchan/)
+- [French: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/fr/blog/spicybox-vs-runway/)
+- [French: About](https://spicybox.fun/fr/about/)
+- [French: Editorial policy](https://spicybox.fun/fr/editorial-policy/)
+- [French: Contact](https://spicybox.fun/fr/contact/)
+- [French: Privacy policy](https://spicybox.fun/fr/privacy/)
+- [French: Terms](https://spicybox.fun/fr/terms/)
+
+### Arabic (ar)
+
+- [SpicyBox — Arabic homepage](https://spicybox.fun/ar/): Full localized product overview and FAQ.
+- [SpicyBox — Arabic comparisons](https://spicybox.fun/ar/blog/): Five localized VS articles.
+- [Arabic: SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/ar/blog/spicybox-vs-musebox-ai/)
+- [Arabic: SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/ar/blog/spicybox-vs-ourdream-ai/)
+- [Arabic: SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/ar/blog/spicybox-vs-playbox-ai/)
+- [Arabic: SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/ar/blog/spicybox-vs-promptchan/)
+- [Arabic: SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/ar/blog/spicybox-vs-runway/)
+- [Arabic: About](https://spicybox.fun/ar/about/)
+- [Arabic: Editorial policy](https://spicybox.fun/ar/editorial-policy/)
+- [Arabic: Contact](https://spicybox.fun/ar/contact/)
+- [Arabic: Privacy policy](https://spicybox.fun/ar/privacy/)
+- [Arabic: Terms](https://spicybox.fun/ar/terms/)
 
 ## Optional
 

@@ -1,14 +1,35 @@
 ---
 import { site } from "../data/site";
 import { measurementId } from "../data/analytics";
+import { routeFor, ui, type Locale } from "../data/locales";
+interface Props { locale?: Locale; }
+const { locale } = Astro.props;
 const domain = new URL(site.url).hostname;
+const label = locale ? ui[locale] : null;
+const statusCopy: Record<Locale, [string,string,string]> = {
+  ja: ["解析は有効です。許可しないを選ぶと撤回できます。", "解析は無効です。この選択は当サイトだけに適用されます。", "ブラウザーのプライバシー信号を尊重し、解析を停止しています。"],
+  ko: ["분석이 켜져 있습니다. 동의하지 않음을 누르면 철회됩니다.", "분석이 꺼져 있습니다. 이 선택은 이 사이트에만 적용됩니다.", "브라우저의 개인정보 보호 신호에 따라 분석을 사용하지 않습니다."],
+  "zh-hant": ["分析已啟用；選擇不同意即可撤回。", "分析已關閉，此選擇只適用於本站。", "已尊重瀏覽器隱私訊號，停用分析。"],
+  es: ["La analítica está activa. Puedes retirarla con «No, gracias».", "La analítica está desactivada. Esta elección solo afecta a este sitio.", "Respetamos la señal de privacidad del navegador; la analítica está desactivada."],
+  "pt-br": ["A análise está ativa. Você pode revogar em «Não, obrigado».", "A análise está desativada. Esta escolha vale apenas para este site.", "O sinal de privacidade do navegador foi respeitado; a análise está desligada."],
+  ru: ["Аналитика включена. Нажмите «Нет, спасибо», чтобы отозвать согласие.", "Аналитика выключена. Выбор относится только к этому сайту.", "Сигнал приватности браузера учтён; аналитика выключена."],
+  de: ["Die Analyse ist aktiv. Mit «Nein, danke» widerrufen Sie Ihre Einwilligung.", "Die Analyse ist deaktiviert. Diese Wahl gilt nur für diese Website.", "Das Datenschutzsignal Ihres Browsers wird beachtet; die Analyse bleibt aus."],
+  fr: ["L'analyse est active. Choisissez « Non merci » pour retirer votre accord.", "L'analyse est désactivée. Ce choix ne concerne que ce site.", "Le signal de confidentialité du navigateur est respecté ; l'analyse reste inactive."],
+  ar: ["التحليلات مفعّلة. اختر «لا، شكراً» لسحب الموافقة.", "التحليلات متوقفة؛ هذا الاختيار يخص هذا الموقع فقط.", "نحترم إشارة الخصوصية من المتصفح، لذا التحليلات متوقفة."]
+};
+const statuses = locale ? statusCopy[locale] : [
+  "Analytics is on. Choose No thanks to withdraw your consent.",
+  "Analytics is off. Your choice applies only to this website.",
+  "Your browser privacy signal is respected. Analytics is off."
+];
 ---
 {measurementId && <>
-  <div id="site-analytics" data-measurement-id={measurementId} data-domain={domain}>
-    <div class="analytics-footer"><button type="button" id="analytics-settings">Analytics preferences</button></div>
-    <aside id="analytics-notice" role="region" aria-label="Analytics preferences" hidden>
-      <div><strong>Optional analytics</strong><p>May we use Google Analytics to understand visits and improve this guide? No advertising tracking. <a href="/privacy/">Privacy details</a>.</p><p id="analytics-status" aria-live="polite"></p></div>
-      <div class="analytics-actions"><button type="button" id="analytics-decline">No thanks</button><button type="button" id="analytics-accept">Allow analytics</button></div>
+  <div id="site-analytics" data-measurement-id={measurementId} data-domain={domain}
+    data-status-on={statuses[0]} data-status-off={statuses[1]} data-status-private={statuses[2]}>
+    <div class="analytics-footer"><button type="button" id="analytics-settings">{label?.analyticsSettings || "Analytics preferences"}</button></div>
+    <aside id="analytics-notice" role="region" aria-label={label?.analyticsSettings || "Analytics preferences"} hidden>
+      <div><strong>{label?.analyticsTitle || "Optional analytics"}</strong><p>{label?.analyticsBody || "May we use Google Analytics to understand visits and improve this guide? No advertising tracking."} <a href={routeFor(locale || "", "privacy")}>{label?.analyticsPrivacy || "Privacy details"}</a>.</p><p id="analytics-status" aria-live="polite"></p></div>
+      <div class="analytics-actions"><button type="button" id="analytics-decline">{label?.analyticsDecline || "No thanks"}</button><button type="button" id="analytics-accept">{label?.analyticsAccept || "Allow analytics"}</button></div>
     </aside>
   </div>
   <script is:inline src="/analytics-consent.js"></script>
@@ -17,7 +38,7 @@ const domain = new URL(site.url).hostname;
   .analytics-footer{padding:12px 24px 20px;text-align:center}
   #analytics-settings{font:inherit;font-size:12px;line-height:1.5;color:inherit;background:transparent;border:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;opacity:.8}
   #analytics-notice[hidden]{display:none!important}
-  #analytics-notice{box-sizing:border-box;position:fixed;inset:auto 20px 20px;z-index:1000;margin:0 auto;max-width:920px;display:flex;align-items:center;gap:24px;padding:20px 24px;border:1px solid #5b5669;border-radius:16px;background:#19171f;color:#f6f3fc;box-shadow:0 8px 40px #0005;font:14px/1.55 system-ui,sans-serif;text-align:left}
+  #analytics-notice{box-sizing:border-box;position:fixed;inset:auto 20px 20px;z-index:1000;margin:0 auto;max-width:920px;display:flex;align-items:center;gap:24px;padding:20px 24px;border:1px solid #5b5669;border-radius:16px;background:#19171f;color:#f6f3fc;box-shadow:0 8px 40px #0005;font:14px/1.55 system-ui,sans-serif;text-align:start}
   #analytics-notice strong{font-size:15px}
   #analytics-notice p{font:inherit;color:#e0dce9;margin:5px 0 0;max-width:64ch}
   #analytics-notice a{color:#e7d8ff;text-decoration:underline}
@@ -27,5 +48,5 @@ const domain = new URL(site.url).hostname;
   #analytics-accept{background:#eadfff;color:#251a33;border-color:#eadfff}
   .analytics-actions button:disabled{opacity:.5;cursor:not-allowed}
   #site-analytics button:focus-visible,#site-analytics a:focus-visible{outline:3px solid #be9bff;outline-offset:4px}
-  @media(max-width:640px){#analytics-notice{inset:auto 12px 12px;padding:16px;display:block}.analytics-actions{margin-top:12px;display:grid;grid-template-columns:1fr 1fr}.analytics-actions button{padding:10px 8px}}
+  @media(max-width:640px){#analytics-notice{inset:auto 12px 12px;padding:16px;display:block}.analytics-actions{margin-top:12px;display:grid;grid-template-columns:1fr 1fr}.analytics-actions button{padding:10px 8px;white-space:normal}}
 </style>

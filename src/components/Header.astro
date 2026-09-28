@@ -1,11 +1,50 @@
 ---
 import Icon from "./Icon.astro";
 import { site } from "../data/site";
+import { languageAlternates, locales, routeFor, ui, type Locale } from "../data/locales";
+interface Props { locale?: Locale; noindex?: boolean; }
+const { locale, noindex = false } = Astro.props;
+const label = locale ? ui[locale] : null;
+const home = routeFor(locale || "");
+const alternatives = languageAlternates(noindex ? "/" : Astro.url.pathname);
+const navigationLabels: Record<Locale, string> = {
+  ja: "メインナビゲーション", ko: "주 탐색", "zh-hant": "主要導覽",
+  es: "Navegación principal", "pt-br": "Navegação principal",
+  ru: "Основная навигация", de: "Hauptnavigation",
+  fr: "Navigation principale", ar: "التنقل الرئيسي"
+};
+const menuLabels: Record<Locale, string> = {
+  ja: "メニューを開く", ko: "메뉴 열기", "zh-hant": "開啟選單",
+  es: "Abrir menú", "pt-br": "Abrir menu", ru: "Открыть меню",
+  de: "Menü öffnen", fr: "Ouvrir le menu", ar: "افتح القائمة"
+};
+const menuCloseLabels: Record<Locale, string> = {
+  ja: "メニューを閉じる", ko: "메뉴 닫기", "zh-hant": "關閉選單",
+  es: "Cerrar menú", "pt-br": "Fechar menu", ru: "Закрыть меню",
+  de: "Menü schließen", fr: "Fermer le menu", ar: "أغلق القائمة"
+};
 ---
 <header class="site-header">
-  <a class="brand" href="/" aria-label="SpicyBox home"><span class="brand-icon">SB</span><strong>Spicy<span>Box</span></strong></a>
-  <nav aria-label="Main navigation"><a href="/#workflow">Workflow</a><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a></nav>
-  <a class="official-link" href={site.officialUrl} rel="noopener" target="_blank">Visit SpicyBox <Icon name="arrow" /></a>
-  <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button><Icon name="menu" /></button>
-  <div class="mobile-nav" data-mobile-nav><a href="/#workflow">Workflow</a><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Blog</a><a href={site.officialUrl} rel="noopener" target="_blank">Official SpicyBox</a></div>
+  <a class="brand" href={home} aria-label={locale ? `SpicyBox · ${label!.home}` : "SpicyBox home"}><span class="brand-icon">SB</span><strong>Spicy<span>Box</span></strong></a>
+  <nav aria-label={locale ? navigationLabels[locale] : "Main navigation"}>
+    <a href={`${home}#workflow`}>{label?.workflow || "Workflow"}</a>
+    <a href={`${home}#overview`}>{label?.features || "Features"}</a>
+    <a href={`${home}#compare`}>{label?.compare || "Compare"}</a>
+    <a href={routeFor(locale || "", "blog")}>{label?.blog || "Blog"}</a>
+  </nav>
+  <details class="language-switch"><summary aria-label={locale ? `${label!.language}: ${locales.find((entry) => entry.slug === locale)!.label}` : "Language: English"}>{locale ? locale.toUpperCase() : "EN"} <span aria-hidden="true">⌄</span></summary>
+    <div class="language-options">
+      <a href={alternatives[0].href} lang="en" aria-current={!locale ? "page" : undefined}>English</a>
+      {locales.map((entry, index) => <a href={alternatives[index + 1].href} lang={entry.lang} dir={entry.slug === "ar" ? "rtl" : "ltr"} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>)}
+    </div>
+  </details>
+  <a class="official-link" href={site.officialUrl} rel="noopener" target="_blank">{label?.official || "Visit SpicyBox"} <Icon name="arrow" /></a>
+  <button class="menu-button" type="button" aria-label={locale ? menuLabels[locale] : "Open menu"} aria-expanded="false" data-menu-button data-menu-open={locale ? menuLabels[locale] : "Open menu"} data-menu-close={locale ? menuCloseLabels[locale] : "Close menu"}><Icon name="menu" /></button>
+  <div class="mobile-nav" data-mobile-nav>
+    <a href={`${home}#workflow`}>{label?.workflow || "Workflow"}</a>
+    <a href={`${home}#overview`}>{label?.features || "Features"}</a>
+    <a href={`${home}#compare`}>{label?.compare || "Compare"}</a>
+    <a href={routeFor(locale || "", "blog")}>{label?.blog || "Blog"}</a>
+    <a href={site.officialUrl} rel="noopener" target="_blank">{label?.official || "Official SpicyBox"}</a>
+  </div>
 </header>

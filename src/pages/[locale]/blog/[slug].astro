@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { comparisonArticles, sourceLinks } from "../../../data/localized-articles";
+import { comparisons, locales, routeFor, ui, type ComparisonKey, type Locale } from "../../../data/locales";
+import { site } from "../../../data/site";
+export function getStaticPaths() {
+  return locales.flatMap((locale) => comparisons.map((item) => ({ params: { locale: locale.slug, slug: item.slug } })));
+}
+const locale = Astro.params.locale as Locale;
+const slug = Astro.params.slug!;
+const item = comparisons.find((entry) => entry.slug === slug)!;
+const key = item.key as ComparisonKey;
+const article = comparisonArticles[locale][key];
+const label = ui[locale];
+const lang = locales.find((entry) => entry.slug === locale)!.lang;
+const url = `${site.url}/${locale}/blog/${slug}/`;
+const published = "2026-09-28";
+const sources = [
+  { name: "SpicyBox · Explore", url: "https://spicy-box.com/explore" },
+  { name: "SpicyBox · Terms", url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" },
+  { name: "SpicyBox · Privacy", url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" },
+  ...sourceLinks[key]
+];
+const jsonLd = { "@context": "https://schema.org", "@graph": [
+  { "@type": "Article", headline: article.title, description: article.description, url, inLanguage: lang,
+    datePublished: published, dateModified: published,
+    author: { "@type": "Organization", name: site.author },
+    publisher: { "@type": "Organization", name: "SpicyBox independent editorial", url: site.url },
+    about: [{ "@type": "SoftwareApplication", name: "SpicyBox", url: site.officialUrl },
+      { "@type": "SoftwareApplication", name: item.name, url: sourceLinks[key][0].url }],
+    citation: sources.map((entry) => entry.url) },
+  { "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "SpicyBox", item: `${site.url}/${locale}/` },
+    { "@type": "ListItem", position: 2, name: label.blog, item: `${site.url}/${locale}/blog/` },
+    { "@type": "ListItem", position: 3, name: article.title, item: url }
+  ] }
+] };
+---
+<BaseLayout locale={locale} title={article.title} description={article.description} type="article" publishedTime={published} modifiedTime={published} jsonLd={jsonLd}>
+  <article class="locale-page locale-article">
+    <header class="locale-page-header"><span class="section-label"><a href={routeFor(locale, "blog")}>{label.blog}</a> · SpicyBox vs {item.name}</span><h1>{article.title}</h1><p>{article.intro}</p></header>
+    <section class="locale-section"><span class="section-label">01 · {label.compare}</span><h2>{label.compare}</h2>
+      <div class="locale-article-table"><table><thead><tr><th scope="col">{label.features}</th><th scope="col">SpicyBox</th><th scope="col">{item.name}</th></tr></thead>
+        <tbody>{article.dimensions.map(([dimension, ours, rival]) => <tr><th scope="row">{dimension}</th><td><span class="locale-cell-label">SpicyBox</span>{ours}</td><td><span class="locale-cell-label">{item.name}</span>{rival}</td></tr>)}</tbody></table></div>
+    </section>
+    <div class="locale-reading">{article.sections.map(([heading, body], index) => <section><span class="section-label">0{index + 2}</span><h2>{heading}</h2><p>{body}</p></section>)}</div>
+    <section class="locale-section locale-verdict"><span class="section-label">06 · {label.compare}</span><h2>{label.compare}: SpicyBox vs {item.name}</h2><p>{article.verdict}</p><p>{label.independent} {label.priceNote}</p></section>
+    <section class="locale-section"><span class="section-label">07 · {label.sources}</span><h2>{label.sources}</h2><ul class="locale-source-list">{sources.map((source) => <li><a href={source.url} rel="noopener" target="_blank">{source.name} ↗</a></li>)}</ul></section>
+    <section class="locale-section"><span class="section-label">08 · {label.blog}</span><h2>{label.allArticles}</h2><div class="locale-grid">
+      {comparisons.filter((other) => other.key !== key).map((other) => <a href={routeFor(locale, `blog/${other.slug}`)}><h3>{comparisonArticles[locale][other.key].title}</h3><strong>{label.read} →</strong></a>)}
+    </div></section>
+  </article>
+</BaseLayout>

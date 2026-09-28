@@ -5,13 +5,14 @@ if (menuButton && mobileNav) {
   menuButton.addEventListener("click", () => {
     const open = mobileNav.classList.toggle("is-open");
     menuButton.setAttribute("aria-expanded", String(open));
-    menuButton.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    menuButton.setAttribute("aria-label", open ? menuButton.dataset.menuClose : menuButton.dataset.menuOpen);
   });
 
   mobileNav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       mobileNav.classList.remove("is-open");
       menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", menuButton.dataset.menuOpen);
     });
   });
 }

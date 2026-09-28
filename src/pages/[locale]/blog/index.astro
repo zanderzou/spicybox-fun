@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { comparisonArticles } from "../../../data/localized-articles";
+import { home } from "../../../data/localized-home";
+import { comparisons, locales, routeFor, ui, type Locale } from "../../../data/locales";
+import { site } from "../../../data/site";
+export function getStaticPaths() {
+  return locales.map((entry) => ({ params: { locale: entry.slug } }));
+}
+const locale = Astro.params.locale as Locale;
+const label = ui[locale];
+const copy = home[locale];
+const lang = locales.find((entry) => entry.slug === locale)!.lang;
+const url = `${site.url}/${locale}/blog/`;
+const jsonLd = { "@context": "https://schema.org", "@type": "CollectionPage",
+  name: label.allArticles, description: copy.compare.lead, url, inLanguage: lang,
+  hasPart: comparisons.map((entry) => ({
+    "@type": "Article", headline: comparisonArticles[locale][entry.key].title,
+    url: `${site.url}/${locale}/blog/${entry.slug}/`
+  })) };
+---
+<BaseLayout locale={locale} title={`${label.allArticles} | SpicyBox`} description={copy.compare.lead} jsonLd={jsonLd}>
+  <div class="locale-page">
+    <header class="locale-page-header"><span class="section-label">SpicyBox · {label.blog}</span><h1>{label.allArticles}</h1><p>{copy.compare.lead} {label.independent}</p></header>
+    <div class="locale-grid locale-blog-grid">{comparisons.map((entry, index) => {
+      const article = comparisonArticles[locale][entry.key];
+      return <a href={routeFor(locale, `blog/${entry.slug}`)}><span class="locale-card-kicker">0{index + 1} · SpicyBox vs {entry.name}</span><h2>{article.title}</h2><p>{article.description}</p><strong>{label.read} →</strong></a>;
+    })}</div>
+    <section class="locale-section"><h2>{label.sources}</h2><p>{label.selfImage} {label.priceNote}</p><ul class="locale-source-list">
+      <li><a href="https://spicy-box.com/explore" rel="noopener" target="_blank">SpicyBox · Explore ↗</a></li>
+      <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener" target="_blank">SpicyBox · Terms ↗</a></li>
+      <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" rel="noopener" target="_blank">SpicyBox · Privacy ↗</a></li>
+    </ul></section>
+  </div>
+</BaseLayout>

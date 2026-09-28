@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { information } from "../../data/localized-info";
+import { infoPageKeys, locales, ui, type InfoPageKey, type Locale } from "../../data/locales";
+import { site } from "../../data/site";
+export function getStaticPaths() {
+  return locales.flatMap((entry) => infoPageKeys.map((page) => ({ params: { locale: entry.slug, page } })));
+}
+const locale = Astro.params.locale as Locale;
+const page = Astro.params.page as InfoPageKey;
+const copy = information[locale][page];
+const label = ui[locale];
+const lang = locales.find((entry) => entry.slug === locale)!.lang;
+const jsonLd = { "@context": "https://schema.org", "@type": "WebPage", name: copy.title, description: copy.description,
+  url: `${site.url}/${locale}/${page}/`, inLanguage: lang,
+  isPartOf: { "@type": "WebSite", name: "SpicyBox", url: site.url } };
+---
+<BaseLayout locale={locale} title={`${copy.title} | SpicyBox`} description={copy.description} jsonLd={jsonLd}>
+  <article class="locale-page">
+    <header class="locale-page-header"><span class="section-label">SpicyBox · {label[page === "editorial-policy" ? "editorial" : page]}</span><h1>{copy.title}</h1><p>{copy.lead}</p></header>
+    <div class="locale-reading">{copy.blocks.map(([heading, body]) => <section><h2>{heading}</h2><p>{body}</p></section>)}</div>
+    <section class="locale-section"><h2>{label.sources}</h2><p>{label.independent} {label.priceNote}</p><ul class="locale-source-list">
+      <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener" target="_blank">SpicyBox · Terms ↗</a></li>
+      <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" rel="noopener" target="_blank">SpicyBox · Privacy ↗</a></li>
+    </ul></section>
+  </article>
+</BaseLayout>

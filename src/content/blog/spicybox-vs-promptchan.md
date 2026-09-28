@@ -2,7 +2,7 @@
 title: "SpicyBox vs Promptchan: Which AI Video Generator Fits?"
 description: "Compare SpicyBox and Promptchan for adult AI images and video, including workflow, creative control, uploads, privacy, credits, and best use cases."
 publishDate: 2026-09-21
-updatedDate: 2026-09-21
+updatedDate: 2026-09-28
 category: "Comparison"
 readTime: "8 min read"
 accent: "rose"
@@ -12,11 +12,11 @@ sources:
   - name: "SpicyBox — official product"
     url: "https://spicy-box.com/explore"
   - name: "SpicyBox — Terms of Use"
-    url: "https://spicy-box.com/assets/files/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
   - name: "SpicyBox — Privacy Policy"
-    url: "https://spicy-box.com/assets/files/SpicyBoxPrivacyPolicy.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "Promptchan — official AI image generator"
-    url: "https://promptchan.com/create"
+    url: "https://promptchan.com/generate"
 ---
 
 <p class="article-lede">SpicyBox and Promptchan can both produce adult AI visuals, but they begin from different creative assumptions. SpicyBox is a compact transformation tool: bring a photo of yourself, pick a template, and generate a still or short clip. Promptchan is a broader studio: describe a scene, control style and pose, remix an existing result, or animate an image.</p>
@@ -89,4 +89,3 @@ Start with **SpicyBox** if you are an adult who wants to animate your own photo 
 Start with **Promptchan** if you want to create a fictional character from text, control pose and composition, explore different art styles, remix existing AI work, or build an image before turning it into video.
 
 Whichever you test, use a non-sensitive first input, keep every depicted person clearly adult, respect the product's current consent rules, and calculate cost across several attempts—not a single showcase result.
-
