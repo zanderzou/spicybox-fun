@@ -61,6 +61,19 @@ test("does not turn missing API or write requests into the app shell", async () 
   }
 });
 
+test("keeps retired language routes missing", async () => {
+  const calls = [];
+  const response = await worker.fetch(
+    new Request("https://example.test/ja/blog/old-article/", { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async (request) => {
+      calls.push(new URL(request.url).pathname);
+      return new Response("missing", { status: 404 });
+    } } },
+  );
+  assert.equal(response.status, 404);
+  assert.deepEqual(calls, ["/ja/blog/old-article/"]);
+});
+
 test("emits the files required by Sites packaging", async () => {
   await access(new URL("../dist/client/index.html", import.meta.url));
   await access(new URL("../dist/server/index.js", import.meta.url));

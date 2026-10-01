@@ -33,7 +33,7 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
       <h1>SpicyBox</h1>
       <p class="hero-tagline">One photo. A moving scene.</p>
       <p>Understand the SpicyBox AI video generator, templates, credits, upload privacy, self-image rule, safety checks, and alternatives before you create.</p>
-      <div class="hero-actions"><a class="button primary" href="https://spicy-box.com/?utm_ref=c546b6e92223b411">See how it works <Icon name="arrow"/></a><a class="button ghost" href="/blog/spicybox-vs-promptchan/">Read the safety guide</a></div>
+      <div class="hero-actions"><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">See how it works <Icon name="arrow"/></a><a class="button ghost" href="/blog/spicybox-vs-promptchan/">Read the safety guide</a></div>
       <div class="proof-row"><span>Official rules checked</span><span>Primary sources linked</span><span>No uploads collected here</span></div>
     </div>
     <div class="feed-preview render-preview" aria-label="Illustrative image-to-video workflow">
@@ -105,5 +105,5 @@ const jsonLd = {"@context":"https://schema.org","@graph":[
 
   <section class="section faq"><div><div class="section-label">08 / Frequently asked</div><h2>SpicyBox <span>questions, answered.</span></h2></div><div class="faq-list">{faqs.map((faq)=><details><summary>{faq.question}<span>+</span></summary><p>{faq.answer}</p></details>)}</div></section>
 
-  <section class="section final-cta"><div><div class="section-label">VERIFY THE LIVE PRODUCT</div><h2>Own the photo. Understand the output.</h2><p>Use only your own adult self-image, review privacy and credit terms, then confirm current templates and controls on the official service.</p></div><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">Visit official SpicyBox <Icon name="arrow"/></a></section>
+  <section class="section final-cta"><div><div class="section-label">VERIFY THE LIVE PRODUCT</div><h2>Own the photo. Understand the output.</h2><p>Use only your own adult self-image, review privacy and credit terms, then confirm current templates and controls on the official service.</p></div><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">Visit official SpicyBox <Icon name="arrow"/></a></section>
 </BaseLayout>

@@ -7,6 +7,11 @@ export default {
       return response;
     }
 
+    // Retired language routes must stay missing, not resolve to the English homepage.
+    if (/^\/(?:ja|ko|zh-hant|pt-br|ru|de|fr|ar)(?:\/|$)/i.test(new URL(request.url).pathname)) {
+      return response;
+    }
+
     const indexUrl = new URL(request.url);
     indexUrl.pathname = "/index.html";
     indexUrl.search = "";

@@ -5,6 +5,7 @@ export const site = {
   description: "An independent SpicyBox guide to its adult AI image-to-video generator, templates, credits, uploads, consent rules, privacy, safety, and alternatives.",
   author: "SpicyBox Guide editorial team",
   officialUrl: "https://spicy-box.com/",
+  promotionUrl: "https://spicy-box.com/?utm_ref=c546b6e92223b411",
 };
 export const formatDate = (date: Date) => new Intl.DateTimeFormat("en-US", { year:"numeric", month:"long", day:"numeric", timeZone:"UTC" }).format(date);
 export const toIsoDate = (date: Date) => date.toISOString().slice(0,10);

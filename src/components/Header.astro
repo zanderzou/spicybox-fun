@@ -38,13 +38,13 @@ const menuCloseLabels: Record<Locale, string> = {
       {locales.map((entry, index) => <a href={alternatives[index + 1].href} lang={entry.lang} dir={entry.slug === "ar" ? "rtl" : "ltr"} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>)}
     </div>
   </details>
-  <a class="official-link" href={site.officialUrl} rel="noopener" target="_blank">{label?.official || "Visit SpicyBox"} <Icon name="arrow" /></a>
+  <a class="official-link" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label?.official || "Visit SpicyBox"} <Icon name="arrow" /></a>
   <button class="menu-button" type="button" aria-label={locale ? menuLabels[locale] : "Open menu"} aria-expanded="false" data-menu-button data-menu-open={locale ? menuLabels[locale] : "Open menu"} data-menu-close={locale ? menuCloseLabels[locale] : "Close menu"}><Icon name="menu" /></button>
   <div class="mobile-nav" data-mobile-nav>
     <a href={`${home}#workflow`}>{label?.workflow || "Workflow"}</a>
     <a href={`${home}#overview`}>{label?.features || "Features"}</a>
     <a href={`${home}#compare`}>{label?.compare || "Compare"}</a>
     <a href={routeFor(locale || "", "blog")}>{label?.blog || "Blog"}</a>
-    <a href={site.officialUrl} rel="noopener" target="_blank">{label?.official || "Official SpicyBox"}</a>
+    <a href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label?.official || "Official SpicyBox"}</a>
   </div>
 </header>

@@ -18,10 +18,7 @@ const articles=readdirSync(blog).filter(f=>f.endsWith('.md')).sort().map(f=>{
 const label=s=>s.replace(/[\[\]]/g,'');
 const links=[['Homepage','/','Overview and practical decision guidance.'],['Blog and comparisons','/blog/','Browse the editorial article collection.']];
 const optional=[['About','about'],['Editorial policy','editorial-policy'],['Contact','contact'],['Privacy policy','privacy'],['Terms','terms']].filter(([,slug])=>existsSync(path.join(pages,slug+'.astro'))||existsSync(path.join(pages,slug,'index.astro')));
-const localeNames=[
- ['ja','Japanese'],['ko','Korean'],['zh-hant','Traditional Chinese'],['es','Spanish'],['pt-br','Brazilian Portuguese'],
- ['ru','Russian'],['de','German'],['fr','French'],['ar','Arabic']
-];
+const localeNames=[['es','Spanish']];
 const localized=localeNames.flatMap(([slug,language])=>[
  `### ${language} (${slug})`,'',
  `- [SpicyBox — ${language} homepage](${origin}/${slug}/): Full localized product overview and FAQ.`,

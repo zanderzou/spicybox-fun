@@ -1,15 +1,8 @@
 export const locales = [
-  { slug: "ja", lang: "ja", label: "日本語" },
-  { slug: "ko", lang: "ko", label: "한국어" },
-  { slug: "zh-hant", lang: "zh-Hant", label: "繁體中文" },
   { slug: "es", lang: "es", label: "Español" },
-  { slug: "pt-br", lang: "pt-BR", label: "Português (Brasil)" },
-  { slug: "ru", lang: "ru", label: "Русский" },
-  { slug: "de", lang: "de", label: "Deutsch" },
-  { slug: "fr", lang: "fr", label: "Français" },
-  { slug: "ar", lang: "ar", label: "العربية" }
 ] as const;
-export type Locale = typeof locales[number]["slug"];
+// Draft copy remains typed while only Spanish is included in production routes.
+export type Locale = "ja" | "ko" | "zh-hant" | "es" | "pt-br" | "ru" | "de" | "fr" | "ar";
 export const comparisons = [
   { key: "promptchan", name: "Promptchan", slug: "spicybox-vs-promptchan" },
   { key: "ourdream-ai", name: "OurDream AI", slug: "spicybox-vs-ourdream-ai" },

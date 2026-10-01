@@ -6,8 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = path.join(root, "dist", "client");
 const origin = "https://spicybox.fun";
 const languagePaths = {
-  ja: "ja", ko: "ko", "zh-hant": "zh-Hant", es: "es", "pt-br": "pt-BR",
-  ru: "ru", de: "de", fr: "fr", ar: "ar"
+  es: "es"
 };
 const failures = [];
 const files = [];
@@ -63,7 +62,7 @@ for (const file of files) {
     const englishPath = `/${rel.replace(/index\.html$/, "").replace(/^(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar)\//, "")}`;
     const expected = [["en", englishPath], ...Object.entries(languagePaths).map(([slug, tag]) => [tag, `/${slug}${englishPath}`]), ["x-default", englishPath]];
     const alternates = new Map([...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/gi)].map((match) => [match[1], match[2]]));
-    check(alternates.size === 11, `${rel}: expected 11 hreflang entries, got ${alternates.size}`);
+    check(alternates.size === 3, `${rel}: expected 3 hreflang entries, got ${alternates.size}`);
     for (const [lang, route] of expected) check(alternates.get(lang) === origin + route, `${rel}: hreflang ${lang}`);
   }
   const structuredData = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi)];
@@ -77,7 +76,7 @@ for (const file of files) {
     if (target) check(existsSync(target), `${rel}: broken ${match[1]}`);
   }
 }
-check(files.length === 121, `expected 121 HTML pages, got ${files.length}`);
+check(files.length === 25, `expected 25 HTML pages, got ${files.length}`);
 check(existsSync(path.join(out, "robots.txt")), "missing robots.txt");
 check(existsSync(path.join(out, "sitemap-index.xml")), "missing sitemap");
 const sitemapFile = path.join(out, "sitemap-0.xml");
@@ -85,7 +84,7 @@ check(existsSync(sitemapFile), "missing sitemap page inventory");
 if (existsSync(sitemapFile)) {
   const sitemap = readFileSync(sitemapFile, "utf8");
   const urls = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));
-  check(urls.size === 120, `sitemap expected 120 URLs, got ${urls.size}`);
+  check(urls.size === 24, `sitemap expected 24 URLs, got ${urls.size}`);
   for (const [url, page] of canonicals) if (page !== "404.html") check(urls.has(url), `sitemap missing ${url}`);
 }
 check(existsSync(path.join(out, "rss.xml")), "missing rss");
@@ -94,4 +93,4 @@ if (failures.length) {
   console.error(`SEO audit failed:\n- ${failures.join("\n- ")}`);
   process.exit(1);
 }
-console.log(`SEO audit passed for ${files.length} HTML pages and 120 reciprocal route clusters.`);
+console.log(`SEO audit passed for ${files.length} HTML pages and 24 reciprocal route clusters.`);

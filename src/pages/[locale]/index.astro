@@ -23,7 +23,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [
   <section class="locale-hero">
     <Image src={heroImage} alt={copy.imageAlt[0]} widths={[640,960,1280,1536]} sizes="(max-width: 760px) 100vw, 58vw" loading="eager" fetchpriority="high" quality={84} />
     <div class="locale-hero-copy"><span class="locale-eyebrow">{copy.eyebrow}</span><h1>SpicyBox</h1><p class="locale-tagline">{copy.tagline}</p><p>{copy.lead}</p>
-      <div class="locale-hero-actions"><a class="button primary" href="#workflow">{label.workflow} →</a><a class="button ghost" href={routeFor(locale, "blog")}>{label.blog} →</a></div>
+      <div class="locale-hero-actions"><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.workflow} ↗</a><a class="button ghost" href={routeFor(locale, "blog")}>{label.blog} →</a></div>
     </div>
   </section>
 
@@ -44,5 +44,5 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [
     <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener" target="_blank">SpicyBox · Terms ↗</a></li>
     <li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" rel="noopener" target="_blank">SpicyBox · Privacy ↗</a></li>
   </ul></section>
-  <section class="locale-section locale-end"><h2>SpicyBox</h2><p>{label.independent} {label.selfImage}</p><a class="button primary" href={site.officialUrl} rel="noopener" target="_blank">{label.official} ↗</a></section>
+  <section class="locale-section locale-end"><h2>SpicyBox</h2><p>{label.independent} {label.selfImage}</p><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official} ↗</a></section>
 </BaseLayout>
