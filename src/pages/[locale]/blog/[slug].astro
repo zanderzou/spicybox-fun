@@ -22,7 +22,7 @@ const sources = [
   ...sourceLinks[key]
 ];
 const jsonLd = { "@context": "https://schema.org", "@graph": [
-  { "@type": "Article", headline: article.title, description: article.description, url, inLanguage: lang,
+  { "@type": "Article", headline: article.title, description: article.description, url, mainEntityOfPage: url, inLanguage: lang,
     datePublished: published, dateModified: published,
     author: { "@type": "Organization", name: site.author },
     publisher: { "@type": "Organization", name: "SpicyBox independent editorial", url: site.url },
