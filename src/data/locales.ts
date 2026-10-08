@@ -1,3 +1,5 @@
+import editorialSchedule from './editorialSchedule.json';
+const englishEditorialSlugs = new Set(editorialSchedule.articles.map((item) => item.slug));
 export const locales = [
   { slug: "es", lang: "es", label: "Español" },
 ] as const;
@@ -17,6 +19,7 @@ export const routeFor = (locale: Locale | "", page = "") =>
   `${locale ? `/${locale}` : ""}/${page ? `${page.replace(/^\/+|\/+$/g, "")}/` : ""}`;
 export const languageAlternates = (pathname: string) => {
   const englishPath = pathname.replace(/^\/(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar)(?=\/)/, "") || "/";
+  if (englishEditorialSlugs.has(englishPath.replace(/^\/blog\//, "").replace(/\/$/, ""))) return [{ lang: "en", href: englishPath }];
   return [{ lang: "en", href: englishPath }, ...locales.map((entry) => ({ lang: entry.lang, href: `/${entry.slug}${englishPath}` }))];
 };
 export interface UiText {

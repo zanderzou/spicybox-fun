@@ -1,0 +1,106 @@
+{
+  "domain": "spicybox.fun",
+  "timeZone": "Asia/Shanghai",
+  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "spicybox-vs-pika-motion-control",
+      "title": "SpicyBox vs Pika: Frame Control and Upload Privacy",
+      "opponent": "Pika",
+      "readerQuestion": "preset animation versus specified beginning and ending frames",
+      "releaseAt": "2026-10-08T04:02:35.477Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+      "wordCount": 1088,
+      "editorialIntent": "Choose between a preset result and a directed transition without uploading sensitive images or mistaking vendor documentation for a tested performance result.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        [
+          "SpicyBox Privacy Policy",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        [
+          "Pika Help Center",
+          "https://pika.art/faq"
+        ],
+        [
+          "Pika Terms of Service",
+          "https://pika.art/terms-of-service"
+        ],
+        [
+          "Pika Acceptable Use Policy",
+          "https://pika.art/acceptable-use-policy"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "spicybox-vs-luma-existing-footage",
+      "title": "SpicyBox vs Luma: Templates or Footage Editing?",
+      "opponent": "Luma",
+      "readerQuestion": "a new self-image clip versus modification of an existing shot",
+      "releaseAt": "2026-10-16T02:19:25.955Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
+      "wordCount": 930,
+      "editorialIntent": "Distinguish generating a template clip from modifying an existing shot; do not conflate an API capability with a particular web-plan entitlement.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        [
+          "Luma video modification API reference",
+          "https://docs.lumalabs.ai/reference/modifyvideo"
+        ],
+        [
+          "Luma Dream Machine licensing guide",
+          "https://lumalabs.ai/learning-hub/licensing"
+        ],
+        [
+          "Luma Dream Machine",
+          "https://lumalabs.ai/dream-machine"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "spicybox-vs-adobe-firefly-client-delivery",
+      "title": "SpicyBox vs Adobe Firefly: Client Work and Rights",
+      "opponent": "Adobe Firefly",
+      "readerQuestion": "source eligibility, selected-model rights and provenance for a non-explicit client deliverable",
+      "releaseAt": "2026-10-23T11:01:53.953Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "274671b322375c97e13ac799dd0df6176e3ed71cd511eeb6c381aabcce781cf6",
+      "wordCount": 968,
+      "editorialIntent": "Explain why a personal self-image tool is not a general client-portrait workflow and distinguish Adobe models from partner models and provenance from ownership guarantees.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        [
+          "Adobe Firefly FAQ",
+          "https://helpx.adobe.com/uk/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html"
+        ],
+        [
+          "Adobe Firefly plans and model-specific use",
+          "https://www.adobe.com/products/firefly/plans.html"
+        ]
+      ]
+    }
+  ]
+}

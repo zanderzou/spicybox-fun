@@ -8,6 +8,9 @@ const origin = "https://spicybox.fun";
 const languagePaths = {
   es: "es"
 };
+const editorial = JSON.parse(readFileSync(path.join(root, 'src/data/editorialSchedule.json'), 'utf8'));
+const englishOnly = new Set(editorial.articles.map(a => `/blog/${a.slug}/`));
+const additional = editorial.articles.filter(a => existsSync(path.join(root, 'src/content/blog', a.slug + '.md'))).length;
 const failures = [];
 const files = [];
 const check = (ok, message) => { if (!ok) failures.push(message); };
@@ -60,9 +63,9 @@ for (const file of files) {
     check(/noindex/i.test(html), "404: noindex");
   } else {
     const englishPath = `/${rel.replace(/index\.html$/, "").replace(/^(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar)\//, "")}`;
-    const expected = [["en", englishPath], ...Object.entries(languagePaths).map(([slug, tag]) => [tag, `/${slug}${englishPath}`]), ["x-default", englishPath]];
+    const expected = [["en", englishPath], ...(englishOnly.has(englishPath) ? [] : Object.entries(languagePaths).map(([slug, tag]) => [tag, `/${slug}${englishPath}`])), ["x-default", englishPath]];
     const alternates = new Map([...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/gi)].map((match) => [match[1], match[2]]));
-    check(alternates.size === 3, `${rel}: expected 3 hreflang entries, got ${alternates.size}`);
+    check(alternates.size === expected.length, `${rel}: expected ${expected.length} hreflang entries, got ${alternates.size}`);
     for (const [lang, route] of expected) check(alternates.get(lang) === origin + route, `${rel}: hreflang ${lang}`);
   }
   const structuredData = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi)];
@@ -76,7 +79,7 @@ for (const file of files) {
     if (target) check(existsSync(target), `${rel}: broken ${match[1]}`);
   }
 }
-check(files.length === 25, `expected 25 HTML pages, got ${files.length}`);
+check(files.length === 25 + additional, `expected ${25 + additional} HTML pages, got ${files.length}`);
 check(existsSync(path.join(out, "robots.txt")), "missing robots.txt");
 check(existsSync(path.join(out, "sitemap-index.xml")), "missing sitemap");
 const sitemapFile = path.join(out, "sitemap-0.xml");
@@ -84,7 +87,7 @@ check(existsSync(sitemapFile), "missing sitemap page inventory");
 if (existsSync(sitemapFile)) {
   const sitemap = readFileSync(sitemapFile, "utf8");
   const urls = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));
-  check(urls.size === 24, `sitemap expected 24 URLs, got ${urls.size}`);
+  check(urls.size === 24 + additional, `sitemap expected ${24 + additional} URLs, got ${urls.size}`);
   for (const [url, page] of canonicals) if (page !== "404.html") check(urls.has(url), `sitemap missing ${url}`);
 }
 check(existsSync(path.join(out, "rss.xml")), "missing rss");
@@ -93,4 +96,4 @@ if (failures.length) {
   console.error(`SEO audit failed:\n- ${failures.join("\n- ")}`);
   process.exit(1);
 }
-console.log(`SEO audit passed for ${files.length} HTML pages and 24 reciprocal route clusters.`);
+console.log(`SEO audit passed for ${files.length} HTML pages, preserving existing language counterparts.`);

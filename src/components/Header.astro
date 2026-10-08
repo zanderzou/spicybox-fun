@@ -35,7 +35,7 @@ const menuCloseLabels: Record<Locale, string> = {
   <details class="language-switch"><summary aria-label={locale ? `${label!.language}: ${locales.find((entry) => entry.slug === locale)!.label}` : "Language: English"}>{locale ? locale.toUpperCase() : "EN"} <span aria-hidden="true">⌄</span></summary>
     <div class="language-options">
       <a href={alternatives[0].href} lang="en" aria-current={!locale ? "page" : undefined}>English</a>
-      {locales.map((entry, index) => <a href={alternatives[index + 1].href} lang={entry.lang} dir={entry.slug === "ar" ? "rtl" : "ltr"} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>)}
+      {locales.filter((_, index) => alternatives[index + 1]).map((entry, index) => <a href={alternatives[index + 1].href} lang={entry.lang} dir={entry.slug === "ar" ? "rtl" : "ltr"} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>)}
     </div>
   </details>
   <a class="official-link" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label?.official || "Visit SpicyBox"} <Icon name="arrow" /></a>

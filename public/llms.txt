@@ -15,6 +15,7 @@ This is an independent editorial publication, not the official provider. Article
 
 - [SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?](https://spicybox.fun/blog/spicybox-vs-musebox-ai/)
 - [SpicyBox vs OurDream AI: Video Tool or Companion?](https://spicybox.fun/blog/spicybox-vs-ourdream-ai/)
+- [SpicyBox vs Pika: Frame Control and Upload Privacy](https://spicybox.fun/blog/spicybox-vs-pika-motion-control/)
 - [SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared](https://spicybox.fun/blog/spicybox-vs-playbox-ai/)
 - [SpicyBox vs Promptchan: Which AI Video Generator Fits?](https://spicybox.fun/blog/spicybox-vs-promptchan/)
 - [SpicyBox vs Runway: Fast Templates or a General Video Toolkit?](https://spicybox.fun/blog/spicybox-vs-runway/)
