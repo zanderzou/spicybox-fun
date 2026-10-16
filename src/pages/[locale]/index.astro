@@ -47,7 +47,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [
   <section class="locale-section locale-end"><h2>SpicyBox</h2><p>{label.independent} {label.selfImage}</p><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official} ↗</a></section>
 </BaseLayout>
 
-<style is:inline>
+<style is:global>
   @media (max-width: 360px) {
     [data-locale-home="es"] .locale-hero-copy { display: flex; flex-direction: column; }
     [data-locale-home="es"] .locale-hero-copy > p:not(.locale-tagline) { order: 2; }
