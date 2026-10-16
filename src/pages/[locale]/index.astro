@@ -20,10 +20,10 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [
 ] };
 ---
 <BaseLayout locale={locale} title="SpicyBox" description={copy.description} jsonLd={jsonLd}>
-  <section class="locale-hero">
+  <section class="locale-hero" data-locale-home={locale}>
     <Image src={heroImage} alt={copy.imageAlt[0]} widths={[640,960,1280,1536]} sizes="(max-width: 760px) 100vw, 58vw" loading="eager" fetchpriority="high" quality={84} />
     <div class="locale-hero-copy"><span class="locale-eyebrow">{copy.eyebrow}</span><h1>SpicyBox</h1><p class="locale-tagline">{copy.tagline}</p><p>{copy.lead}</p>
-      <div class="locale-hero-actions"><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.workflow} ↗</a><a class="button ghost" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.blog} →</a></div>
+      <div class="locale-hero-actions"><a class="button primary" data-primary-cta href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{locale === "es" ? "Explorar SpicyBox" : label.official} ↗</a></div>
     </div>
   </section>
 
@@ -46,3 +46,12 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [
   </ul></section>
   <section class="locale-section locale-end"><h2>SpicyBox</h2><p>{label.independent} {label.selfImage}</p><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official} ↗</a></section>
 </BaseLayout>
+
+<style is:inline>
+  @media (max-width: 360px) {
+    [data-locale-home="es"] .locale-hero-copy { display: flex; flex-direction: column; }
+    [data-locale-home="es"] .locale-hero-copy > p:not(.locale-tagline) { order: 2; }
+    [data-locale-home="es"] .locale-hero-actions { order: 1; margin: 16px 0 20px; }
+    [data-locale-home="es"] .locale-hero-actions .button { width: 100%; min-height: 48px; }
+  }
+</style>
