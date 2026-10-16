@@ -45,6 +45,13 @@ This is an independent editorial publication, not the official provider. Article
 - [Spanish: Privacy policy](https://spicybox.fun/es/privacy/)
 - [Spanish: Terms](https://spicybox.fun/es/terms/)
 
+## Additional homepage languages
+
+- [SpicyBox — German homepage](https://spicybox.fun/de/): Homepage only; blog and information links use existing English pages.
+- [SpicyBox — French homepage](https://spicybox.fun/fr/): Homepage only; blog and information links use existing English pages.
+- [SpicyBox — Brazilian Portuguese homepage](https://spicybox.fun/pt-br/): Homepage only; blog and information links use existing English pages.
+- [SpicyBox — Italian homepage](https://spicybox.fun/it/): Homepage only; blog and information links use existing English pages.
+
 ## Optional
 
 - [XML sitemap](https://spicybox.fun/sitemap-index.xml): Canonical page inventory.

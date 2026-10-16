@@ -6,8 +6,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = path.join(root, "dist", "client");
 const origin = "https://spicybox.fun";
 const languagePaths = {
-  es: "es"
+  es: "es", de: "de", fr: "fr", "pt-br": "pt-BR", it: "it"
 };
+const homepageOnlyLanguages = ["de", "fr", "pt-br", "it"];
 const editorial = JSON.parse(readFileSync(path.join(root, 'src/data/editorialSchedule.json'), 'utf8'));
 const englishOnly = new Set(editorial.articles.map(a => `/blog/${a.slug}/`));
 const additional = editorial.articles.filter(a => existsSync(path.join(root, 'src/content/blog', a.slug + '.md'))).length;
@@ -62,8 +63,9 @@ for (const file of files) {
   if (is404) {
     check(/noindex/i.test(html), "404: noindex");
   } else {
-    const englishPath = `/${rel.replace(/index\.html$/, "").replace(/^(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar)\//, "")}`;
-    const expected = [["en", englishPath], ...(englishOnly.has(englishPath) ? [] : Object.entries(languagePaths).map(([slug, tag]) => [tag, `/${slug}${englishPath}`])), ["x-default", englishPath]];
+    const englishPath = `/${rel.replace(/index\.html$/, "").replace(/^(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar|it)\//, "")}`;
+    const applicableLanguages = Object.entries(languagePaths).filter(([slug]) => englishPath === "/" || !homepageOnlyLanguages.includes(slug));
+    const expected = [["en", englishPath], ...(englishOnly.has(englishPath) ? [] : applicableLanguages.map(([slug, tag]) => [tag, `/${slug}${englishPath}`])), ["x-default", englishPath]];
     const alternates = new Map([...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/gi)].map((match) => [match[1], match[2]]));
     check(alternates.size === expected.length, `${rel}: expected ${expected.length} hreflang entries, got ${alternates.size}`);
     for (const [lang, route] of expected) check(alternates.get(lang) === origin + route, `${rel}: hreflang ${lang}`);
@@ -79,7 +81,8 @@ for (const file of files) {
     if (target) check(existsSync(target), `${rel}: broken ${match[1]}`);
   }
 }
-check(files.length === 25 + additional, `expected ${25 + additional} HTML pages, got ${files.length}`);
+check(files.length === 29 + additional, `expected ${29 + additional} HTML pages, got ${files.length}`);
+for (const locale of homepageOnlyLanguages) check(!files.some(file => path.relative(out,file).replaceAll("\\","/").startsWith(locale+"/") && path.relative(out,file).replaceAll("\\","/") !== locale+"/index.html"), `${locale}: only the homepage may be published`);
 check(existsSync(path.join(out, "robots.txt")), "missing robots.txt");
 check(existsSync(path.join(out, "sitemap-index.xml")), "missing sitemap");
 const sitemapFile = path.join(out, "sitemap-0.xml");
@@ -87,7 +90,7 @@ check(existsSync(sitemapFile), "missing sitemap page inventory");
 if (existsSync(sitemapFile)) {
   const sitemap = readFileSync(sitemapFile, "utf8");
   const urls = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));
-  check(urls.size === 24 + additional, `sitemap expected ${24 + additional} URLs, got ${urls.size}`);
+  check(urls.size === 28 + additional, `sitemap expected ${28 + additional} URLs, got ${urls.size}`);
   for (const [url, page] of canonicals) if (page !== "404.html") check(urls.has(url), `sitemap missing ${url}`);
 }
 check(existsSync(path.join(out, "rss.xml")), "missing rss");

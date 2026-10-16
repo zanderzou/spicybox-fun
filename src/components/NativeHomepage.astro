@@ -1,0 +1,100 @@
+---
+import { Image } from 'astro:assets';
+import Analytics from './Analytics.astro';
+import Icon from './Icon.astro';
+import { nativeHomepages } from '../data/native-homepages';
+import { homepageLanguages, homepageAlternates, type HomepageLocale } from '../data/homepage-languages';
+import { comparisons } from '../data/locales';
+import { site } from '../data/site';
+import heroImage from '../assets/spicybox-user-studio-character.png';
+import secondaryImage from '../assets/spicybox-user-pink-character.jpg';
+import siteStylesUrl from '../styles.css?url';
+interface Props { locale: HomepageLocale; }
+const {locale} = Astro.props;
+const copy = nativeHomepages[locale],label=copy.labels;
+const language = homepageLanguages.find(entry=>entry.slug===locale)!;
+const home=`/${locale}/`,canonical=site.url+home;
+const ogLocale={de:'de_DE',fr:'fr_FR','pt-br':'pt_BR',it:'it_IT'}[locale];
+const information=[['About','about'],['Privacy','privacy'],['Terms','terms'],['Editorial policy','editorial-policy'],['Contact','contact']];
+const schema={'@context':'https://schema.org','@graph':[
+ {'@type':'WebPage','@id':canonical+'#webpage',name:copy.title,url:canonical,description:copy.description,inLanguage:language.lang,isPartOf:{'@type':'WebSite',name:'SpicyBox',url:site.url}},
+ {'@type':'FAQPage',inLanguage:language.lang,mainEntity:copy.faqs.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}))}
+]};
+---
+<!doctype html>
+<html lang={language.lang} dir="ltr">
+ <head>
+  <meta name="msvalidate.01" content="56B74B6B9E884918F4F18C05D7E2A1F4" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>{copy.title}</title><meta name="description" content={copy.description}/><meta name="author" content={site.author}/>
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <link rel="canonical" href={canonical}/>
+  {homepageAlternates().map(entry=><link rel="alternate" hreflang={entry.lang} href={site.url+entry.href}/>)}
+  <link rel="alternate" hreflang="x-default" href={site.url+'/'}/>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="alternate" type="application/rss+xml" title="SpicyBox RSS" href="/rss.xml"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <meta name="theme-color" content="#070407"/><meta property="og:type" content="website"/><meta property="og:site_name" content="SpicyBox"/>
+  <link rel="stylesheet" href={siteStylesUrl}/>
+  <meta property="og:locale" content={ogLocale}/><meta property="og:title" content={copy.title}/><meta property="og:description" content={copy.description}/><meta property="og:url" content={canonical}/>
+  <meta property="og:image" content={site.url+'/assets/spicybox-user-studio-character.png'}/><meta property="og:image:alt" content={copy.imageAlt[0]}/>
+  <meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={copy.title}/><meta name="twitter:description" content={copy.description}/><meta name="twitter:image" content={site.url+'/assets/spicybox-user-studio-character.png'}/>
+  <script type="application/ld+json" set:html={JSON.stringify(schema).replaceAll('<','\\u003c')}/>
+ </head>
+ <body class="native-home" data-homepage-language={locale}>
+  <a class="skip-link" href="#main">{label.skip}</a>
+  <header class="site-header">
+   <a class="brand" href={home} aria-label={'SpicyBox · '+label.home}><span class="brand-icon">SB</span><strong>Spicy<span>Box</span></strong></a>
+   <nav aria-label={label.navLabel}><a href="#workflow">{label.workflow}</a><a href="#overview">{label.features}</a><a href="#compare">{label.compare}</a><a href="/blog/" hreflang="en">{label.blog}</a></nav>
+   <details class="language-switch"><summary aria-label={label.language+': '+language.label}>{language.code} <span aria-hidden="true">⌄</span></summary><div class="language-options">{homepageLanguages.map(entry=><a href={entry.slug?'/'+entry.slug+'/':'/'} lang={entry.lang} hreflang={entry.lang} aria-current={entry.slug===locale?'page':undefined}>{entry.label}</a>)}</div></details>
+   <a class="official-link" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}<Icon name="arrow"/></a>
+   <button class="menu-button" type="button" aria-label={label.menuOpen} aria-expanded="false" data-menu-button data-menu-open={label.menuOpen} data-menu-close={label.menuClose}><Icon name="menu"/></button>
+   <div class="mobile-nav" data-mobile-nav><a href="#workflow">{label.workflow}</a><a href="#overview">{label.features}</a><a href="#compare">{label.compare}</a><a href="/blog/" hreflang="en">{label.blogLink}</a><a href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
+  </header>
+  <main id="main">
+   <section class="hero native-hero">
+    <Image class="hero-image" src={heroImage} alt={copy.imageAlt[0]} widths={[640,960,1280,1536]} sizes="(max-width: 760px) 100vw, 58vw" loading="eager" fetchpriority="high" quality={84}/>
+    <div class="hero-scrim"></div>
+    <div class="hero-copy"><div class="eyebrow"><span></span>{copy.eyebrow}</div><h1>SpicyBox</h1><p class="hero-tagline">{copy.tagline}</p><p>{copy.lead}</p>
+     <div class="hero-actions"><a class="button primary" data-primary-cta href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.cta}<Icon name="arrow"/></a></div>
+     <div class="proof-row">{copy.proof.map(proof=><span>{proof}</span>)}</div>
+    </div>
+   </section>
+   <section class="section answer-grid" id="overview"><div><div class="section-label">01 / {label.overviewSection}</div><h2>{copy.overview.heading}</h2></div><div class="answer-copy">{copy.overview.paragraphs.map((paragraph,index)=><p class:list={{lead:index===0}}>{paragraph}</p>)}</div></section>
+   <section class="section experience" id="workflow"><div class="section-head"><div><div class="section-label">02 / {label.workflowSection}</div><h2>{copy.workflow.heading}</h2></div><p>{copy.workflow.lead}</p></div><div class="path-grid">{copy.workflow.steps.map(([heading,detail],index)=><article><div class="path-number">0{index+1}</div><h3>{heading}</h3><p>{detail}</p></article>)}</div></section>
+   <section class="section native-comparisons" id="compare"><div class="section-head"><div><div class="section-label">03 / {label.compareSection}</div><h2>{copy.compare.heading}</h2></div><p>{copy.compare.lead}</p></div><div class="locale-grid">{copy.compare.cards.map(([heading,detail],index)=><a href={'/blog/'+comparisons[index].slug+'/'} hreflang="en"><span class="locale-card-kicker">SpicyBox vs {comparisons[index].name}</span><h3>{heading}</h3><p>{detail}</p><strong>{label.readEnglish} →</strong></a>)}</div></section>
+   <section class="section native-costs" id="costs"><div><div class="section-label">04 / {label.costSection}</div><h2>{copy.costs.heading}</h2>{copy.costs.paragraphs.map(paragraph=><p>{paragraph}</p>)}</div><figure><Image src={secondaryImage} alt={copy.imageAlt[1]} widths={[480,720,960]} sizes="(max-width: 760px) calc(100vw - 36px), 430px" loading="lazy" quality={82}/></figure></section>
+   <section class="section native-privacy" id="privacy"><div class="section-label">05 / {label.privacySection}</div><h2>{copy.privacy.heading}</h2><div class="native-prose">{copy.privacy.paragraphs.map(paragraph=><p>{paragraph}</p>)}</div></section>
+   <section class="section native-blog"><div><div class="section-label">06 / Blog</div><h2>{label.blogHeading}</h2><p>{label.blogLead}</p></div><a class="button ghost" href="/blog/" hreflang="en">{label.blogLink}<Icon name="arrow"/></a></section>
+   <section class="section faq"><div><div class="section-label">07 / {label.faqSection}</div><h2>{label.questions}</h2></div><div class="faq-list">{copy.faqs.map(([question,answer])=><details><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></section>
+   <section class="section native-sources"><div class="section-label">08 / {label.sourcesSection}</div><h2>{label.sources}</h2><p>{label.priceNote}</p><ul><li><a href="https://spicy-box.com/explore" rel="noopener noreferrer" target="_blank">{label.sourceExplore} ↗</a></li><li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener noreferrer" target="_blank">{label.sourceTerms} ↗</a></li><li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" rel="noopener noreferrer" target="_blank">{label.sourcePrivacy} ↗</a></li></ul></section>
+   <section class="section final-cta"><div><h2>{label.endHeading}</h2><p>{label.endLead}</p></div><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}<Icon name="arrow"/></a></section>
+  </main>
+  <footer><div class="footer-grid"><div><a class="brand" href={home}><span class="brand-icon">SB</span><strong>Spicy<span>Box</span></strong></a><p>{label.footerDescription}</p></div><div><h3>{label.features}</h3><a href="#overview">{label.overviewSection}</a><a href="#workflow">{label.workflow}</a><a href="#privacy">{label.privacySection}</a></div><div><h3>{label.compare}</h3>{comparisons.slice(0,3).map(entry=><a href={'/blog/'+entry.slug+'/'} hreflang="en">SpicyBox vs {entry.name}</a>)}<a href="/blog/" hreflang="en">{label.blogLink}</a></div><div lang="en"><h3>Information</h3>{information.map(([title,slug])=><a href={'/'+slug+'/'} hreflang="en">{title}</a>)}</div></div><div class="footer-bottom"><span>© <span data-year>2026</span> SpicyBox</span><span>{label.independent}</span><span>{label.referral}</span></div></footer>
+  <script is:inline src="/assets/main.js"></script><Analytics locale={locale}/>
+ </body>
+</html>
+<style is:global>
+ .native-home .site-header{grid-template-columns:auto minmax(0,1fr) auto auto;gap:22px}
+ .native-home .site-header nav{gap:22px}.native-home .site-header .official-link{max-width:225px;line-height:1.3;text-align:center}
+ .native-home .native-hero{min-height:760px}.native-home .hero-image{top:80px;height:calc(100% - 80px)}.native-home .hero-copy{padding-right:52%;margin-top:100px}.native-home .hero h1{font-size:clamp(54px,6vw,76px);margin:20px 0 18px}
+ .native-home .hero-copy>.hero-tagline{font-size:clamp(23px,2.35vw,34px);line-height:1.25;font-weight:700;color:#fff;margin-bottom:16px}.native-home .hero-copy>p:not(.hero-tagline){font-size:17px;line-height:1.7;max-width:45ch}
+ .native-home .hero-actions{margin-top:24px}.native-home .hero-actions .button{min-height:52px;padding:0 27px;font-size:15px}.native-home .proof-row{font-size:9px;letter-spacing:.025em;line-height:1.6;margin-top:23px}
+ .native-home h2{font-size:clamp(30px,3.7vw,47px);line-height:1.12;letter-spacing:-.035em;overflow-wrap:anywhere}.native-home .section-head h2{font-size:clamp(30px,3.7vw,47px)}
+ .native-home .section{padding:76px 0}.native-home .section-head{gap:36px;margin-bottom:30px}.native-home .section-head>p{max-width:48ch}.native-home .section p{color:var(--muted)}
+ .native-home .answer-grid{grid-template-columns:.85fr 1.15fr;gap:55px}.native-home .answer-grid h2{margin-top:12px}.native-home .answer-copy .lead{font-size:20px}
+ .native-home .path-grid article{min-height:0;padding:29px}.native-home .path-grid h3{font-size:22px}.native-home .path-number{font-size:50px;margin-bottom:24px}
+ .native-home .locale-grid{gap:18px}.native-home .locale-grid a{padding:28px}.native-home .locale-grid p{font-size:16px;line-height:1.8}.native-home .locale-grid h3{font-size:24px}.native-home .locale-grid a:last-child{grid-column:1/-1}
+ .native-home .native-costs{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:64px;align-items:center}.native-home .native-costs h2{margin:12px 0 24px}.native-home .native-costs figure{margin:0;justify-self:center;max-width:430px;width:100%}.native-home .native-costs img{width:100%;height:auto;border-radius:22px}
+ .native-home .native-privacy{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.native-home .native-privacy h2{max-width:26ch;margin:12px 0 27px}.native-home .native-prose{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}.native-home .native-prose p{margin:0}
+ .native-home .native-blog{display:flex;gap:35px;align-items:center;justify-content:space-between}.native-home .native-blog h2{margin:12px 0 18px}.native-home .native-blog p{max-width:65ch}.native-home .native-blog .button{flex-shrink:0}
+ .native-home .faq{grid-template-columns:.8fr 1.2fr;gap:65px}.native-home .faq h2{margin-top:12px;font-size:clamp(30px,3.7vw,47px)}.native-home .faq-list summary{line-height:1.55}.native-home .faq-list details p{margin:0}
+ .native-home .native-sources{padding-top:40px}.native-home .native-sources h2{margin:12px 0 18px}.native-home .native-sources a{color:#ff9abb;text-decoration:underline;text-underline-offset:4px}.native-home .native-sources li{padding:5px 0}
+ .native-home .final-cta{padding:44px;min-height:290px}.native-home .final-cta h2{font-size:clamp(30px,3.7vw,47px);max-width:21ch}.native-home .final-cta .button{flex-shrink:0}
+ .native-home footer{margin-top:70px}.native-home .footer-bottom{flex-wrap:wrap;padding:20px 0}.native-home .footer-bottom span{max-width:62ch}
+ @media(max-width:1100px){.native-home .site-header{grid-template-columns:minmax(0,1fr) auto auto;gap:12px}.native-home .site-header nav,.native-home .official-link{display:none}.native-home .menu-button{display:block}.native-home .hero-copy{padding-right:47%}}
+ @media(max-width:760px){.native-home .hero{min-height:0;align-items:flex-start;padding-bottom:0}.native-home .hero-image{width:100%;height:300px;object-position:58% 28%;top:70px;bottom:auto}.native-home .hero-scrim{background:linear-gradient(0deg,var(--bg) 0%,var(--bg) calc(100% - 335px),#07040720 80%)}.native-home .hero-copy{padding:300px 0 35px;width:calc(100% - 36px);margin:0 auto;overflow:visible}.native-home .hero h1{font-size:48px;margin:15px 0 12px;line-height:1.04}.native-home .eyebrow{font-size:9px;letter-spacing:.1em}.native-home .hero-copy>.hero-tagline{font-size:24px;line-height:1.24;margin-bottom:13px}.native-home .hero-copy>p:not(.hero-tagline){font-size:15px;line-height:1.65;margin-bottom:0}.native-home .hero-actions{margin-top:20px}.native-home .hero-actions .button{width:100%;min-height:50px}.native-home .proof-row{font-size:9px;gap:8px 13px;margin-top:18px}.native-home .hero-copy>*{max-width:100%}
+ .native-home .site-header{grid-template-columns:minmax(0,1fr) auto auto}.native-home .menu-button{position:static;right:auto;top:auto}.native-home .language-switch{grid-column:2}.native-home .language-options{right:0;left:auto;max-height:70vh;overflow:auto}
+ .native-home .section{width:calc(100% - 36px);padding:48px 0}.native-home .answer-grid,.native-home .native-costs,.native-home .native-prose,.native-home .faq{grid-template-columns:1fr;gap:26px}.native-home .section-head{gap:18px}.native-home .section-head h2,.native-home .faq h2,.native-home h2{font-size:31px;line-height:1.16}.native-home .answer-copy .lead{font-size:18px}.native-home .path-grid,.native-home .locale-grid{grid-template-columns:1fr}.native-home .path-grid article:last-child,.native-home .locale-grid a:last-child{grid-column:auto}.native-home .path-grid article,.native-home .locale-grid a{padding:24px}.native-home .path-number{font-size:40px;margin-bottom:15px}.native-home .locale-grid p{font-size:15px}.native-home .native-costs img{max-height:480px;object-fit:cover;object-position:center 20%}.native-home .native-blog{display:block}.native-home .native-blog .button{margin-top:10px}.native-home .final-cta{padding:30px 24px;min-height:0;gap:20px}.native-home .final-cta h2{font-size:31px}.native-home .final-cta .button{width:100%}.native-home .footer-grid{gap:30px}.native-home .footer-bottom{align-items:flex-start}
+ }
+ @media(max-width:360px){.native-home .hero-copy{padding-top:260px}.native-home .hero-image{height:260px}.native-home .hero-scrim{background:linear-gradient(0deg,var(--bg) 0%,var(--bg) calc(100% - 295px),#07040720 80%)}.native-home .hero h1{font-size:44px}.native-home .hero-copy>.hero-tagline{font-size:22px}.native-home .hero-copy>p:not(.hero-tagline){font-size:14px}}
+</style>

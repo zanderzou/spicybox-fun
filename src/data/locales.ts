@@ -1,4 +1,5 @@
 import editorialSchedule from './editorialSchedule.json';
+import { homepageAlternates } from './homepage-languages';
 const englishEditorialSlugs = new Set(editorialSchedule.articles.map((item) => item.slug));
 export const locales = [
   { slug: "es", lang: "es", label: "Español" },
@@ -19,6 +20,7 @@ export const routeFor = (locale: Locale | "", page = "") =>
   `${locale ? `/${locale}` : ""}/${page ? `${page.replace(/^\/+|\/+$/g, "")}/` : ""}`;
 export const languageAlternates = (pathname: string) => {
   const englishPath = pathname.replace(/^\/(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar)(?=\/)/, "") || "/";
+  if (englishPath === "/") return homepageAlternates();
   if (englishEditorialSlugs.has(englishPath.replace(/^\/blog\//, "").replace(/\/$/, ""))) return [{ lang: "en", href: englishPath }];
   return [{ lang: "en", href: englishPath }, ...locales.map((entry) => ({ lang: entry.lang, href: `/${entry.slug}${englishPath}` }))];
 };

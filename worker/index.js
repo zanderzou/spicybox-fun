@@ -8,7 +8,7 @@ export default {
     }
 
     // Retired language routes must stay missing, not resolve to the English homepage.
-    if (/^\/(?:ja|ko|zh-hant|pt-br|ru|de|fr|ar)(?:\/|$)/i.test(new URL(request.url).pathname)) {
+    if (/^\/(?:ja|ko|zh-hant|pt-br|ru|de|fr|ar|it)(?:\/|$)/i.test(new URL(request.url).pathname)) {
       return response;
     }
 

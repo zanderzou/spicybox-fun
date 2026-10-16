@@ -1,0 +1,144 @@
+{
+  "title": "SpicyBox — Dalla tua foto al video con l’IA",
+  "description": "Scopri SpicyBox: immagini e brevi video con l’IA a partire da una tua foto. Confronta modelli, crediti, gestione dei file e alternative creative.",
+  "imageAlt": [
+    "Ritratto illustrativo in studio di un personaggio adulto di fantasia",
+    "Ritratto illustrativo di un personaggio adulto di fantasia su sfondo rosa"
+  ],
+  "eyebrow": "Creatività visiva con l’IA · Solo maggiorenni",
+  "tagline": "Una tua foto. Una scena che prende vita.",
+  "lead": "Con SpicyBox una tua foto diventa il punto di partenza per nuove immagini e brevi video generati con l’IA. Scegli un modello visivo e scopri come cambia la scena. Il servizio è riservato ai maggiorenni e ammette solo foto della persona che le carica.",
+  "proof": [
+    "Contenuti indipendenti",
+    "Fonti ufficiali consultabili",
+    "Qui non carichi foto"
+  ],
+  "overview": {
+    "heading": "SpicyBox, dalla foto al movimento",
+    "paragraphs": [
+      "SpicyBox parte da un’immagine fissa e usa modelli predefiniti per generare una nuova foto o una breve sequenza animata. Abbina il modello alla tua immagine e osserva il video completo. Inquadratura e luce contano: una bella anteprima non garantisce un movimento convincente. Il servizio punta alla creazione visiva, non alla conversazione con un personaggio virtuale.",
+      "Questo sito è indipendente, senza legami con chi gestisce SpicyBox. Qui non si caricano foto e non si generano video. Riuniamo informazioni sul prodotto per aiutarti a scegliere. Le immagini della pagina sono illustrazioni editoriali di personaggi adulti di fantasia, non risultati verificati del servizio."
+    ]
+  },
+  "workflow": {
+    "heading": "Tre passaggi per valutare il risultato",
+    "lead": "Dalla scelta della foto alla gestione dei file, considera l’intero percorso prima di spendere crediti.",
+    "steps": [
+      [
+        "Parti da una foto tua",
+        "Devi essere maggiorenne, essere l’unica persona ritratta e avere i diritti necessari sull’immagine. Non sono ammesse foto altrui, neppure con il consenso. Controlla anche lo sfondo: documenti, tesserini e indirizzi possono rivelare più di quanto vorresti."
+      ],
+      [
+        "Abbina modello e inquadratura",
+        "Guarda posa e inquadratura dell’esempio. Un primo piano e una figura intera offrono informazioni diverse al generatore. Nel video cerca movimenti credibili, un volto stabile e contorni coerenti, senza fermarti al fotogramma più riuscito."
+      ],
+      [
+        "Rivedi, salva, gestisci",
+        "Riproduci tutta la sequenza e conta i crediti spesi anche per i tentativi scartati. Prima di caricare una foto, individua i comandi per salvare il risultato e cancellare i file: uscire dalla pagina non significa eliminarli."
+      ]
+    ]
+  },
+  "compare": {
+    "heading": "Cinque alternative per idee diverse",
+    "lead": "Non tutti i progetti partono da una foto o cercano lo stesso risultato. Questi confronti, disponibili in inglese, spiegano le differenze tra gli strumenti per aiutarti a scegliere in base alla tua idea.",
+    "cards": [
+      [
+        "Promptchan",
+        "Per descrivere un personaggio di fantasia e costruirne l’immagine attraverso il testo, con scelte di stile, posa, ritocchi e animazione. Valuta questo controllo creativo rispetto alla semplicità dei modelli di SpicyBox."
+      ],
+      [
+        "OurDream AI",
+        "Mette al centro un personaggio immaginario, tra conversazioni, immagini, voce e video. È diverso dalla trasformazione di una tua foto in una singola clip. Consideralo se cerchi la continuità di un personaggio nel tempo."
+      ],
+      [
+        "Playbox AI",
+        "Per confrontare un altro servizio basato su foto personali e modelli video. Anche qui sono ammesse soltanto immagini dell’utente. Valuta catalogo, stabilità del movimento, costo dei nuovi tentativi e controlli di cancellazione."
+      ],
+      [
+        "Musebox AI",
+        "Da considerare per generare video da immagini o testo ed estendere le scene oltre una singola animazione. Guarda se i controlli servono al tuo progetto e verifica le regole sulle immagini in ingresso e sull’uso dei risultati."
+      ],
+      [
+        "Runway",
+        "Per produzione e montaggio video in senso più ampio, con strumenti di direzione visiva e lavorazione. Ha regole di moderazione proprie: non è un sostituto diretto dei modelli per adulti di SpicyBox."
+      ]
+    ]
+  },
+  "costs": {
+    "heading": "Conta il costo del video che vuoi tenere",
+    "paragraphs": [
+      "Controlla quali operazioni consumano crediti e come vengono gestiti i tentativi non riusciti. Le condizioni di SpicyBox limitano la restituzione dei crediti utilizzati, anche per risultati insoddisfacenti, fatti salvi i diritti previsti dalla legge applicabile. Verifica prezzi, promozioni e condizioni sul servizio prima dell’acquisto.",
+      "Decidi che cosa rende una clip utilizzabile: volto riconoscibile, movimenti continui e nessun difetto che distragga. Dividi la spesa complessiva per i video che vuoi conservare: è più concreto del solo costo per generazione. Ti proponiamo un metodo di valutazione, non risultati di prove pratiche effettuate da questa redazione."
+    ]
+  },
+  "privacy": {
+    "heading": "Nella foto ci sono anche i tuoi dati",
+    "paragraphs": [
+      "Riflessi, documenti e luoghi riconoscibili possono svelare la tua identità. L’informativa di SpicyBox descrive il trattamento di immagini caricate, contenuti generati, dati dell’account, informazioni tecniche, dati di utilizzo e dati derivati. Valuta che cosa comporta l’invio del file, oltre al risultato creativo.",
+      "Secondo l’informativa, immagini e video vengono conservati fino a una cancellazione esplicita. Cerca la procedura attuale e le eventuali eccezioni: questo sito non garantisce riservatezza o avvenuta eliminazione. Se preferisci non inviare una foto che ti identifica, creare un personaggio inventato dal testo può essere un’alternativa."
+    ]
+  },
+  "faqs": [
+    [
+      "Che cosa fa SpicyBox?",
+      "Genera immagini e brevi video con l’IA da una foto e da modelli visivi. Non è un’app per chattare con un partner virtuale. Solo i maggiorenni possono usarlo, con foto in cui compaiono da soli."
+    ],
+    [
+      "Posso caricare la foto di un’altra persona con il suo consenso?",
+      "No: devi essere l’unica persona ritratta. Il consenso di un partner, di un creator o di chiunque altro non modifica questa regola. Neppure una licenza d’uso della fotografia consente di ignorarla."
+    ],
+    [
+      "Posso provare SpicyBox gratis?",
+      "Verifica l’offerta attuale: la disponibilità di una prova gratuita e i relativi limiti possono cambiare. Controlla crediti e condizioni prima di proseguire. Questa pagina non promette un numero fisso di generazioni gratuite."
+    ],
+    [
+      "Come valuto la qualità di un video?",
+      "Guarda l’intera clip: volto, movimento e sfondo dovrebbero restare coerenti. Controlla mani e contorni nelle transizioni. Un’anteprima convincente può nascondere difetti che emergono soltanto durante la riproduzione."
+    ],
+    [
+      "Le foto vengono cancellate in automatico?",
+      "Non darlo per scontato. L’informativa descrive la conservazione fino a una cancellazione esplicita. Verifica comandi e condizioni attuali. Chiudere la scheda o smettere di usare l’account non equivale a richiedere la cancellazione."
+    ],
+    [
+      "Come scelgo un’alternativa?",
+      "Parti dall’obiettivo: Promptchan per creare dal testo, OurDream AI per interagire con un personaggio, Playbox AI per animare foto personali con modelli, Musebox AI per sviluppare scene e Runway per progetti video generali. Controlla le regole di ciascuno."
+    ]
+  ],
+  "labels": {
+    "navLabel": "Navigazione principale",
+    "menuOpen": "Apri il menu",
+    "menuClose": "Chiudi il menu",
+    "skip": "Vai al contenuto",
+    "language": "Lingua",
+    "home": "Home",
+    "workflow": "Come funziona",
+    "features": "Funzioni",
+    "compare": "Alternative",
+    "blog": "Blog",
+    "official": "Sito del prodotto",
+    "cta": "Inizia a creare",
+    "readEnglish": "Leggi il confronto in inglese",
+    "sources": "Fonti ufficiali",
+    "questions": "Domande frequenti",
+    "independent": "Pubblicazione indipendente, non gestita dal fornitore",
+    "selfImage": "Nelle immagini può comparire soltanto l’utente maggiorenne che le carica",
+    "priceNote": "Verifica prezzi e condizioni attuali sul sito del fornitore",
+    "referral": "I pulsanti del prodotto usano un link di referral",
+    "blogHeading": "Approfondisci il confronto",
+    "blogLead": "Negli articoli in inglese esaminiamo più da vicino le differenze tra i singoli prodotti.",
+    "blogLink": "Leggi il blog in inglese",
+    "footerDescription": "Informazioni indipendenti su SpicyBox, modelli, crediti e alternative per creare immagini e video con l’IA.",
+    "endHeading": "Dai movimento alla tua idea",
+    "endLead": "Scopri i modelli disponibili e verifica crediti e condizioni attuali sul sito di SpicyBox.",
+    "sourceExplore": "Modelli e interfaccia del prodotto",
+    "sourceTerms": "Condizioni d’uso",
+    "sourcePrivacy": "Informativa sulla privacy",
+    "overviewSection": "Il prodotto",
+    "workflowSection": "Come funziona",
+    "compareSection": "Alternative",
+    "costSection": "Crediti e costi",
+    "privacySection": "Privacy dei file",
+    "faqSection": "Domande",
+    "sourcesSection": "Fonti"
+  }
+}

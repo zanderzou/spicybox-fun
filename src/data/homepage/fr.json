@@ -1,0 +1,144 @@
+{
+  "title": "SpicyBox – Animez votre photo avec l’IA",
+  "description": "Découvrez SpicyBox : modèles pour animer vos photos, courtes vidéos IA, crédits et alternatives. Comprenez aussi les règles de dépôt et de suppression.",
+  "imageAlt": [
+    "Portrait en studio d’un personnage adulte fictif",
+    "Portrait d’un personnage adulte fictif sur fond rose"
+  ],
+  "eyebrow": "Photo et mouvement · Réservé aux adultes",
+  "tagline": "Votre photo prend vie.",
+  "lead": "SpicyBox transforme votre propre photo en nouvelle image ou en courte vidéo grâce à des modèles IA. Choisissez un mouvement, puis examinez le résultat. Découvrez ici les possibilités du service, les photos autorisées et les points à vérifier avant d’acheter des crédits.",
+  "proof": [
+    "Publication indépendante",
+    "Sources officielles accessibles",
+    "Aucun dépôt de photo sur ce site"
+  ],
+  "overview": {
+    "heading": "Ce que vous pouvez créer avec SpicyBox",
+    "paragraphs": [
+      "SpicyBox associe une photo à un modèle de transformation ou d’animation, à parcourir dans l’espace Explore. Le cadrage compte : un portrait rapproché et une photo en pied n’offrent pas les mêmes possibilités. Choisissez un effet adapté à votre image plutôt que de vous fier uniquement à une démonstration.",
+      "Cette publication indépendante explique le service et renvoie vers les informations du fournisseur. Vous ne pouvez ni déposer une photo ni générer un contenu ici. Les portraits de personnages adultes fictifs qui illustrent cette page ne sont pas des résultats vérifiés de SpicyBox."
+    ]
+  },
+  "workflow": {
+    "heading": "De votre photo au mouvement",
+    "lead": "Choisissez une image adaptée, un modèle cohérent, puis examinez toute la vidéo.",
+    "steps": [
+      [
+        "Choisissez une photo autorisée",
+        "Vous devez avoir au moins 18 ans, être la seule personne représentée et disposer des droits nécessaires. SpicyBox exclut les photos d’autres personnes, même avec leur accord. Vérifiez l’arrière-plan : un visage, un badge ou une adresse peut passer inaperçu."
+      ],
+      [
+        "Adaptez le modèle à l’image",
+        "Comparez cadrage, angle et mouvement avant de lancer la génération. Regardez ensuite toute la vidéo : le visage reste-t-il stable ? Les mains se déforment-elles ? Les contours scintillent-ils ? La première image ne suffit pas à juger un clip."
+      ],
+      [
+        "Faites le bilan de chaque essai",
+        "Relevez les crédits utilisés et ce qui mérite d’être amélioré avant de recommencer. Conservez les résultats souhaités, puis repérez les commandes de suppression des photos sources et des créations. Fermer l’onglet ne revient pas à demander leur suppression."
+      ]
+    ]
+  },
+  "compare": {
+    "heading": "Cinq alternatives selon votre projet",
+    "lead": "Ces outils répondent à des projets différents. Nos comparatifs en anglais expliquent leurs approches sans classement artificiel.",
+    "cards": [
+      [
+        "Promptchan",
+        "Pour créer des images et des personnages fictifs à partir d’une description, affiner leur style ou les animer. Une autre approche que l’utilisation de votre propre photo dans un modèle SpicyBox."
+      ],
+      [
+        "OurDream AI",
+        "Pour retrouver un personnage fictif au fil de conversations et de contenus associés. Cette continuité peut vous convenir si vous souhaitez poursuivre les échanges avec le même personnage, au-delà d’un clip isolé."
+      ],
+      [
+        "Playbox AI",
+        "Une approche proche, avec photos personnelles et modèles vidéo. La personne qui dépose l’image doit également en être l’unique sujet. Comparez catalogue, mouvement, coût des essais et suppression."
+      ],
+      [
+        "Musebox AI",
+        "Pour démarrer une vidéo à partir d’une image ou d’un texte et prolonger des clips. Intéressant pour développer une scène au-delà d’une animation unique. Vérifiez les règles relatives aux images et à leur diffusion."
+      ],
+      [
+        "Runway",
+        "Pour une production vidéo et un montage plus généralistes, sous des règles de modération propres au service. Vérifiez les contenus admis avant de choisir un outil pour votre projet."
+      ]
+    ]
+  },
+  "costs": {
+    "heading": "Calculez le coût du résultat que vous gardez",
+    "paragraphs": [
+      "Vérifiez les crédits consommés par chaque action et la facturation des nouveaux essais. Tarifs et offres de bienvenue peuvent évoluer : consultez les conditions au moment du paiement. Le fournisseur encadre strictement l’utilisation et le remboursement des crédits ; un résultat décevant n’entraîne pas automatiquement un remboursement. Vos droits prévus par la législation applicable restent inchangés.",
+      "Définissez un résultat utilisable : visage cohérent, mouvement convaincant et fichier que vous souhaitez garder. Rapportez tous les crédits dépensés au nombre de résultats acceptables pour comparer le coût réel. Ce repère s’applique à vos propres essais ; nous ne prétendons pas avoir réalisé des tests."
+    ]
+  },
+  "privacy": {
+    "heading": "Pensez aussi à ce que révèle le décor",
+    "paragraphs": [
+      "Une lettre, un badge ou une vue depuis une fenêtre peut révéler des informations personnelles. Retirez les détails évitables. La politique officielle décrit notamment le traitement des photos, des créations, des données de compte et d’utilisation ainsi que de données dérivées. Examinez les réglages disponibles.",
+      "Selon la politique de SpicyBox, les images et vidéos sont conservées jusqu’à leur suppression explicite, avec des exceptions possibles. Repérez la procédure avant tout dépôt. Cette indication ne garantit pas un effacement immédiat ou complet. Si vous préférez ne pas fournir de photo identifiable, envisagez un outil conçu pour les images entièrement fictives."
+    ]
+  },
+  "faqs": [
+    [
+      "À quoi sert SpicyBox ?",
+      "SpicyBox produit des images ou de courtes vidéos IA à partir d’une photo et d’un modèle. Pour échanger durablement avec un personnage fictif, comparez plutôt les services dotés de fonctions de conversation."
+    ],
+    [
+      "Puis-je utiliser la photo d’une autre personne avec son accord ?",
+      "Les conditions exigent que vous soyez la seule personne présente sur l’image déposée. L’accord d’un tiers ou une licence portant sur sa photo ne suffit pas à rendre ce dépôt conforme."
+    ],
+    [
+      "Peut-on essayer SpicyBox gratuitement ?",
+      "Consultez l’offre actuelle : essais, crédits inclus et limites peuvent changer. Vérifiez quelle action est accessible et à quel moment un achat devient nécessaire. Nous n’annonçons aucun quota gratuit fixe."
+    ],
+    [
+      "Comment évaluer une vidéo générée ?",
+      "Regardez-la jusqu’à la fin. Observez la stabilité du visage, la continuité du mouvement et les défauts qui gênent votre usage. Comptez également les tentatives nécessaires pour obtenir un clip satisfaisant : une seule belle image ne reflète pas toute l’expérience."
+    ],
+    [
+      "Les photos sont-elles supprimées automatiquement ?",
+      "Ne le présumez pas. La politique officielle décrit une conservation jusqu’à la suppression explicite, assortie d’exceptions possibles. Vérifiez les commandes et les limites indiquées par le fournisseur avant de déposer votre photo."
+    ],
+    [
+      "Comment choisir une alternative à SpicyBox ?",
+      "Partez de votre objectif : animer votre photo, créer un personnage, discuter ou monter une vidéo plus élaborée. Comparez ensuite les fonctions, les images autorisées et les coûts. Un catalogue plus vaste n’est utile que s’il répond à votre besoin."
+    ]
+  ],
+  "labels": {
+    "navLabel": "Navigation principale",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "skip": "Aller au contenu",
+    "language": "Langue",
+    "home": "Accueil",
+    "workflow": "Fonctionnement",
+    "features": "Fonctionnalités",
+    "compare": "Comparatifs",
+    "blog": "Blog",
+    "official": "Voir le site du fournisseur",
+    "cta": "Découvrir",
+    "readEnglish": "Lire le comparatif (anglais)",
+    "sources": "Sources officielles",
+    "questions": "Questions fréquentes",
+    "independent": "Publication indépendante du fournisseur",
+    "selfImage": "Seule la personne majeure qui dépose la photo peut y apparaître",
+    "priceNote": "Vérifiez les tarifs et conditions en vigueur auprès du fournisseur",
+    "referral": "Les boutons vers le produit utilisent un lien de parrainage",
+    "blogHeading": "Pour approfondir votre choix",
+    "blogLead": "Nos articles existants en anglais détaillent les produits et leurs différences.",
+    "blogLink": "Lire le blog (anglais)",
+    "footerDescription": "Comprendre SpicyBox : modèles, photos personnelles, crédits et alternatives adaptées à votre projet.",
+    "endHeading": "Trouvez le mouvement qui vous plaît.",
+    "endLead": "Consultez les modèles, les crédits et les conditions actuelles directement sur le site du fournisseur.",
+    "sourceExplore": "Modèles et interface du produit",
+    "sourceTerms": "Conditions d’utilisation",
+    "sourcePrivacy": "Politique de confidentialité",
+    "overviewSection": "Présentation",
+    "workflowSection": "Les étapes",
+    "compareSection": "Alternatives",
+    "costSection": "Crédits et coûts",
+    "privacySection": "Confidentialité des photos",
+    "faqSection": "Vos questions",
+    "sourcesSection": "Sources"
+  }
+}

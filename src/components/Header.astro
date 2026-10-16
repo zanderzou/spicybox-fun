@@ -2,11 +2,13 @@
 import Icon from "./Icon.astro";
 import { site } from "../data/site";
 import { languageAlternates, locales, routeFor, ui, type Locale } from "../data/locales";
+import { homepageLanguages, isHomepage } from "../data/homepage-languages";
 interface Props { locale?: Locale; noindex?: boolean; }
 const { locale, noindex = false } = Astro.props;
 const label = locale ? ui[locale] : null;
 const home = routeFor(locale || "");
 const alternatives = languageAlternates(noindex ? "/" : Astro.url.pathname);
+const homepage = !noindex && isHomepage(Astro.url.pathname);
 const navigationLabels: Record<Locale, string> = {
   ja: "メインナビゲーション", ko: "주 탐색", "zh-hant": "主要導覽",
   es: "Navegación principal", "pt-br": "Navegação principal",
@@ -35,7 +37,7 @@ const menuCloseLabels: Record<Locale, string> = {
   <details class="language-switch"><summary aria-label={locale ? `${label!.language}: ${locales.find((entry) => entry.slug === locale)!.label}` : "Language: English"}>{locale ? locale.toUpperCase() : "EN"} <span aria-hidden="true">⌄</span></summary>
     <div class="language-options">
       <a href={alternatives[0].href} lang="en" aria-current={!locale ? "page" : undefined}>English</a>
-      {locales.filter((_, index) => alternatives[index + 1]).map((entry, index) => <a href={alternatives[index + 1].href} lang={entry.lang} dir={entry.slug === "ar" ? "rtl" : "ltr"} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>)}
+      {homepage ? homepageLanguages.filter((entry) => entry.slug).map((entry) => <a href={`/${entry.slug}/`} lang={entry.lang} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>) : locales.filter((_, index) => alternatives[index + 1]).map((entry, index) => <a href={alternatives[index + 1].href} lang={entry.lang} dir={entry.slug === "ar" ? "rtl" : "ltr"} aria-current={locale === entry.slug ? "page" : undefined}>{entry.label}</a>)}
     </div>
   </details>
   <a class="official-link" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label?.official || "Visit SpicyBox"} <Icon name="arrow" /></a>

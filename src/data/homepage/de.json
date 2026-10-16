@@ -1,0 +1,144 @@
+{
+  "title": "SpicyBox – KI-Videos aus deinem Foto",
+  "description": "Entdecke SpicyBox: eigene Fotos mit KI-Vorlagen animieren. Erfahre, worauf es bei Kurzvideos, Credits, Bildrechten und der Löschung ankommt.",
+  "imageAlt": [
+    "Studioporträt einer fiktiven erwachsenen Person",
+    "Porträt einer fiktiven erwachsenen Person vor rosa Hintergrund"
+  ],
+  "eyebrow": "Bild und Bewegung · Ab 18 Jahren",
+  "tagline": "Dein Foto kommt in Bewegung.",
+  "lead": "Mit SpicyBox entstehen aus deinem eigenen Foto neue Bilder und kurze KI-Videos. Du wählst eine Vorlage und lässt die Szene animieren. Hier erfährst du, welche Bilder erlaubt sind, wie du das Ergebnis beurteilst und was du vor dem Kauf von Credits wissen solltest.",
+  "proof": [
+    "Unabhängige Redaktion",
+    "Offizielle Quellen verlinkt",
+    "Kein Foto-Upload auf dieser Website"
+  ],
+  "overview": {
+    "heading": "Was du mit SpicyBox erstellen kannst",
+    "paragraphs": [
+      "SpicyBox verbindet ein hochgeladenes Foto mit einer Bild- oder Bewegungsvorlage aus dem Explore-Bereich. Daraus kann ein neues Standbild oder ein kurzer Clip entstehen. Der gewählte Effekt sollte zu deinem Ausgangsbild passen: Ein enger Gesichtsausschnitt bietet andere Voraussetzungen als eine Ganzkörperaufnahme. Prüfe deshalb Vorschau und Anforderungen der jeweiligen Vorlage.",
+      "Diese Website erklärt SpicyBox aus unabhängiger Sicht und verlinkt die offiziellen Bedingungen. Fotos hochladen oder Inhalte erzeugen kannst du hier nicht. Die Porträts auf dieser Seite zeigen fiktive erwachsene Personen und dienen der Illustration; sie belegen keine mit SpicyBox erzielten Ergebnisse."
+    ]
+  },
+  "workflow": {
+    "heading": "Vom eigenen Foto zum kurzen Clip",
+    "lead": "Ein passendes Ausgangsbild und ein klarer Blick auf das Ergebnis helfen dir bei jedem Schritt.",
+    "steps": [
+      [
+        "Wähle ein zulässiges Foto",
+        "Du musst volljährig und die einzige Person auf dem Bild sein sowie die erforderlichen Bildrechte besitzen. Die SpicyBox-Nutzungsbedingungen schließen Fotos anderer Personen auch mit deren Zustimmung aus. Wähle eine klare Aufnahme ohne weitere Gesichter oder persönliche Angaben im Hintergrund."
+      ],
+      [
+        "Finde die passende Bewegung",
+        "Wähle eine Vorlage, deren Ausschnitt, Perspektive und Bewegung zu deinem Foto passen. Prüfe beim fertigen Clip den gesamten Ablauf: Bleibt das Gesicht erkennbar? Wirken Übergänge nachvollziehbar? Entstehen verzerrte Hände oder flackernde Konturen? Eine ansprechende Vorschau beantwortet diese Fragen noch nicht."
+      ],
+      [
+        "Prüfe, speichere und räume auf",
+        "Notiere den Creditverbrauch und entscheide, ob sich ein weiterer Versuch lohnt. Speichere die gewünschten Ergebnisse und suche die Löschfunktionen für Ausgangsbilder und erzeugte Dateien. Das Schließen eines Browserfensters ist keine ausdrückliche Löschung."
+      ]
+    ]
+  },
+  "compare": {
+    "heading": "Welche Alternative passt zu deiner Idee?",
+    "lead": "Diese fünf Dienste setzen unterschiedliche Schwerpunkte. Unsere verlinkten Vergleiche sind auf Englisch und helfen dir, nach deinem Vorhaben zu wählen.",
+    "cards": [
+      [
+        "Promptchan",
+        "Für fiktive Bilder und Figuren aus Texteingaben, mit Möglichkeiten zur Verfeinerung von Stil und Pose sowie zur Animation. Ein passender Ausgangspunkt, wenn du eine Figur gestalten möchtest, statt ein Foto von dir zu bearbeiten."
+      ],
+      [
+        "OurDream AI",
+        "Für die fortlaufende Interaktion mit fiktiven Charakteren über Gespräche und dazugehörige Medien. Dieser Ansatz passt, wenn du eine Figur über mehrere Unterhaltungen begleiten möchtest und mehr als einen einzelnen Clip suchst."
+      ],
+      [
+        "Playbox AI",
+        "Bietet einen verwandten Ablauf mit eigenen Fotos und Videovorlagen. Auch hier gilt laut Bedingungen, dass nur die hochladende Person abgebildet sein darf. Vergleiche besonders Vorlagenauswahl, Bewegungswirkung, Creditverbrauch bei Wiederholungen und verfügbare Löschfunktionen."
+      ],
+      [
+        "Musebox AI",
+        "Für Videos aus Bildern oder Texteingaben sowie zur Verlängerung von Clips. Interessant, wenn du eine Szene über eine einzelne Animation hinaus weiterführen möchtest. Prüfe die jeweiligen Eingaberegeln und Rechte gesondert."
+      ],
+      [
+        "Runway",
+        "Ist auf eine breitere kreative Videoproduktion und Bearbeitung ausgerichtet. Das kann passen, wenn du mehr als eine Vorlagenanimation planst. Beachte dabei die eigenen Moderationsregeln des Dienstes; ein anderes Werkzeug erlaubt nicht automatisch dieselben Inhalte."
+      ]
+    ]
+  },
+  "costs": {
+    "heading": "Was kostet ein Ergebnis, das du behalten willst?",
+    "paragraphs": [
+      "Prüfe den Creditbedarf einer Aktion vor dem Start. Mehrere Versuche können den Aufwand deutlich erhöhen. Maßgeblich sind das aktuelle Angebot und die Bedingungen beim Kauf. Die Credit- und Erstattungsregeln des Anbieters sind restriktiv; ein misslungenes Ergebnis bedeutet nicht automatisch eine Rückzahlung. Deine gesetzlichen Rechte bleiben davon unberührt.",
+      "Lege vorab fest, was für dich brauchbar bedeutet: ein stabiles Gesicht, eine stimmige Bewegung und ein Clip, den du behalten möchtest. Teile die insgesamt eingesetzten Credits durch die Anzahl solcher Ergebnisse. So vergleichst du den praktischen Aufwand statt nur den Einstiegspreis. Diesen Maßstab kannst du auf deine eigenen Versuche anwenden; eigene Testergebnisse liegen dieser Empfehlung nicht zugrunde."
+    ]
+  },
+  "privacy": {
+    "heading": "Dein Foto enthält mehr als ein Motiv",
+    "paragraphs": [
+      "Ein Namensschild, ein Brief oder ein Blick aus dem Fenster kann mehr verraten als beabsichtigt. Entferne vermeidbare persönliche Details vor dem Upload. Die offizielle Datenschutzerklärung nennt unter anderem hochgeladene Bilder, erzeugte Inhalte, Konto- und Nutzungsdaten sowie daraus abgeleitete Daten. Prüfe, welche Einstellungen du selbst ändern kannst.",
+      "Laut SpicyBox-Datenschutzerklärung bleiben Bilder und Videos bis zur ausdrücklichen Löschung gespeichert, mit möglichen Ausnahmen. Suche den aktuellen Löschweg vor dem Upload. Diese Richtlinienangabe ist keine Zusicherung von uns, dass sämtliche Daten sofort oder vollständig verschwinden. Möchtest du kein erkennbares Foto von dir übermitteln, kann ein Werkzeug für rein fiktive Bilder besser passen."
+    ]
+  },
+  "faqs": [
+    [
+      "Was macht SpicyBox?",
+      "SpicyBox erzeugt anhand eines hochgeladenen Fotos und einer Vorlage neue Bilder oder kurze KI-Videos. Der Schwerpunkt liegt auf visueller Bearbeitung und Animation. Für eine fortlaufende Unterhaltung mit einem fiktiven Charakter solltest du Dienste mit entsprechenden Chatfunktionen vergleichen."
+    ],
+    [
+      "Darf ich ein fremdes Foto mit Erlaubnis hochladen?",
+      "Die aktuellen SpicyBox-Bedingungen verlangen, dass du selbst die einzige abgebildete Person bist. Die Zustimmung einer anderen Person erfüllt diese Vorgabe nicht. Auch eine Lizenz für ein fremdes Foto ersetzt weder diese Regel noch die erforderlichen Rechte an deinem eigenen Ausgangsbild."
+    ],
+    [
+      "Kann ich SpicyBox kostenlos ausprobieren?",
+      "Prüfe das aktuelle Angebot auf der Anbieterseite. Testmöglichkeiten, enthaltene Credits und Einschränkungen können sich ändern. Achte darauf, welche Aktion kostenlos verfügbar ist und ab wann ein Kauf nötig wird. Wir nennen deshalb keine feste kostenlose Anzahl."
+    ],
+    [
+      "Woran erkenne ich einen gelungenen Clip?",
+      "Sieh ihn vom Anfang bis zum Ende an. Das Gesicht sollte konsistent bleiben, die Bewegung zur Vorlage passen und sichtbare Fehler sollten deinen Verwendungszweck nicht beeinträchtigen. Bewerte auch, wie viele Versuche du für ein brauchbares Ergebnis benötigst."
+    ],
+    [
+      "Werden meine Uploads automatisch gelöscht?",
+      "Davon solltest du nicht ausgehen. Die offizielle Datenschutzerklärung beschreibt eine Speicherung bis zur ausdrücklichen Löschung, mit möglichen Ausnahmen. Informiere dich über die aktuellen Bedienelemente und die dort beschriebenen Grenzen, bevor du eine Datei hochlädst."
+    ],
+    [
+      "Wie wähle ich eine Alternative zu SpicyBox?",
+      "Beginne mit deinem Ziel: ein eigenes Foto animieren, eine fiktive Figur gestalten, Gespräche führen oder ein Video umfassender bearbeiten. Vergleiche erst danach Funktionen, Eingaberegeln und Kosten. Ein größeres Funktionsangebot ist nur dann hilfreich, wenn es zu deinem Projekt passt."
+    ]
+  ],
+  "labels": {
+    "navLabel": "Hauptnavigation",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "skip": "Zum Inhalt springen",
+    "language": "Sprache",
+    "home": "Startseite",
+    "workflow": "So funktioniert’s",
+    "features": "Funktionen",
+    "compare": "Vergleich",
+    "blog": "Blog",
+    "official": "Zur Anbieterseite",
+    "cta": "Jetzt entdecken",
+    "readEnglish": "Vergleich lesen (Englisch)",
+    "sources": "Offizielle Quellen",
+    "questions": "Häufige Fragen",
+    "independent": "Unabhängige Redaktion; nicht vom Anbieter betrieben",
+    "selfImage": "Auf dem Ausgangsbild darf nur die volljährige hochladende Person zu sehen sein",
+    "priceNote": "Aktuelle Preise und Bedingungen auf der Anbieterseite prüfen",
+    "referral": "Die Produktbuttons verwenden einen Empfehlungslink",
+    "blogHeading": "Für deinen nächsten Vergleich",
+    "blogLead": "Unsere bestehenden englischen Artikel beleuchten die einzelnen Produkte und ihre Unterschiede genauer.",
+    "blogLink": "Zum Blog (Englisch)",
+    "footerDescription": "SpicyBox verständlich erklärt: Vorlagen, eigene Fotos, Credits und passende Alternativen.",
+    "endHeading": "Entdecke, was zu deinem Foto passt.",
+    "endLead": "Prüfe die aktuellen Vorlagen, Credits und Nutzungsbedingungen direkt beim Anbieter.",
+    "sourceExplore": "Vorlagen und Produktoberfläche",
+    "sourceTerms": "Nutzungsbedingungen",
+    "sourcePrivacy": "Datenschutzerklärung",
+    "overviewSection": "Überblick",
+    "workflowSection": "Ablauf",
+    "compareSection": "Alternativen",
+    "costSection": "Credits und Kosten",
+    "privacySection": "Datenschutz beim Upload",
+    "faqSection": "Fragen",
+    "sourcesSection": "Quellen"
+  }
+}

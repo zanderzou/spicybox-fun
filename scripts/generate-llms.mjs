@@ -31,6 +31,8 @@ let text =[`# ${name}`,'',`> ${description}`,'',`Canonical publication: ${origin
  '## Comparisons','',...articles.map(a=>`- [${label(a.title)}](${origin}/blog/${a.slug}/)`),'',
  '## Publication information','',...optional.map(([title,slug])=>`- [${title}](${origin}/${slug}/)`),'',
  '## Complete language editions','',...localized,
+ '## Additional homepage languages','',
+ ...[['de','German'],['fr','French'],['pt-br','Brazilian Portuguese'],['it','Italian']].map(([slug,language])=>`- [SpicyBox — ${language} homepage](${origin}/${slug}/): Homepage only; blog and information links use existing English pages.`),'',
  '## Optional','',`- [XML sitemap](${origin}/sitemap-index.xml): Canonical page inventory.`,`- [RSS feed](${origin}/rss.xml): Published article updates.`,`- [Robots policy](${origin}/robots.txt): Crawler access directives.`,''].join('\n');
 
 // New English articles do not create language counterparts.

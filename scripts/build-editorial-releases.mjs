@@ -80,7 +80,7 @@ async function buildPhase(phase) {
     for (const [file, bytes] of Object.entries(records)) {
       if (baseFiles[file]?.equals(bytes)) continue;
       const route = routeFor(file);
-      if (/^\/(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar)(?:\/|$)/i.test(route)) {
+      if (/^\/(?:ja|ko|zh-hant|es|pt-br|ru|de|fr|ar|it)(?:\/|$)/i.test(route)) {
         assert.ok(baseFiles[file], 'A new translated page was produced: ' + route);
         throw Error('Existing translated page changed while adding English-only articles: ' + route);
       }

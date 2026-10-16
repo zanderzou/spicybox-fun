@@ -1,6 +1,6 @@
 # SpicyBox Guide
 
-Independent Astro + Markdown publication for `spicybox.fun`, focused on the SpicyBox adult image-to-video generator, templates, self-image upload rule, privacy, credits, safety, comparisons, and alternatives. The public build currently contains English and Spanish only; other localization copy remains in source but has no public route. Promotional SpicyBox buttons use the tracked referral URL with `rel="sponsored nofollow"`; source citations and privacy-policy links retain their real destinations.
+Independent Astro + Markdown publication for `spicybox.fun`, focused on the SpicyBox adult image-to-video generator, templates, self-image upload rule, privacy, credits, safety, comparisons, and alternatives. English and Spanish retain their existing page collections. German (`/de/`), French (`/fr/`), Brazilian Portuguese (`/pt-br/`) and Italian (`/it/`) publish only a homepage; their blog and information links point to existing English pages. Other localization drafts remain unpublished. Promotional SpicyBox buttons use the tracked referral URL with `rel="sponsored nofollow"`; source citations and privacy-policy links retain their real destinations.
 
 ## Commands
 
