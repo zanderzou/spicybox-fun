@@ -1,0 +1,16 @@
+---
+import type { HomepageLocale } from '../data/homepage-languages';
+interface Props { locale: HomepageLocale; }
+const {locale}=Astro.props;
+const labels={
+ de:{label:'Beispielhafter Ablauf von Foto zu Video',render:'VORSCHAU / 01',type:'Bild → Video',rule:'NUR EIGENE FOTOS',upload:'Hochladen.',choose:'Wählen. Animieren.',photo:'Foto',template:'Vorlage',clip:'Clip'},
+ fr:{label:'Illustration du passage de la photo à la vidéo',render:'APERÇU / 01',type:'Image → Vidéo',rule:'VOTRE PHOTO UNIQUEMENT',upload:'Importer.',choose:'Choisir. Animer.',photo:'Photo',template:'Modèle',clip:'Clip'},
+ 'pt-br':{label:'Exemplo do processo de foto para vídeo',render:'PRÉVIA / 01',type:'Imagem → Vídeo',rule:'SOMENTE FOTOS SUAS',upload:'Enviar.',choose:'Escolher. Animar.',photo:'Foto',template:'Modelo',clip:'Clipe'},
+ it:{label:'Esempio del passaggio da foto a video',render:'ANTEPRIMA / 01',type:'Immagine → Video',rule:'SOLO FOTO TUE',upload:'Carica.',choose:'Scegli. Anima.',photo:'Foto',template:'Modello',clip:'Clip'}
+}[locale];
+---
+<div class="feed-preview render-preview" aria-label={labels.label}>
+ <div class="feed-top"><span>{labels.render}</span><b>{labels.type}</b><i>●</i></div>
+ <div class="feed-card"><span class="feed-badge">{labels.rule}</span><strong>{labels.upload}<br/>{labels.choose}</strong><div class="feed-actions"><span>{labels.photo}</span><span>{labels.template}</span><span>{labels.clip}</span></div></div>
+ <div class="feed-progress"><span></span><span></span><span></span></div>
+</div>
