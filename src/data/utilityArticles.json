@@ -1,0 +1,11 @@
+{
+  "domain": "spicybox.fun",
+  "origin": "https://spicybox.fun",
+  "slugs": [
+    "spicybox-delete-account-checklist",
+    "spicybox-privacy-retention-device-copies"
+  ],
+  "articlePrefix": "/blog/",
+  "homePath": "/",
+  "blogPath": "/blog/"
+}

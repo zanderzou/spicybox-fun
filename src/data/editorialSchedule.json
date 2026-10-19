@@ -1,7 +1,7 @@
 {
   "domain": "spicybox.fun",
   "timeZone": "Asia/Shanghai",
-  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "policy": "Only reviewed English guides are added. Existing releases and translations are preserved. Server time controls availability.",
   "articles": [
     {
       "order": 1,
@@ -101,6 +101,65 @@
           "https://www.adobe.com/products/firefly/plans.html"
         ]
       ]
+    },
+    {
+      "order": 4,
+      "slug": "spicybox-delete-account-checklist",
+      "title": "How to Delete a SpicyBox Account: Before You Confirm",
+      "readerQuestion": "Remove the correct account without confusing account deletion, billing resolution and independently saved copies.",
+      "releaseAt": "2026-10-30T15:04:04.953Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-19",
+      "reviewedSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+      "wordCount": 801,
+      "editorialIntent": "A consequence-led preparation checklist, exact documented route, a record-keeping example and explicit verification boundaries.",
+      "sources": [
+        [
+          "SpicyBox Privacy Policy, sections 5 and 9",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        [
+          "SpicyBox Terms of Use, payment terms",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        [
+          "Mozilla: clear cookies and site data",
+          "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
+        ]
+      ]
+    },
+    {
+      "order": 5,
+      "slug": "spicybox-privacy-retention-device-copies",
+      "title": "SpicyBox Privacy: Retention, Deletion and Device Copies",
+      "readerQuestion": "Interpret provider statements, exact-domain policy provenance, internal processing uncertainty and independent copies before sharing identifying data.",
+      "releaseAt": "2026-11-06T17:49:14.953Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-19",
+      "reviewedSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
+      "wordCount": 757,
+      "editorialIntent": "A three-copy inventory and a precise processing question; distinguishes no-third-party-sharing from no-internal-processing without alleging actual training.",
+      "sources": [
+        [
+          "SpicyBox Privacy Policy linked from the product footer",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        [
+          "SpicyBox Terms, user-content license",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        [
+          "Mozilla: clear cookies and site data",
+          "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
+        ]
+      ]
     }
-  ]
+  ],
+  "baselinePhase": 1,
+  "articlePrefix": "/blog/",
+  "contentDirectory": "src/content/blog"
 }
