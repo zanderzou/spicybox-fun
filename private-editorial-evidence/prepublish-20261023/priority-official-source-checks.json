@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-23T05:15:18.555Z",
+  "kind": "documentation-only",
+  "sources": [
+    {
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+      "checkedAt": "2026-10-23T05:15:18.555Z",
+      "status": "content-retrieved",
+      "retrieval": "web.run open PDF, current content",
+      "documentDate": "Last Updated26.03.26",
+      "claim": "Opening representations require the uploader to be the sole depicted subject and control necessary input rights. Section2 reiterates that the uploader is the person depicted; another individual is not an eligible input. This is a provider rule, not a backend or account-use observation."
+    },
+    {
+      "url": "https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html",
+      "checkedAt": "2026-10-23T05:15:18.555Z",
+      "status": "content-retrieved",
+      "retrieval": "web.run open and find Using Firefly / Data and content usage",
+      "claim": "FAQ describes commercial use for Firefly outputs, with product-specific exceptions for beta features; it discusses Content Credentials as provenance. It does not establish that every partner model or input is suitable for every client use."
+    },
+    {
+      "url": "https://www.adobe.com/products/firefly/plans.html",
+      "checkedAt": "2026-10-23T05:15:18.555Z",
+      "status": "content-retrieved",
+      "retrieval": "web.run open and find Are Adobe Firefly outputs safe for commercial use?",
+      "claim": "Current plans distinguish Adobe Firefly outputs from partner-model outputs. Suitability of partner-model content is the creator's responsibility; IP indemnification is limited to eligible enterprise customers and selected outputs. No price quotation is added to the candidate."
+    },
+    {
+      "url": "https://opensource.contentauthenticity.org/docs/getting-started/inspect/",
+      "checkedAt": "2026-10-23T05:15:18.555Z",
+      "status": "content-retrieved",
+      "retrieval": "web.run open official CAI documentation",
+      "claim": "Official documentation provides the exact public car-sample URL and URL-based Inspect route used here. It describes viewing credentials and source history. This documentation reading is not counted as the hands-on observation."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "domain": "spicybox.fun",
+  "grandfathered": [
+    {
+      "order": 1,
+      "slug": "spicybox-vs-pika-motion-control",
+      "releaseAt": "2026-10-08T04:02:35.477Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:17:45.477Z",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-pika-motion-control/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "3b368a115cf6414fd35cb00a6a77c039bf877ff5",
+      "deploymentId": "bd336af5-bf80-4c19-ac4a-e41a3774b955",
+      "responseSha256": "59cec66cde1923eb9def0690c518ffee1878c43de478f9c0a6e5980eea3accf0"
+    },
+    {
+      "order": 2,
+      "slug": "spicybox-vs-luma-existing-footage",
+      "releaseAt": "2026-10-16T02:19:25.955Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:17:45.477Z",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-luma-existing-footage/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "3b368a115cf6414fd35cb00a6a77c039bf877ff5",
+      "deploymentId": "bd336af5-bf80-4c19-ac4a-e41a3774b955",
+      "responseSha256": "ed44250bb0d728e89650ac3473e5511dfd8f5bd1319e0acf59e95afe1c945547"
+    }
+  ],
+  "certificates": {
+    "spicybox-vs-adobe-firefly-client-delivery": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "status": "validated",
+      "domain": "spicybox.fun",
+      "slug": "spicybox-vs-adobe-firefly-client-delivery",
+      "order": 3,
+      "releaseAt": "2026-10-23T11:01:53.953Z",
+      "activationAt": "2026-10-23T11:01:53.953Z",
+      "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+      "reviewedAt": "2026-10-23T05:21:38.631Z",
+      "reviewedBy": "Independent parent editorial review accepted the candidate, screenshot and narrowly scoped observation before installation",
+      "factsCheckedAt": "2026-10-23T05:15:18.555Z",
+      "scopeAccepted": "Public sample provenance handoff only; no Firefly/SpicyBox generation, export benchmark or license verification claimed",
+      "officialSources": [
+        {
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "checkedAt": "2026-10-23T05:15:18.555Z",
+          "status": "content-retrieved",
+          "retrieval": "web.run open PDF, current content",
+          "documentDate": "Last Updated26.03.26",
+          "claim": "Opening representations require the uploader to be the sole depicted subject and control necessary input rights. Section2 reiterates that the uploader is the person depicted; another individual is not an eligible input. This is a provider rule, not a backend or account-use observation.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+              "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+            }
+          ]
+        },
+        {
+          "url": "https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html",
+          "checkedAt": "2026-10-23T05:15:18.555Z",
+          "status": "content-retrieved",
+          "retrieval": "web.run open and find Using Firefly / Data and content usage",
+          "claim": "FAQ describes commercial use for Firefly outputs, with product-specific exceptions for beta features; it discusses Content Credentials as provenance. It does not establish that every partner model or input is suitable for every client use.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+              "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+            }
+          ]
+        },
+        {
+          "url": "https://www.adobe.com/products/firefly/plans.html",
+          "checkedAt": "2026-10-23T05:15:18.555Z",
+          "status": "content-retrieved",
+          "retrieval": "web.run open and find Are Adobe Firefly outputs safe for commercial use?",
+          "claim": "Current plans distinguish Adobe Firefly outputs from partner-model outputs. Suitability of partner-model content is the creator's responsibility; IP indemnification is limited to eligible enterprise customers and selected outputs. No price quotation is added to the candidate.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+              "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+            }
+          ]
+        },
+        {
+          "url": "https://opensource.contentauthenticity.org/docs/getting-started/inspect/",
+          "checkedAt": "2026-10-23T05:15:18.555Z",
+          "status": "content-retrieved",
+          "retrieval": "web.run open official CAI documentation",
+          "claim": "Official documentation provides the exact public car-sample URL and URL-based Inspect route used here. It describes viewing credentials and source history. This documentation reading is not counted as the hands-on observation.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+              "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "id": "adobe-inspect-public-car-sample-20261023",
+          "kind": "hands-on",
+          "relevance": "Directly checks the provenance handoff portion of the client-delivery article; not generation quality, export behavior or licensing permission.",
+          "product": "Adobe Content Authenticity Inspect Beta; public CAI example asset",
+          "testedAt": "2026-10-23T05:12:08.220Z",
+          "task": "Inspect a supplied image's recorded creation history and warning before treating it as ready for a client handoff.",
+          "conditions": {
+            "browser": "Chrome extension-controlled browser, existing browser default viewport; no responsive-size override",
+            "account": "Signed out: visible Sign in button; no account created or logged in",
+            "plan": "Public Inspect Beta, no paid entitlement used",
+            "sampleCount": 1,
+            "source": "Official CAI public car JPEG; no user file or personal image",
+            "uploads": false,
+            "purchases": false,
+            "generation": false
+          },
+          "inputs": [
+            "https://inspect.cr?source=https://contentauth.github.io/example-assets/images/car-es-Ps-Cr.jpg"
+          ],
+          "steps": [
+            "Opened the exact public-sample Inspect URL linked by official CAI documentation.",
+            "Read the resulting Inspect view while it showed Sign in.",
+            "Activated Show sources (1), then read the source-history view and credential details.",
+            "Saved the resulting screenshot and DOM text."
+          ],
+          "result": "The viewer displayed the recorded name car-es-1sm.jpg, Created with Adobe Photoshop, and a warning that the file uses a legacy C2PA specification version. Expanding sources showed a single sample source node. The observed record is not a Firefly-generation test.",
+          "readerImpact": "A handoff check should record the displayed creation application and any credential warning instead of treating the existence of metadata as permission to use an asset. Follow with a separate check of actual model/account/input rights.",
+          "limits": "One public sample only. No SpicyBox or Firefly output was generated, uploaded, downloaded or exported; no commercial license or client permission was verified by the viewer. The sample result cannot establish either product's generation quality or export coverage.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/prepublish-20261023/adobe-inspect-public-sample.png",
+              "sha256": "aeb6dbebefe351e05676bd7ca7df10b21cd03c2ec6294f8128835da71c709a41"
+            },
+            {
+              "path": "private-editorial-evidence/prepublish-20261023/adobe-inspect-public-sample.dom.txt",
+              "sha256": "4f100534e938de7a9c307f45fc2a010737d6efbb47a3a7d25b2557e9ca9d51ad"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559"
+    }
+  }
+}

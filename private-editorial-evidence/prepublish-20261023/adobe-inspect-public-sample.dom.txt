@@ -1,0 +1,39 @@
+- navigation:
+  - link "Adobe Content Authenticity Beta":
+    - img "Adobe Content Authenticity Beta":
+      - generic: Adobe Content Authenticity
+  - link "Inspect"
+- link "Help":
+  - /url: https://www.adobe.com/go/helpx-contentauthenticity
+- button "App switcher":
+- button "Sign in"
+- main:
+  - button "Inspect new file":
+    - generic: Inspect new file
+  - button "car-es-1sm.jpg":
+    - generic: car-es-1sm.jpg
+  - button "car-es-1sm.jpg":
+    - img "car-es-1sm.jpg"
+  - button:
+  - checkbox "Show sources without Content Credentials"
+  - generic: Show sources without Content Credentials
+  - button:
+  - button:
+  - button:
+  - heading "Content Credentials" [level=1]
+  - generic: Image (JPEG)• Oct 24, 2025 • Retrieved from file
+  - heading "How this was made" [level=2]
+  - heading "Created with" [level=2]
+  - text: Adobe Photoshop
+  - heading "Some details need a second look" [level=2]
+  - text: This file uses a legacy version of the
+  - link "C2PA Technical Specification":
+    - /url: https://spec.c2pa.org/specifications/specifications/2.4/index.html
+  - text: .
+  - heading "More actions" [level=1]
+  - text: Additional Content Credentials for the most recent version of
+  - generic: car-es-1sm.jpg
+  - text: may exist. Search Adobe's Content Credentials cloud to find visually similar matches.
+  - button "Search for matches":
+    - text: Search for matches
+  - list

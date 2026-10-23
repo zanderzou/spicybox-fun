@@ -2,7 +2,7 @@
 title: "SpicyBox vs Adobe Firefly: Client Work and Rights"
 description: "Compare SpicyBox and Adobe Firefly for non-explicit client work: permitted inputs, model-specific commercial terms, provenance and delivery checks."
 publishDate: 2026-10-23T11:01:53.953Z
-updatedDate: 2026-10-08T04:02:35.477Z
+updatedDate: 2026-10-23T11:01:53.953Z
 category: "Comparison"
 readTime: "5 min read"
 answer: "For ordinary client design work, investigate Adobe Firefly and the selected model’s current terms first. SpicyBox’s self-image-only upload rule makes it unsuitable for processing a client’s portrait, even with a release. A permitted personal project still needs a separate check of export and publication conditions."
@@ -15,6 +15,8 @@ sources:
     url: "https://helpx.adobe.com/uk/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html"
   - name: "Adobe Firefly plans and model-specific use"
     url: "https://www.adobe.com/products/firefly/plans.html"
+  - name: "CAI: inspect Content Credentials with a public asset URL"
+    url: "https://opensource.contentauthenticity.org/docs/getting-started/inspect/"
 ---
 
 A client deliverable needs more than an image that looks finished. It needs an allowed source, a suitable generation workflow, a usable export and a record of how the asset was produced. SpicyBox and Adobe Firefly should be compared against those requirements before either is used for a non-explicit assignment.
@@ -51,6 +53,12 @@ Adobe says it applies Content Credentials to certain exports using Firefly outpu
 Keep any provenance information intact when passing files to the client, subject to the applicable terms. Also keep a plain-language project note because a later workflow may not display the original metadata. The note should describe the actual process, not claim that an output was photographed or hand-drawn when it was generated.
 
 The same standard applies to a personal SpicyBox clip. Do not let a realistic appearance become a false claim about an event. A transparent delivery description is more useful than saying that a generator is universally “safe.”
+
+### A public-sample handoff check
+
+On October 23, 2026, we opened [the public car sample linked by CAI](https://inspect.cr?source=https://contentauth.github.io/example-assets/images/car-es-Ps-Cr.jpg) in Adobe Content Authenticity Inspect while signed out, then selected **Show sources (1)**. The viewer displayed the recorded name `car-es-1sm.jpg`, identified **Adobe Photoshop** as the creation application, and warned that the file used a legacy C2PA specification version.
+
+This was a check of one supplied sample, not a Firefly generation or SpicyBox output test. It shows why a handoff record should include the displayed application and any warning; it does not verify a commercial license or the subject's permission. For your deliverable, inspect the actual file you are entitled to use, keep the result with the project note, and check its model and input rights separately.
 
 ## A worked non-personal design brief
 

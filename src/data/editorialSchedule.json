@@ -83,9 +83,9 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-08",
-      "reviewedSha256": "274671b322375c97e13ac799dd0df6176e3ed71cd511eeb6c381aabcce781cf6",
-      "wordCount": 968,
+      "sourcesCheckedAt": "2026-10-23",
+      "reviewedSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+      "wordCount": 1086,
       "editorialIntent": "Explain why a personal self-image tool is not a general client-portrait workflow and distinguish Adobe models from partner models and provenance from ownership guarantees.",
       "sources": [
         [
@@ -99,6 +99,10 @@
         [
           "Adobe Firefly plans and model-specific use",
           "https://www.adobe.com/products/firefly/plans.html"
+        ],
+        [
+          "CAI: inspect Content Credentials with a public asset URL",
+          "https://opensource.contentauthenticity.org/docs/getting-started/inspect/"
         ]
       ]
     },
