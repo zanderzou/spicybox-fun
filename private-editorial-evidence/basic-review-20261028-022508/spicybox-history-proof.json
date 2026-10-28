@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "kind": "read-only-historical-activation-proof-of-existing-valid-strict-clearance",
+  "domain": "spicybox.fun",
+  "slug": "spicybox-vs-adobe-firefly-client-delivery",
+  "releaseAt": "2026-10-23T11:01:53.953Z",
+  "activationAt": "2026-10-23T11:01:53.953Z",
+  "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+  "certificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559",
+  "order": 3,
+  "sourceCommit": "61e4ea78a5aa792d809057734099784623f3eea0",
+  "deployment": {
+    "id": "4df9b7d0-424e-49ea-a7d4-cc3f696c6117",
+    "url": "https://4df9b7d0.spicybox-fun.pages.dev",
+    "sourceCommit": "61e4ea78a5aa792d809057734099784623f3eea0",
+    "environment": "production",
+    "status": "success",
+    "createdAt": "2026-10-23T05:33:45.298284Z"
+  },
+  "deployedAt": "2026-10-23T05:33:45.298284Z",
+  "productionVerifiedAt": "2026-10-28T03:53:46.930Z",
+  "completedAt": "2026-10-28T03:53:49.763Z",
+  "mainVerifiedAt": "2026-10-28T03:53:43.717Z",
+  "priorLegitimateDeployment": {
+    "record": "research/prepublish-tested-seo-20261023/deliveries/spicybox.fun.json",
+    "recordSha256": "22f2734c9a229be6a814573eb512bb8f1250b51abb37a4812b028de4a73d5c82",
+    "sourceCommit": "61e4ea78a5aa792d809057734099784623f3eea0",
+    "deploymentId": "4df9b7d0-424e-49ea-a7d4-cc3f696c6117",
+    "originalReadbackAt": "2026-10-23T05:34:00.049Z",
+    "thirdArticleWasPrivateAtDeployment": {
+      "url": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "status": 404,
+      "robots": "noindex",
+      "cache": "no-store",
+      "phase": null,
+      "sha256": "493fda53120050f85836032324409be6c6484f90a0755ae0c6a673ba7626818b"
+    },
+    "compiledGateMatchesOriginal": true
+  },
+  "originalArtifact": {
+    "workspace": "C:\\Users\\zande\\Documents\\ChatGPT\\Bing NSFW SEO\\deployment-staging\\tested-seo-gate-20261023\\spicybox.fun",
+    "out": "dist\\client",
+    "buildRecordSha256": "aa157dc1c8b68ba47a09d63ad14e6c1d03f2e7d2cacf439d9e037550b016c415",
+    "workerSha256": "27bd6042d496098990bba8dadda16a5ec9a5a9f1cd540af1f6d69259b5eaf7ae",
+    "phase": 3,
+    "phase3ExpectedBodySha256": "5433d9e4c9318797e9659085a19851ac8f55a74d18b891d0780138ff533cbc64"
+  },
+  "sourceBinding": {
+    "articlePath": "src/editorial-drafts/spicybox-vs-adobe-firefly-client-delivery.md",
+    "rawMarkdownSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+    "canonicalContentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+    "certificateStatus": "validated",
+    "skillVersion": "1.5",
+    "observationsCount": 1,
+    "certificateDigestValid": true,
+    "alreadyDeployedClearanceValidated": true
+  },
+  "actualPublicHtml": {
+    "path": "spicybox-history-public.html",
+    "sha256": "5433d9e4c9318797e9659085a19851ac8f55a74d18b891d0780138ff533cbc64",
+    "status": 200,
+    "canonical": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+    "title": "SpicyBox vs Adobe Firefly: Client Work and Rights",
+    "language": "en",
+    "matchesOriginalLegitimateWorkerPhase3Body": true
+  },
+  "checks": [
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "status": 200,
+      "checkedAt": "2026-10-28T03:53:46.930Z",
+      "robots": null,
+      "cache": "no-store",
+      "sha256": "5433d9e4c9318797e9659085a19851ac8f55a74d18b891d0780138ff533cbc64",
+      "kind": "existing-third-article-public",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "h1": "SpicyBox vs Adobe Firefly: Client Work and Rights",
+      "language": "en",
+      "matchesOriginalPhase3Body": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/",
+      "finalUrl": "https://spicybox.fun/blog/",
+      "status": 200,
+      "checkedAt": "2026-10-28T03:53:47.102Z",
+      "robots": null,
+      "cache": "no-store",
+      "sha256": "2f32901832ee1a66cb5ab06e2ae8394f67481066a5929d3a97f8f1f642421ca0",
+      "kind": "discovery",
+      "publishedPrefix": 3,
+      "allMembershipsMatch": true,
+      "matchesOriginalPhase3Payload": true
+    },
+    {
+      "url": "https://spicybox.fun/rss.xml",
+      "finalUrl": "https://spicybox.fun/rss.xml",
+      "status": 200,
+      "checkedAt": "2026-10-28T03:53:47.265Z",
+      "robots": null,
+      "cache": "no-store",
+      "sha256": "465d8d82ff8e9a1689b6f60eddf33b7853306de7045d38cbc0f7eb208452d7fa",
+      "kind": "discovery",
+      "publishedPrefix": 3,
+      "allMembershipsMatch": true,
+      "matchesOriginalPhase3Payload": true
+    },
+    {
+      "url": "https://spicybox.fun/sitemap-0.xml",
+      "finalUrl": "https://spicybox.fun/sitemap-0.xml",
+      "status": 200,
+      "checkedAt": "2026-10-28T03:53:47.411Z",
+      "robots": null,
+      "cache": "no-store",
+      "sha256": "25aa7050e4a5635890a2a9f0a10a58bd46186fc5352dd40bfcb0aa0998d4fb28",
+      "kind": "discovery",
+      "publishedPrefix": 3,
+      "allMembershipsMatch": true,
+      "matchesOriginalPhase3Payload": true
+    },
+    {
+      "url": "https://spicybox.fun/llms.txt",
+      "finalUrl": "https://spicybox.fun/llms.txt",
+      "status": 200,
+      "checkedAt": "2026-10-28T03:53:47.558Z",
+      "robots": null,
+      "cache": "no-store",
+      "sha256": "19fa2696fd7bf0bb221f31cdf13c59e40a703a23eab19b5dc11c6ac87451020d",
+      "kind": "discovery",
+      "publishedPrefix": 3,
+      "allMembershipsMatch": true,
+      "matchesOriginalPhase3Payload": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+      "status": 404,
+      "checkedAt": "2026-10-28T03:53:47.712Z",
+      "robots": "noindex",
+      "cache": "no-store",
+      "sha256": "493fda53120050f85836032324409be6c6484f90a0755ae0c6a673ba7626818b",
+      "kind": "later-unreviewed-private",
+      "order": 4
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-privacy-retention-device-copies/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-privacy-retention-device-copies/",
+      "status": 404,
+      "checkedAt": "2026-10-28T03:53:48.191Z",
+      "robots": "noindex",
+      "cache": "no-store",
+      "sha256": "493fda53120050f85836032324409be6c6484f90a0755ae0c6a673ba7626818b",
+      "kind": "later-unreviewed-private",
+      "order": 5
+    }
+  ],
+  "claimsAndLimits": "This documents a previously valid strict clearance deployed before activation and observed publicly after activation. It creates no new editorial approval, no grandfather proof, no invented tests or times, and performs no website/Git/gate/ledger change."
+}

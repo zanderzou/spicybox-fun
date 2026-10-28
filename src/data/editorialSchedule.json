@@ -115,7 +115,7 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
+      "sourcesCheckedAt": "2026-10-28",
       "reviewedSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
       "wordCount": 801,
       "editorialIntent": "A consequence-led preparation checklist, exact documented route, a record-keeping example and explicit verification boundaries.",
@@ -160,7 +160,9 @@
           "Mozilla: clear cookies and site data",
           "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
         ]
-      ]
+      ],
+      "notBefore": "2026-11-06T17:49:14.953Z",
+      "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
     }
   ],
   "baselinePhase": 1,

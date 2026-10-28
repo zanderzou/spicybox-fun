@@ -1,0 +1,17 @@
+{
+  "domain": "spicybox.fun",
+  "slug": "spicybox-delete-account-checklist",
+  "reviewedAt": "2026-10-28T03:54:56.427Z",
+  "standard": "portfolio-basic-quality-20261027",
+  "contentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+  "decision": "Useful consequence-led removal checklist. Followed current provider footer to the exact /sb/ Privacy and Terms PDFs: section9 names /delete; irreversible content/credit removal, limited legal non-content records and restrictive refunds are attributed as policy statements. Billing, account deletion and local cleanup stay separate. No private deletion screen or backend-erasure audit claimed; own-photo rules and all existing extra content preserved. Pass unchanged.",
+  "materialChanges": false,
+  "limitations": "Sourced informational guide with clearly illustrative examples; no account, generation, billing, deletion or performance operation claimed.",
+  "sources": [
+    "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf",
+    "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+    "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
+  ],
+  "activationAt": "2026-10-30T15:04:04.953Z",
+  "originalPlan": "2026-10-30T15:04:04.953Z"
+}

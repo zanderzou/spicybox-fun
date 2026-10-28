@@ -1,0 +1,8 @@
+{
+  "url": "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox",
+  "checkedAt": "2026-10-28T03:53:34.176Z",
+  "status": "content-retrieved",
+  "method": "Actual Mozilla primary help article opened via web reader; direct200 client challenge excluded",
+  "sourceUpdatedAt": "2026-06-11",
+  "text": "Mozilla describes cookies as browser-held preferences/login information and explains clearing cookies, site data and cached web content. Such local cleanup is distinct from a server-side account-removal request and does not remove independently saved files. No user cookies or data were cleared."
+}
