@@ -47,16 +47,16 @@ const schema={'@context':'https://schema.org','@graph':[
    <a class="brand" href={home} aria-label={'SpicyBox · '+label.home}><span class="brand-icon">SB</span><strong>Spicy<span>Box</span></strong></a>
    <nav aria-label={label.navLabel}><a href="#workflow">{label.workflow}</a><a href="#overview">{label.features}</a><a href="#compare">{label.compare}</a><a href="/blog/" hreflang="en">{label.blog}</a></nav>
    <details class="language-switch"><summary aria-label={label.language+': '+language.label}>{language.code} <span aria-hidden="true">⌄</span></summary><div class="language-options">{homepageLanguages.map(entry=><a href={entry.slug?'/'+entry.slug+'/':'/'} lang={entry.lang} hreflang={entry.lang} aria-current={entry.slug===locale?'page':undefined}>{entry.label}</a>)}</div></details>
-   <a class="official-link" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}<Icon name="arrow"/></a>
+   <a class="official-link" href={site.promotionUrl} rel="nofollow noopener noreferrer" target="_blank">{label.official}<Icon name="arrow"/></a>
    <button class="menu-button" type="button" aria-label={label.menuOpen} aria-expanded="false" data-menu-button data-menu-open={label.menuOpen} data-menu-close={label.menuClose}><Icon name="menu"/></button>
-   <div class="mobile-nav" data-mobile-nav><a href="#workflow">{label.workflow}</a><a href="#overview">{label.features}</a><a href="#compare">{label.compare}</a><a href="/blog/" hreflang="en">{label.blogLink}</a><a href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
+   <div class="mobile-nav" data-mobile-nav><a href="#workflow">{label.workflow}</a><a href="#overview">{label.features}</a><a href="#compare">{label.compare}</a><a href="/blog/" hreflang="en">{label.blogLink}</a><a href={site.promotionUrl} rel="nofollow noopener noreferrer" target="_blank">{label.official}</a></div>
   </header>
   <main id="main">
    <section class="hero studio-hero native-hero">
     <Image class="hero-image" src={heroImage} alt={copy.imageAlt[0]} widths={[640,960,1280,1536]} sizes="(max-width: 760px) 100vw, 58vw" loading="eager" fetchpriority="high" quality={84}/>
     <div class="hero-scrim"></div>
     <div class="hero-copy"><div class="eyebrow"><span></span>{copy.eyebrow}</div><h1>SpicyBox</h1><p class="hero-tagline">{copy.tagline}</p><p>{copy.lead}</p>
-     <div class="hero-actions"><a class="button primary" data-primary-cta href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.cta}<Icon name="arrow"/></a></div>
+     <div class="hero-actions"><a class="button primary" data-primary-cta href={site.promotionUrl} rel="nofollow noopener noreferrer" target="_blank">{label.cta}<Icon name="arrow"/></a></div>
      <div class="proof-row">{copy.proof.map(proof=><span>{proof}</span>)}</div>
     </div>
     <HomepagePreview locale={locale}/>
@@ -69,7 +69,7 @@ const schema={'@context':'https://schema.org','@graph':[
    <section class="section native-blog"><div><div class="section-label">06 / Blog</div><h2>{label.blogHeading}</h2><p>{label.blogLead}</p></div><a class="button ghost" href="/blog/" hreflang="en">{label.blogLink}<Icon name="arrow"/></a></section>
    <section class="section faq"><div><div class="section-label">07 / {label.faqSection}</div><h2>{label.questions}</h2></div><div class="faq-list">{copy.faqs.map(([question,answer])=><details><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></section>
    <section class="section native-sources"><div class="section-label">08 / {label.sourcesSection}</div><h2>{label.sources}</h2><p>{label.priceNote}</p><ul><li><a href="https://spicy-box.com/explore" rel="noopener noreferrer" target="_blank">{label.sourceExplore} ↗</a></li><li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf" rel="noopener noreferrer" target="_blank">{label.sourceTerms} ↗</a></li><li><a href="https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf" rel="noopener noreferrer" target="_blank">{label.sourcePrivacy} ↗</a></li></ul></section>
-   <section class="section final-cta"><div><h2>{label.endHeading}</h2><p>{label.endLead}</p></div><a class="button primary" href={site.promotionUrl} rel="sponsored nofollow noopener noreferrer" target="_blank">{label.official}<Icon name="arrow"/></a></section>
+   <section class="section final-cta"><div><h2>{label.endHeading}</h2><p>{label.endLead}</p></div><a class="button primary" href={site.promotionUrl} rel="nofollow noopener noreferrer" target="_blank">{label.official}<Icon name="arrow"/></a></section>
   </main>
   <footer><div class="footer-grid"><div><a class="brand" href={home}><span class="brand-icon">SB</span><strong>Spicy<span>Box</span></strong></a><p>{label.footerDescription}</p></div><div><h3>{label.features}</h3><a href="#overview">{label.overviewSection}</a><a href="#workflow">{label.workflow}</a><a href="#privacy">{label.privacySection}</a></div><div><h3>{label.compare}</h3>{comparisons.slice(0,3).map(entry=><a href={'/blog/'+entry.slug+'/'} hreflang="en">SpicyBox vs {entry.name}</a>)}<a href="/blog/" hreflang="en">{label.blogLink}</a></div><div lang="en"><h3>Information</h3>{information.map(([title,slug])=><a href={'/'+slug+'/'} hreflang="en">{title}</a>)}</div></div><div class="footer-bottom"><span>© <span data-year>2026</span> SpicyBox</span><span>{label.independent}</span><span>{label.referral}</span></div></footer>
   <script is:inline src="/assets/main.js"></script><Analytics locale={locale}/>
