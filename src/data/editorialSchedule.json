@@ -13,14 +13,14 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-08",
-      "reviewedSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+      "sourcesCheckedAt": "2026-11-03",
+      "reviewedSha256": "089ac22b37ec46f8b25ab7975a9f5c79de57d5ea1cf66c96108c5c6d07600863",
       "wordCount": 1088,
       "editorialIntent": "Choose between a preset result and a directed transition without uploading sensitive images or mistaking vendor documentation for a tested performance result.",
       "sources": [
         [
           "SpicyBox Terms of Use",
-          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
         ],
         [
           "SpicyBox Privacy Policy",
@@ -50,26 +50,26 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-08",
-      "reviewedSha256": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
-      "wordCount": 930,
+      "sourcesCheckedAt": "2026-11-03",
+      "reviewedSha256": "e79dca12c2f41165303ea691f34776541cd1c0e9d8da078322315d5de80a44ec",
+      "wordCount": 925,
       "editorialIntent": "Distinguish generating a template clip from modifying an existing shot; do not conflate an API capability with a particular web-plan entitlement.",
       "sources": [
         [
           "SpicyBox Terms of Use",
-          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
         ],
         [
-          "Luma video modification API reference",
-          "https://docs.lumalabs.ai/reference/modifyvideo"
+          "Luma API video editing guide",
+          "https://docs.agents.lumalabs.ai/guides/videos/editing/"
         ],
         [
-          "Luma Dream Machine licensing guide",
+          "Luma licensing guide (legacy plan names)",
           "https://lumalabs.ai/learning-hub/licensing"
         ],
         [
-          "Luma Dream Machine",
-          "https://lumalabs.ai/dream-machine"
+          "Luma official product information",
+          "https://lumalabs.ai/llm-info"
         ]
       ]
     },
@@ -83,14 +83,14 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-23",
-      "reviewedSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+      "sourcesCheckedAt": "2026-11-03",
+      "reviewedSha256": "53fc51c7e68a64edb3ae224d65229941b17954accfa728e0e646e1418888cc56",
       "wordCount": 1086,
       "editorialIntent": "Explain why a personal self-image tool is not a general client-portrait workflow and distinguish Adobe models from partner models and provenance from ownership guarantees.",
       "sources": [
         [
           "SpicyBox Terms of Use",
-          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
         ],
         [
           "Adobe Firefly FAQ",
@@ -115,8 +115,8 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-28",
-      "reviewedSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+      "sourcesCheckedAt": "2026-11-03",
+      "reviewedSha256": "271040a2b9ee33fc0411b6b3ca17f8bf45505dd3a62e374b29ccee0057bf1309",
       "wordCount": 801,
       "editorialIntent": "A consequence-led preparation checklist, exact documented route, a record-keeping example and explicit verification boundaries.",
       "sources": [
@@ -126,7 +126,7 @@
         ],
         [
           "SpicyBox Terms of Use, payment terms",
-          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
         ],
         [
           "Mozilla: clear cookies and site data",

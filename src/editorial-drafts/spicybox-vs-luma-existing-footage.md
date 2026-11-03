@@ -1,33 +1,33 @@
 ---
 title: "SpicyBox vs Luma: Templates or Footage Editing?"
-description: "Choose between a SpicyBox self-image template and Luma Dream Machine video modification using edit scope, source rules and a practical shot checklist."
+description: "Choose between a SpicyBox self-image template and Luma video editing using edit scope, source rules and a practical shot checklist."
 publishDate: 2026-10-16T02:19:25.955Z
-updatedDate: 2026-10-08T04:02:35.477Z
+updatedDate: 2026-11-03
 category: "Comparison"
 readTime: "5 min read"
-answer: "SpicyBox is a candidate for a preset clip from an eligible adult self-image. Luma Dream Machine is the more relevant product to investigate when an allowed project begins with existing footage that needs modification. Verify the selected web tool, source permissions and output license before paying."
+answer: "SpicyBox is a candidate for a preset clip from an eligible adult self-image. Luma is the more relevant product to investigate when an allowed project begins with existing footage that needs modification. Verify the selected web tool, source permissions and output license before paying."
 accent: "rose"
 keywords: ["SpicyBox vs Luma","Luma","existing footage"]
 sources:
   - name: "SpicyBox Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
-  - name: "Luma video modification API reference"
-    url: "https://docs.lumalabs.ai/reference/modifyvideo"
-  - name: "Luma Dream Machine licensing guide"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+  - name: "Luma API video editing guide"
+    url: "https://docs.agents.lumalabs.ai/guides/videos/editing/"
+  - name: "Luma licensing guide (legacy plan names)"
     url: "https://lumalabs.ai/learning-hub/licensing"
-  - name: "Luma Dream Machine"
-    url: "https://lumalabs.ai/dream-machine"
+  - name: "Luma official product information"
+    url: "https://lumalabs.ai/llm-info"
 ---
 
 A still portrait and a filmed shot are different starting materials. If you already have a non-explicit clip whose timing matters, compare tools by what they can preserve from that clip. If you only want a preset animation of your own eligible image, an existing-footage workflow may add work without improving the deliverable.
 
-SpicyBox and Luma Dream Machine fit this distinction better than a general “which looks more realistic?” contest. This is a documentation-based comparison, not a rendering benchmark. Features and entitlements must be checked again in the active account before purchase.
+SpicyBox and Luma fit this distinction better than a general “which looks more realistic?” contest. This is a documentation-based comparison, not a rendering benchmark. Features and entitlements must be checked again in the active account before purchase.
 
 ## The first question is whether there is a shot to preserve
 
 Imagine two briefs. The first asks for a short, personal template animation from an ordinary self-portrait. The second asks to change the visual treatment of a filmed room while preserving its existing camera movement. SpicyBox addresses the first type of starting point. Luma's documented video-modification capability is relevant to the second.
 
-The Luma API reference describes modifying video with a supplied media input and prompt-based editing. That is evidence of an API workflow, not proof that every Dream Machine web subscription includes the same endpoint, settings or allowance. A web user should inspect the current tool; a developer should inspect API pricing and authentication separately.
+Current Luma API documentation describes editing an existing video using a supplied source and prompt. That documents an API workflow, not proof that every Luma App subscription includes identical controls or allowances. A web user should inspect the current tool; a developer should inspect API pricing and authentication separately.
 
 | Starting requirement | First question to ask |
 |---|---|
@@ -62,7 +62,7 @@ For Luma, keep web-plan and API charges separate. For SpicyBox, review the curre
 
 ## Licensing and retention are separate decisions
 
-Luma's licensing guide distinguishes account and subscription conditions. Check the license applicable when the content is generated, including the intended commercial use; a later upgrade should not be assumed to rewrite earlier rights. Read the current terms if the guide and account offer differ.
+Luma's legacy licensing guide distinguishes rights by the plan active at generation. Its older plan names should not be treated as today's offer. Check the current terms and account license for the intended commercial use; a later upgrade should not be assumed to rewrite earlier rights.
 
 Also separate the right to use an output from the provider's permission to process or retain an input. A commercially usable file can still come from an upload arrangement you do not accept. For sensitive work, obtain a clear answer about that arrangement before making an upload, not after a good-looking result has made the decision harder.
 

@@ -10,7 +10,7 @@ accent: "rose"
 keywords: ["SpicyBox vs Adobe Firefly","Adobe Firefly","client delivery"]
 sources:
   - name: "SpicyBox Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
   - name: "Adobe Firefly FAQ"
     url: "https://helpx.adobe.com/uk/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html"
   - name: "Adobe Firefly plans and model-specific use"

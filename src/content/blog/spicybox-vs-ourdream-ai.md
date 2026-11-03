@@ -12,7 +12,7 @@ sources:
   - name: "SpicyBox — official product"
     url: "https://spicy-box.com/explore"
   - name: "SpicyBox — Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
   - name: "SpicyBox — Privacy Policy"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "OurDream AI — official product overview"

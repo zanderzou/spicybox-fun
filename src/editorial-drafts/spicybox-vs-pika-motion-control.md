@@ -10,7 +10,7 @@ accent: "rose"
 keywords: ["SpicyBox vs Pika","Pika","motion control"]
 sources:
   - name: "SpicyBox Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
   - name: "SpicyBox Privacy Policy"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "Pika Help Center"

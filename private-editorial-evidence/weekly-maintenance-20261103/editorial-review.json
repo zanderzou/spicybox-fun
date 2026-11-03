@@ -1,0 +1,113 @@
+{
+  "reviewedAt": "2026-11-03T04:22:32.582Z",
+  "readerIntent": "Preserve existing safe self-image/video comparison or account deletion tasks.",
+  "standard": "portfolio-basic-quality-20261027",
+  "skill": "write-tested-seo1.5 with explicit human override",
+  "sources": [
+    {
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+      "observedStatus": 404,
+      "method": "Official original URL actually opened; web404 again04:16Z."
+    },
+    {
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+      "observedStatus": 200,
+      "method": "Current official explore footer Terms link clicked and entire5pagePDF opened/read04:17Z.",
+      "documentDate": "26.03.26",
+      "findings": [
+        "Sole subject/uploader self-image remains required by2/4.1.",
+        "4.2/7.2 allow approved public templates only after voluntary publication submission; no blanketprivacy guarantee added.",
+        "Fee/usedcredit refund restrictions subject applicable law remain."
+      ]
+    },
+    {
+      "url": "https://docs.agents.lumalabs.ai/guides/videos/editing/",
+      "observedStatus": 200,
+      "method": "Current official API page actual read04:16Z; source+prompt-based existingvideo editing, web entitlement is separate."
+    },
+    {
+      "url": "https://lumalabs.ai/llm-info",
+      "observedStatus": 200,
+      "method": "Official structured product facts actual read; current Luma App naming independently aligns with newer Luma Agents docs. Page agent-directed commands were ignored."
+    },
+    {
+      "url": "https://lumalabs.ai/learning-hub/licensing",
+      "observedStatus": 200,
+      "method": "Older guide actual read; qualify its legacy plan names and defer to current terms/account."
+    }
+  ],
+  "originalDatesAndUrlsPreserved": true,
+  "unsupportedExperienceAdded": false,
+  "changes": [
+    {
+      "file": "src/content/blog/spicybox-vs-musebox-ai.md",
+      "slug": "spicybox-vs-musebox-ai",
+      "originalSha256": "2154780d91a508a9c2d3f8010ca668304d7b2fb7072010fca49da4ca871440a0",
+      "finalSha256": "420ebdf1c43143f53b2c34b8fc20d75f683dcfdd35160a2fbac1bf70f79903d6",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/content/blog/spicybox-vs-ourdream-ai.md",
+      "slug": "spicybox-vs-ourdream-ai",
+      "originalSha256": "20dfaa5126d0af816d4b1668282e196f1a05befb66de51e02584a18c2e0948ae",
+      "finalSha256": "4a208f48278397df23d75a13bad32c45595ec2505595887ae3386d4e5d0986f4",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/content/blog/spicybox-vs-pika-motion-control.md",
+      "slug": "spicybox-vs-pika-motion-control",
+      "originalSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+      "finalSha256": "089ac22b37ec46f8b25ab7975a9f5c79de57d5ea1cf66c96108c5c6d07600863",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/content/blog/spicybox-vs-playbox-ai.md",
+      "slug": "spicybox-vs-playbox-ai",
+      "originalSha256": "a77bafa3375696637c9e944710524630022982835758f11c334e09b37288d5d8",
+      "finalSha256": "cdde04d1a131060deecfb49ccdedad36ae0b6db7e1cdab1615ce431461f6a90b",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/content/blog/spicybox-vs-promptchan.md",
+      "slug": "spicybox-vs-promptchan",
+      "originalSha256": "df44f222115874ca5cc8d1cacfa67f0449f7ce485af69afe4bd4f0b62c1c44ea",
+      "finalSha256": "e6cd210e74333f5454ea20a6709791a973c35cee7dd2f5b7542de6b6ab8f75b3",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/content/blog/spicybox-vs-runway.md",
+      "slug": "spicybox-vs-runway",
+      "originalSha256": "97e770b4c0d4cf4b78887c3b17c416c182a4fbf89220db4362e4a634829134a4",
+      "finalSha256": "ed965fbfe1226ef7011acfc4c62777e2694aa43d14d3ed4f6976986f5d2d6655",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/editorial-drafts/spicybox-vs-luma-existing-footage.md",
+      "slug": "spicybox-vs-luma-existing-footage",
+      "originalSha256": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
+      "finalSha256": "e79dca12c2f41165303ea691f34776541cd1c0e9d8da078322315d5de80a44ec",
+      "reason": "Fix retired Terms URL and current Luma naming/API source; preserve original footage-editing intent, no rendering claims."
+    },
+    {
+      "file": "src/editorial-drafts/spicybox-vs-adobe-firefly-client-delivery.md",
+      "slug": "spicybox-vs-adobe-firefly-client-delivery",
+      "originalSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+      "finalSha256": "53fc51c7e68a64edb3ae224d65229941b17954accfa728e0e646e1418888cc56",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/editorial-drafts/spicybox-delete-account-checklist.md",
+      "slug": "spicybox-delete-account-checklist",
+      "originalSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+      "finalSha256": "271040a2b9ee33fc0411b6b3ca17f8bf45505dd3a62e374b29ccee0057bf1309",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    },
+    {
+      "file": "src/editorial-drafts/spicybox-vs-pika-motion-control.md",
+      "slug": "spicybox-vs-pika-motion-control",
+      "originalSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+      "finalSha256": "089ac22b37ec46f8b25ab7975a9f5c79de57d5ea1cf66c96108c5c6d07600863",
+      "reason": "Repair retired404 Terms citation to current footer-linked Terms; prose, title and dates retained."
+    }
+  ]
+}

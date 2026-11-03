@@ -12,7 +12,7 @@ sources:
   - name: "SpicyBox Privacy Policy, sections 5 and 9"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "SpicyBox Terms of Use, payment terms"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
   - name: "Mozilla: clear cookies and site data"
     url: "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
 ---
@@ -34,7 +34,7 @@ These are separate questions. One confirmation should not be assumed to answer a
 | Remove files from a device | Which files were downloaded, where they were saved, and whether copies were synced elsewhere |
 | Resolve an incorrect charge | Which transaction is disputed and what evidence is needed before account access disappears |
 
-The [Terms, payment and refund sections](https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf), take a restrictive position on refunds, subject to applicable law. Account deletion should not be understood as an automatic refund request or a guarantee that money will be returned.
+The [Terms, payment and refund sections](https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf), take a restrictive position on refunds, subject to applicable law. Account deletion should not be understood as an automatic refund request or a guarantee that money will be returned.
 
 ## Prepare a small record before losing account access
 

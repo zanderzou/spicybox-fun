@@ -29,6 +29,46 @@
       "sourceCommit": "3b368a115cf6414fd35cb00a6a77c039bf877ff5",
       "deploymentId": "bd336af5-bf80-4c19-ac4a-e41a3774b955",
       "responseSha256": "ed44250bb0d728e89650ac3473e5511dfd8f5bd1319e0acf59e95afe1c945547"
+    },
+    {
+      "order": 3,
+      "slug": "spicybox-vs-adobe-firefly-client-delivery",
+      "releaseAt": "2026-10-23T11:01:53.953Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-03T04:10:15.425Z",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "087d197b957e6f4e1482b612f3f132362ebc5527",
+      "deploymentId": "b492177d-c859-428e-894e-57206e7038b7",
+      "responseSha256": "e8864edff995a589a49f8dd264675a63501d1b491332724a81036564b8d71ec7",
+      "publicationProvenance": {
+        "priorCertificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559",
+        "activationAt": "2026-10-23T11:01:53.953Z",
+        "priorContentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261103/publication-preservation.json"
+      }
+    },
+    {
+      "order": 4,
+      "slug": "spicybox-delete-account-checklist",
+      "releaseAt": "2026-10-30T15:04:04.953Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-03T04:10:15.490Z",
+      "canonical": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "087d197b957e6f4e1482b612f3f132362ebc5527",
+      "deploymentId": "b492177d-c859-428e-894e-57206e7038b7",
+      "responseSha256": "2f22d205b635caf2c96043afa8576509138d179d61cb3cab6c8ef05f7fb85c67",
+      "publicationProvenance": {
+        "priorCertificateDigest": "31eb6e57be23ae08a887f877ac3e1aab3f7cc970d68b783cd76f4726a097be66",
+        "activationAt": "2026-10-30T15:04:04.953Z",
+        "priorContentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261103/publication-preservation.json"
+      }
     }
   ],
   "certificates": {

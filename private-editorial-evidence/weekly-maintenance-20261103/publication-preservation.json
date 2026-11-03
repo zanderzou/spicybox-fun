@@ -1,0 +1,1292 @@
+{
+  "recordedAt": "2026-11-03T04:22:32.554Z",
+  "domain": "spicybox.fun",
+  "source": "087d197b957e6f4e1482b612f3f132362ebc5527",
+  "production": {
+    "project": "spicybox-fun",
+    "id": "b492177d-c859-428e-894e-57206e7038b7",
+    "url": "https://b492177d.spicybox-fun.pages.dev",
+    "createdAt": "2026-10-29T14:14:14.228665Z",
+    "source": "087d197b957e6f4e1482b612f3f132362ebc5527",
+    "commit": "087d197b957e6f4e1482b612f3f132362ebc5527",
+    "mainMatched": true
+  },
+  "compiledGate": {
+    "version": 1,
+    "domain": "spicybox.fun",
+    "baselinePhase": 1,
+    "grandfathered": [
+      {
+        "order": 1,
+        "slug": "spicybox-vs-pika-motion-control",
+        "releaseAt": "2026-10-08T04:02:35.477Z",
+        "liveVerifiedAt": "2026-10-23T05:17:45.477Z"
+      },
+      {
+        "order": 2,
+        "slug": "spicybox-vs-luma-existing-footage",
+        "releaseAt": "2026-10-16T02:19:25.955Z",
+        "liveVerifiedAt": "2026-10-23T05:17:45.477Z"
+      }
+    ],
+    "clearances": [
+      {
+        "slug": "spicybox-vs-adobe-firefly-client-delivery",
+        "order": 3,
+        "releaseAt": "2026-10-23T11:01:53.953Z",
+        "activationAt": "2026-10-23T11:01:53.953Z",
+        "factsCheckedAt": "2026-10-23T05:15:18.555Z",
+        "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "skillVersion": "1.5",
+        "observationsCount": 1,
+        "certificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559",
+        "validated": true
+      },
+      {
+        "slug": "spicybox-delete-account-checklist",
+        "order": 4,
+        "releaseAt": "2026-10-30T15:04:04.953Z",
+        "activationAt": "2026-10-30T15:04:04.953Z",
+        "factsCheckedAt": "2026-10-28T03:54:56.427Z",
+        "contentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+        "skillVersion": "1.5",
+        "observationsCount": 0,
+        "certificateDigest": "31eb6e57be23ae08a887f877ac3e1aab3f7cc970d68b783cd76f4726a097be66",
+        "validated": true,
+        "reviewStandard": "portfolio-basic-quality-20261027",
+        "editorialApproved": true
+      }
+    ],
+    "contentHashes": {
+      "spicybox-vs-pika-motion-control": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+      "spicybox-vs-luma-existing-footage": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
+      "spicybox-vs-adobe-firefly-client-delivery": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+      "spicybox-delete-account-checklist": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+      "spicybox-privacy-retention-device-copies": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590"
+    },
+    "pending": [
+      {
+        "slug": "spicybox-privacy-retention-device-copies",
+        "order": 5,
+        "reason": "missing-certificate"
+      }
+    ]
+  },
+  "sourceGate": {
+    "version": 1,
+    "domain": "spicybox.fun",
+    "grandfathered": [
+      {
+        "order": 1,
+        "slug": "spicybox-vs-pika-motion-control",
+        "releaseAt": "2026-10-08T04:02:35.477Z",
+        "status": 200,
+        "liveVerifiedAt": "2026-10-23T05:17:45.477Z",
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-pika-motion-control/",
+        "language": "en",
+        "titleMatches": true,
+        "discoveryVerified": true,
+        "sourceCommit": "3b368a115cf6414fd35cb00a6a77c039bf877ff5",
+        "deploymentId": "bd336af5-bf80-4c19-ac4a-e41a3774b955",
+        "responseSha256": "59cec66cde1923eb9def0690c518ffee1878c43de478f9c0a6e5980eea3accf0"
+      },
+      {
+        "order": 2,
+        "slug": "spicybox-vs-luma-existing-footage",
+        "releaseAt": "2026-10-16T02:19:25.955Z",
+        "status": 200,
+        "liveVerifiedAt": "2026-10-23T05:17:45.477Z",
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-luma-existing-footage/",
+        "language": "en",
+        "titleMatches": true,
+        "discoveryVerified": true,
+        "sourceCommit": "3b368a115cf6414fd35cb00a6a77c039bf877ff5",
+        "deploymentId": "bd336af5-bf80-4c19-ac4a-e41a3774b955",
+        "responseSha256": "ed44250bb0d728e89650ac3473e5511dfd8f5bd1319e0acf59e95afe1c945547"
+      }
+    ],
+    "certificates": {
+      "spicybox-vs-adobe-firefly-client-delivery": {
+        "schemaVersion": 1,
+        "skill": {
+          "name": "write-tested-seo",
+          "version": "1.5"
+        },
+        "status": "validated",
+        "domain": "spicybox.fun",
+        "slug": "spicybox-vs-adobe-firefly-client-delivery",
+        "order": 3,
+        "releaseAt": "2026-10-23T11:01:53.953Z",
+        "activationAt": "2026-10-23T11:01:53.953Z",
+        "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "reviewedAt": "2026-10-23T05:21:38.631Z",
+        "reviewedBy": "Independent parent editorial review accepted the candidate, screenshot and narrowly scoped observation before installation",
+        "factsCheckedAt": "2026-10-23T05:15:18.555Z",
+        "scopeAccepted": "Public sample provenance handoff only; no Firefly/SpicyBox generation, export benchmark or license verification claimed",
+        "officialSources": [
+          {
+            "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+            "checkedAt": "2026-10-23T05:15:18.555Z",
+            "status": "content-retrieved",
+            "retrieval": "web.run open PDF, current content",
+            "documentDate": "Last Updated26.03.26",
+            "claim": "Opening representations require the uploader to be the sole depicted subject and control necessary input rights. Section2 reiterates that the uploader is the person depicted; another individual is not an eligible input. This is a provider rule, not a backend or account-use observation.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+                "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+              }
+            ]
+          },
+          {
+            "url": "https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html",
+            "checkedAt": "2026-10-23T05:15:18.555Z",
+            "status": "content-retrieved",
+            "retrieval": "web.run open and find Using Firefly / Data and content usage",
+            "claim": "FAQ describes commercial use for Firefly outputs, with product-specific exceptions for beta features; it discusses Content Credentials as provenance. It does not establish that every partner model or input is suitable for every client use.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+                "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+              }
+            ]
+          },
+          {
+            "url": "https://www.adobe.com/products/firefly/plans.html",
+            "checkedAt": "2026-10-23T05:15:18.555Z",
+            "status": "content-retrieved",
+            "retrieval": "web.run open and find Are Adobe Firefly outputs safe for commercial use?",
+            "claim": "Current plans distinguish Adobe Firefly outputs from partner-model outputs. Suitability of partner-model content is the creator's responsibility; IP indemnification is limited to eligible enterprise customers and selected outputs. No price quotation is added to the candidate.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+                "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+              }
+            ]
+          },
+          {
+            "url": "https://opensource.contentauthenticity.org/docs/getting-started/inspect/",
+            "checkedAt": "2026-10-23T05:15:18.555Z",
+            "status": "content-retrieved",
+            "retrieval": "web.run open official CAI documentation",
+            "claim": "Official documentation provides the exact public car-sample URL and URL-based Inspect route used here. It describes viewing credentials and source history. This documentation reading is not counted as the hands-on observation.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/prepublish-20261023/priority-official-source-checks.json",
+                "sha256": "e7b3781e2300df8738feca562811851dadfb604b766742b90fd162b22860f98d"
+              }
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "id": "adobe-inspect-public-car-sample-20261023",
+            "kind": "hands-on",
+            "relevance": "Directly checks the provenance handoff portion of the client-delivery article; not generation quality, export behavior or licensing permission.",
+            "product": "Adobe Content Authenticity Inspect Beta; public CAI example asset",
+            "testedAt": "2026-10-23T05:12:08.220Z",
+            "task": "Inspect a supplied image's recorded creation history and warning before treating it as ready for a client handoff.",
+            "conditions": {
+              "browser": "Chrome extension-controlled browser, existing browser default viewport; no responsive-size override",
+              "account": "Signed out: visible Sign in button; no account created or logged in",
+              "plan": "Public Inspect Beta, no paid entitlement used",
+              "sampleCount": 1,
+              "source": "Official CAI public car JPEG; no user file or personal image",
+              "uploads": false,
+              "purchases": false,
+              "generation": false
+            },
+            "inputs": [
+              "https://inspect.cr?source=https://contentauth.github.io/example-assets/images/car-es-Ps-Cr.jpg"
+            ],
+            "steps": [
+              "Opened the exact public-sample Inspect URL linked by official CAI documentation.",
+              "Read the resulting Inspect view while it showed Sign in.",
+              "Activated Show sources (1), then read the source-history view and credential details.",
+              "Saved the resulting screenshot and DOM text."
+            ],
+            "result": "The viewer displayed the recorded name car-es-1sm.jpg, Created with Adobe Photoshop, and a warning that the file uses a legacy C2PA specification version. Expanding sources showed a single sample source node. The observed record is not a Firefly-generation test.",
+            "readerImpact": "A handoff check should record the displayed creation application and any credential warning instead of treating the existence of metadata as permission to use an asset. Follow with a separate check of actual model/account/input rights.",
+            "limits": "One public sample only. No SpicyBox or Firefly output was generated, uploaded, downloaded or exported; no commercial license or client permission was verified by the viewer. The sample result cannot establish either product's generation quality or export coverage.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/prepublish-20261023/adobe-inspect-public-sample.png",
+                "sha256": "aeb6dbebefe351e05676bd7ca7df10b21cd03c2ec6294f8128835da71c709a41"
+              },
+              {
+                "path": "private-editorial-evidence/prepublish-20261023/adobe-inspect-public-sample.dom.txt",
+                "sha256": "4f100534e938de7a9c307f45fc2a010737d6efbb47a3a7d25b2557e9ca9d51ad"
+              }
+            ]
+          }
+        ],
+        "certificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559"
+      },
+      "spicybox-delete-account-checklist": {
+        "schemaVersion": 1,
+        "skill": {
+          "name": "write-tested-seo",
+          "version": "1.5"
+        },
+        "reviewStandard": "portfolio-basic-quality-20261027",
+        "status": "validated",
+        "domain": "spicybox.fun",
+        "slug": "spicybox-delete-account-checklist",
+        "order": 4,
+        "releaseAt": "2026-10-30T15:04:04.953Z",
+        "activationAt": "2026-10-30T15:04:04.953Z",
+        "reviewedAt": "2026-10-28T03:54:56.427Z",
+        "factsCheckedAt": "2026-10-28T03:54:56.427Z",
+        "reviewedBy": "Codex independent article and primary-source review under October27 project override",
+        "contentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+        "editorialReview": {
+          "readable": true,
+          "useful": true,
+          "factual": true,
+          "experienceClaims": "none",
+          "note": "Useful consequence-led removal checklist. Followed current provider footer to the exact /sb/ Privacy and Terms PDFs: section9 names /delete; irreversible content/credit removal, limited legal non-content records and restrictive refunds are attributed as policy statements. Billing, account deletion and local cleanup stay separate. No private deletion screen or backend-erasure audit claimed; own-photo rules and all existing extra content preserved. Pass unchanged."
+        },
+        "observations": [],
+        "officialSources": [
+          {
+            "url": "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf",
+            "checkedAt": "2026-10-28T03:53:34.176Z",
+            "status": "content-retrieved",
+            "claim": "Useful consequence-led removal checklist. Followed current provider footer to the exact /sb/ Privacy and Terms PDFs: section9 names /delete; irreversible content/credit removal, limited legal non-content records and restrictive refunds are attributed as policy statements. Billing, account deletion and local cleanup stay separate. No private deletion screen or backend-erasure audit claimed; own-photo rules and all existing extra content preserved. Pass unchanged.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/basic-review-20261028-022508/source-342f14141e02b906.json",
+                "sha256": "8ea46eddf78487f9c4ea3a2343c978fe26bb5a2c0c264ebae58e95caf9a112fc"
+              }
+            ]
+          },
+          {
+            "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+            "checkedAt": "2026-10-28T03:53:34.176Z",
+            "status": "content-retrieved",
+            "claim": "Useful consequence-led removal checklist. Followed current provider footer to the exact /sb/ Privacy and Terms PDFs: section9 names /delete; irreversible content/credit removal, limited legal non-content records and restrictive refunds are attributed as policy statements. Billing, account deletion and local cleanup stay separate. No private deletion screen or backend-erasure audit claimed; own-photo rules and all existing extra content preserved. Pass unchanged.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/basic-review-20261028-022508/source-c72abd90cec6b83b.json",
+                "sha256": "6714069b9bae25184754d095234181bc2d16dc24c0e8a5920bce8c2a0a6e5d0a"
+              }
+            ]
+          },
+          {
+            "url": "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox",
+            "checkedAt": "2026-10-28T03:53:34.176Z",
+            "status": "content-retrieved",
+            "claim": "Useful consequence-led removal checklist. Followed current provider footer to the exact /sb/ Privacy and Terms PDFs: section9 names /delete; irreversible content/credit removal, limited legal non-content records and restrictive refunds are attributed as policy statements. Billing, account deletion and local cleanup stay separate. No private deletion screen or backend-erasure audit claimed; own-photo rules and all existing extra content preserved. Pass unchanged.",
+            "evidence": [
+              {
+                "path": "private-editorial-evidence/basic-review-20261028-022508/source-e80f7e5195d5b1ad.json",
+                "sha256": "9cc77bc924c702a8dc4778fdf9d05cd372a7c07104a744d4bee3645263800786"
+              }
+            ]
+          }
+        ],
+        "certificateDigest": "31eb6e57be23ae08a887f877ac3e1aab3f7cc970d68b783cd76f4726a097be66"
+      }
+    },
+    "activationReceipts": {
+      "spicybox-vs-adobe-firefly-client-delivery": {
+        "domain": "spicybox.fun",
+        "slug": "spicybox-vs-adobe-firefly-client-delivery",
+        "releaseAt": "2026-10-23T11:01:53.953Z",
+        "activationAt": "2026-10-23T11:01:53.953Z",
+        "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "certificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559",
+        "deployedAt": "2026-10-23T05:33:45.298284Z",
+        "productionVerifiedAt": "2026-10-28T03:53:46.930Z",
+        "evidence": [
+          {
+            "path": "private-editorial-evidence/basic-review-20261028-022508/spicybox-history-public.html",
+            "sha256": "5433d9e4c9318797e9659085a19851ac8f55a74d18b891d0780138ff533cbc64"
+          },
+          {
+            "path": "private-editorial-evidence/basic-review-20261028-022508/spicybox-history-proof.json",
+            "sha256": "ba68a3893710c27cb18fc5d81f2fd9b3561d0aedea99f3ae24185b76ad708d38"
+          }
+        ]
+      }
+    }
+  },
+  "schedule": {
+    "domain": "spicybox.fun",
+    "timeZone": "Asia/Shanghai",
+    "policy": "Only reviewed English guides are added. Existing releases and translations are preserved. Server time controls availability.",
+    "articles": [
+      {
+        "order": 1,
+        "slug": "spicybox-vs-pika-motion-control",
+        "title": "SpicyBox vs Pika: Frame Control and Upload Privacy",
+        "opponent": "Pika",
+        "readerQuestion": "preset animation versus specified beginning and ending frames",
+        "releaseAt": "2026-10-08T04:02:35.477Z",
+        "language": "en",
+        "approved": true,
+        "status": "editorially-reviewed",
+        "sourcesCheckedAt": "2026-10-08",
+        "reviewedSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+        "wordCount": 1088,
+        "editorialIntent": "Choose between a preset result and a directed transition without uploading sensitive images or mistaking vendor documentation for a tested performance result.",
+        "sources": [
+          [
+            "SpicyBox Terms of Use",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          ],
+          [
+            "SpicyBox Privacy Policy",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+          ],
+          [
+            "Pika Help Center",
+            "https://pika.art/faq"
+          ],
+          [
+            "Pika Terms of Service",
+            "https://pika.art/terms-of-service"
+          ],
+          [
+            "Pika Acceptable Use Policy",
+            "https://pika.art/acceptable-use-policy"
+          ]
+        ]
+      },
+      {
+        "order": 2,
+        "slug": "spicybox-vs-luma-existing-footage",
+        "title": "SpicyBox vs Luma: Templates or Footage Editing?",
+        "opponent": "Luma",
+        "readerQuestion": "a new self-image clip versus modification of an existing shot",
+        "releaseAt": "2026-10-16T02:19:25.955Z",
+        "language": "en",
+        "approved": true,
+        "status": "editorially-reviewed",
+        "sourcesCheckedAt": "2026-10-08",
+        "reviewedSha256": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
+        "wordCount": 930,
+        "editorialIntent": "Distinguish generating a template clip from modifying an existing shot; do not conflate an API capability with a particular web-plan entitlement.",
+        "sources": [
+          [
+            "SpicyBox Terms of Use",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          ],
+          [
+            "Luma video modification API reference",
+            "https://docs.lumalabs.ai/reference/modifyvideo"
+          ],
+          [
+            "Luma Dream Machine licensing guide",
+            "https://lumalabs.ai/learning-hub/licensing"
+          ],
+          [
+            "Luma Dream Machine",
+            "https://lumalabs.ai/dream-machine"
+          ]
+        ]
+      },
+      {
+        "order": 3,
+        "slug": "spicybox-vs-adobe-firefly-client-delivery",
+        "title": "SpicyBox vs Adobe Firefly: Client Work and Rights",
+        "opponent": "Adobe Firefly",
+        "readerQuestion": "source eligibility, selected-model rights and provenance for a non-explicit client deliverable",
+        "releaseAt": "2026-10-23T11:01:53.953Z",
+        "language": "en",
+        "approved": true,
+        "status": "editorially-reviewed",
+        "sourcesCheckedAt": "2026-10-23",
+        "reviewedSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "wordCount": 1086,
+        "editorialIntent": "Explain why a personal self-image tool is not a general client-portrait workflow and distinguish Adobe models from partner models and provenance from ownership guarantees.",
+        "sources": [
+          [
+            "SpicyBox Terms of Use",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          ],
+          [
+            "Adobe Firefly FAQ",
+            "https://helpx.adobe.com/uk/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html"
+          ],
+          [
+            "Adobe Firefly plans and model-specific use",
+            "https://www.adobe.com/products/firefly/plans.html"
+          ],
+          [
+            "CAI: inspect Content Credentials with a public asset URL",
+            "https://opensource.contentauthenticity.org/docs/getting-started/inspect/"
+          ]
+        ]
+      },
+      {
+        "order": 4,
+        "slug": "spicybox-delete-account-checklist",
+        "title": "How to Delete a SpicyBox Account: Before You Confirm",
+        "readerQuestion": "Remove the correct account without confusing account deletion, billing resolution and independently saved copies.",
+        "releaseAt": "2026-10-30T15:04:04.953Z",
+        "language": "en",
+        "approved": true,
+        "status": "editorially-reviewed",
+        "sourcesCheckedAt": "2026-10-28",
+        "reviewedSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+        "wordCount": 801,
+        "editorialIntent": "A consequence-led preparation checklist, exact documented route, a record-keeping example and explicit verification boundaries.",
+        "sources": [
+          [
+            "SpicyBox Privacy Policy, sections 5 and 9",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+          ],
+          [
+            "SpicyBox Terms of Use, payment terms",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          ],
+          [
+            "Mozilla: clear cookies and site data",
+            "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
+          ]
+        ]
+      },
+      {
+        "order": 5,
+        "slug": "spicybox-privacy-retention-device-copies",
+        "title": "SpicyBox Privacy: Retention, Deletion and Device Copies",
+        "readerQuestion": "Interpret provider statements, exact-domain policy provenance, internal processing uncertainty and independent copies before sharing identifying data.",
+        "releaseAt": "2026-11-06T17:49:14.953Z",
+        "language": "en",
+        "approved": true,
+        "status": "editorially-reviewed",
+        "sourcesCheckedAt": "2026-10-19",
+        "reviewedSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
+        "wordCount": 757,
+        "editorialIntent": "A three-copy inventory and a precise processing question; distinguishes no-third-party-sharing from no-internal-processing without alleging actual training.",
+        "sources": [
+          [
+            "SpicyBox Privacy Policy linked from the product footer",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+          ],
+          [
+            "SpicyBox Terms, user-content license",
+            "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          ],
+          [
+            "Mozilla: clear cookies and site data",
+            "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
+          ]
+        ],
+        "notBefore": "2026-11-06T17:49:14.953Z",
+        "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
+      }
+    ],
+    "baselinePhase": 1,
+    "articlePrefix": "/blog/",
+    "contentDirectory": "src/content/blog"
+  },
+  "checks": [
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-musebox-ai/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-musebox-ai/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:13.840Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:14 GMT",
+      "retryAfter": null,
+      "cfRay": "a548872e4d98ccd4-DXB",
+      "sha256": "7733d7243d6c87544fb7eabe250a0060fed9edf82a71cffb9063d54dddf5ef89",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-musebox-ai",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-musebox-ai/",
+      "lang": "en",
+      "title": "SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?",
+      "expectedVisibleSha256": "7066c84fca1e11dbdd9ff62f184f7eaa57d6d0790f167900023e99d17a519545",
+      "actualVisibleSha256": "7066c84fca1e11dbdd9ff62f184f7eaa57d6d0790f167900023e99d17a519545",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-ourdream-ai/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-ourdream-ai/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:14.337Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:15 GMT",
+      "retryAfter": null,
+      "cfRay": "a5488732fc35ccd4-DXB",
+      "sha256": "a9e22296035e80204d41cd64192470e263a2605496779c0f6edc131c99ae9d3b",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-ourdream-ai",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-ourdream-ai/",
+      "lang": "en",
+      "title": "SpicyBox vs OurDream AI: Video Tool or Companion?",
+      "expectedVisibleSha256": "ec1984d7a5a471b915be94fada95d642887f20adaac11888edfd7eecce9f4d84",
+      "actualVisibleSha256": "ec1984d7a5a471b915be94fada95d642887f20adaac11888edfd7eecce9f4d84",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-pika-motion-control/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-pika-motion-control/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:14.416Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:15 GMT",
+      "retryAfter": null,
+      "cfRay": "a54887361d8dccd4-DXB",
+      "sha256": "66a4859fd73a99c36bb7cd2c90a5252c1bdf7917f7b3d50f8f4f520cd8779283",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-pika-motion-control",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-pika-motion-control/",
+      "lang": "en",
+      "title": "SpicyBox vs Pika: Frame Control and Upload Privacy",
+      "expectedVisibleSha256": "49d44757f298e2344107fcdf6257f7afbc23adbdb5ef488bb5187f5fa01a7661",
+      "actualVisibleSha256": "49d44757f298e2344107fcdf6257f7afbc23adbdb5ef488bb5187f5fa01a7661",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-playbox-ai/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-playbox-ai/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:14.799Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:15 GMT",
+      "retryAfter": null,
+      "cfRay": "a54887369effccd4-DXB",
+      "sha256": "ccb7bf9cd1a1b84b6d38ff11a4a6b947880fa8500afd3b3ea31a4bff66c1a0b1",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-playbox-ai",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-playbox-ai/",
+      "lang": "en",
+      "title": "SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared",
+      "expectedVisibleSha256": "1afe9ad0308b05609aaf2506ca20682f0b37c8b7cf62a03b0e0732dffca92633",
+      "actualVisibleSha256": "1afe9ad0308b05609aaf2506ca20682f0b37c8b7cf62a03b0e0732dffca92633",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-promptchan/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-promptchan/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.017Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a5488738fde1ccd4-DXB",
+      "sha256": "fddf2aba8f8c3c45c54cc978af3dfe92b44a32ca07fea14ca229410daf0c90b9",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-promptchan",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-promptchan/",
+      "lang": "en",
+      "title": "SpicyBox vs Promptchan: Which AI Video Generator Fits?",
+      "expectedVisibleSha256": "f8a08ad325f5433d2c8fb22af534561b31de45800487f0b9514ff41ac24c5ae6",
+      "actualVisibleSha256": "f8a08ad325f5433d2c8fb22af534561b31de45800487f0b9514ff41ac24c5ae6",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-runway/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-runway/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.234Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873a59dbccd4-DXB",
+      "sha256": "cd365b1bdbb80eb713528c7c8ed3450036e07217d2316e0dc6b146a753cebb2f",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-runway",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-runway/",
+      "lang": "en",
+      "title": "SpicyBox vs Runway: Fast Templates or a General Video Toolkit?",
+      "expectedVisibleSha256": "b97d2d8bc25a6c39cd3ae8941ac064f813f09a8d966853e4bbbf5ff20dc5a3b2",
+      "actualVisibleSha256": "b97d2d8bc25a6c39cd3ae8941ac064f813f09a8d966853e4bbbf5ff20dc5a3b2",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-luma-existing-footage/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-luma-existing-footage/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.315Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873bae00ccd4-DXB",
+      "sha256": "94c769172308fdbbc30c0d604ff041d706fa5a4ad6e94e2b35f62c9b0708c87f",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-luma-existing-footage",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-luma-existing-footage/",
+      "lang": "en",
+      "title": "SpicyBox vs Luma: Templates or Footage Editing?",
+      "expectedVisibleSha256": "8de9995049fa13330d89052f2ce8456264ff8c3963c1d2ca8b26a70b445fb653",
+      "actualVisibleSha256": "8de9995049fa13330d89052f2ce8456264ff8c3963c1d2ca8b26a70b445fb653",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.425Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873c2f9fccd4-DXB",
+      "sha256": "e8864edff995a589a49f8dd264675a63501d1b491332724a81036564b8d71ec7",
+      "kind": "existing-English-article",
+      "slug": "spicybox-vs-adobe-firefly-client-delivery",
+      "canonical": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+      "lang": "en",
+      "title": "SpicyBox vs Adobe Firefly: Client Work and Rights",
+      "expectedVisibleSha256": "51e39d94d715a384a3224e98f2400a6d3456b02ddf8cef1023b78dba1c034178",
+      "actualVisibleSha256": "51e39d94d715a384a3224e98f2400a6d3456b02ddf8cef1023b78dba1c034178",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.490Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873cd9a8ccd4-DXB",
+      "sha256": "2f22d205b635caf2c96043afa8576509138d179d61cb3cab6c8ef05f7fb85c67",
+      "kind": "existing-English-article",
+      "slug": "spicybox-delete-account-checklist",
+      "canonical": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+      "lang": "en",
+      "title": "How to Delete a SpicyBox Account: Before You Confirm",
+      "expectedVisibleSha256": "f8ab4a576d7b1a2feaa590169d87257322c3e49174d95adf069358402d13988b",
+      "actualVisibleSha256": "f8ab4a576d7b1a2feaa590169d87257322c3e49174d95adf069358402d13988b",
+      "fullVisibleTextMatched": true,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/",
+      "finalUrl": "https://spicybox.fun/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.828Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873d4ac0ccd4-DXB",
+      "sha256": "c2f66f74674607211468523fa6123a25d6df7a2c923daa84198e81aa94f894c1",
+      "kind": "home",
+      "route": "/",
+      "phase": 4,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/",
+      "finalUrl": "https://spicybox.fun/blog/",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.885Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873f69b1ccd4-DXB",
+      "sha256": "119df142d2cfa6a40027ede65aa9623336e5768fc842761dda3cc513ae67de2c",
+      "kind": "discovery",
+      "route": "/blog/",
+      "phase": 4,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/rss.xml",
+      "finalUrl": "https://spicybox.fun/rss.xml",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:15.951Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "application/xml; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:16 GMT",
+      "retryAfter": null,
+      "cfRay": "a548873fbab0ccd4-DXB",
+      "sha256": "a79ff93ff9e42a8e8bbcc57a317914e7e2111a428453120a77295479e027952f",
+      "kind": "discovery",
+      "route": "/rss.xml",
+      "phase": 4,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/sitemap-0.xml",
+      "finalUrl": "https://spicybox.fun/sitemap-0.xml",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:16.021Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "application/xml; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:17 GMT",
+      "retryAfter": null,
+      "cfRay": "a54887402bedccd4-DXB",
+      "sha256": "f9609d45f9a77f517e61782cb830dd5913190cf1c0a9a0d7cc39acc2646b2969",
+      "kind": "discovery",
+      "route": "/sitemap-0.xml",
+      "phase": 4,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/llms.txt",
+      "finalUrl": "https://spicybox.fun/llms.txt",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:10:16.066Z",
+      "robots": null,
+      "cache": "no-store",
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:17 GMT",
+      "retryAfter": null,
+      "cfRay": "a54887409d8dccd4-DXB",
+      "sha256": "62fb2044a6b2b15fdca6be4d4b08ebaf0e5b35e3cd65b083bfc91bdf70c7dc36",
+      "kind": "discovery",
+      "route": "/llms.txt",
+      "phase": 4,
+      "passed": true
+    },
+    {
+      "url": "https://spicybox.fun/blog/spicybox-privacy-retention-device-copies/",
+      "finalUrl": "https://spicybox.fun/blog/spicybox-privacy-retention-device-copies/",
+      "status": 404,
+      "checkedAt": "2026-11-03T04:10:16.149Z",
+      "robots": "noindex",
+      "cache": "no-store",
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "httpDate": "Tue, 03 Nov 2026 04:10:17 GMT",
+      "retryAfter": null,
+      "cfRay": "a5488740de68ccd4-DXB",
+      "sha256": "493fda53120050f85836032324409be6c6484f90a0755ae0c6a673ba7626818b",
+      "kind": "first-private-draft",
+      "slug": "spicybox-privacy-retention-device-copies",
+      "passed": true
+    }
+  ],
+  "priorLegallyPublicPrefix": 4,
+  "currentScope": "Only preserve already legally published1-4 for citation/naming corrections; pending5 unchanged. No new editorial release approval.",
+  "independentPlan": {
+    "checkedAt": "2026-11-03T04:20:53.391Z",
+    "domain": "spicybox.fun",
+    "sourceCommit": "087d197b957e6f4e1482b612f3f132362ebc5527",
+    "production": {
+      "id": "b492177d-c859-428e-894e-57206e7038b7",
+      "createdAt": "2026-10-29T14:14:14.228665Z",
+      "url": "https://b492177d.spicybox-fun.pages.dev",
+      "sourceSha": "087d197b957e6f4e1482b612f3f132362ebc5527"
+    },
+    "priorArtifactBinding": {
+      "inventory": "2026-11-02T150401Z/exact-main-inventory.json",
+      "artifactDirectory": "C:\\Users\\zande\\Documents\\ChatGPT\\Bing NSFW SEO\\research\\restore-sponsored-two-20261029\\sites\\spicybox.fun\\candidate-artifact",
+      "workerSha256": "555e361d887f6e66adab0a599f94f47aaaf3d5f6c9016c2f2fc0b707cc12a0c7",
+      "routesSha256": "f7345a04b98b852a4319291a8774abcfae8b19d662f2f1382622cce362f1d7c6"
+    },
+    "currentState": {
+      "phase": 4,
+      "publicCount": 9,
+      "scheduleArticles": [
+        {
+          "order": 1,
+          "slug": "spicybox-vs-pika-motion-control",
+          "releaseAt": "2026-10-08T04:02:35.477Z",
+          "notBefore": null,
+          "reviewedSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+          "approved": true,
+          "status": "editorially-reviewed"
+        },
+        {
+          "order": 2,
+          "slug": "spicybox-vs-luma-existing-footage",
+          "releaseAt": "2026-10-16T02:19:25.955Z",
+          "notBefore": null,
+          "reviewedSha256": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
+          "approved": true,
+          "status": "editorially-reviewed"
+        },
+        {
+          "order": 3,
+          "slug": "spicybox-vs-adobe-firefly-client-delivery",
+          "releaseAt": "2026-10-23T11:01:53.953Z",
+          "notBefore": null,
+          "reviewedSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+          "approved": true,
+          "status": "editorially-reviewed"
+        },
+        {
+          "order": 4,
+          "slug": "spicybox-delete-account-checklist",
+          "releaseAt": "2026-10-30T15:04:04.953Z",
+          "notBefore": null,
+          "reviewedSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+          "approved": true,
+          "status": "editorially-reviewed"
+        },
+        {
+          "order": 5,
+          "slug": "spicybox-privacy-retention-device-copies",
+          "releaseAt": "2026-11-06T17:49:14.953Z",
+          "notBefore": "2026-11-06T17:49:14.953Z",
+          "reviewedSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
+          "approved": true,
+          "status": "editorially-reviewed"
+        }
+      ],
+      "grandfatheredOrders": [
+        1,
+        2
+      ],
+      "certificateSlugs": [
+        "spicybox-vs-adobe-firefly-client-delivery",
+        "spicybox-delete-account-checklist"
+      ],
+      "receiptSlugs": [
+        "spicybox-vs-adobe-firefly-client-delivery"
+      ],
+      "pending": [
+        {
+          "slug": "spicybox-privacy-retention-device-copies",
+          "order": 5,
+          "reason": "missing-certificate"
+        }
+      ]
+    },
+    "helper": {
+      "committedSha256": "177868094973d8b80698e6d2bf0a7b71c2f80be14e0852252047213cee2e9f23",
+      "currentSharedSha256": "177868094973d8b80698e6d2bf0a7b71c2f80be14e0852252047213cee2e9f23",
+      "sameBytes": true,
+      "criticalBehavior": "Grandfathered contiguous published prefix bypasses certificate content hash; non-grandfathered current article revision mismatches certificate. Re-dating a certificate after old activation also fails; keep historical certificates and receipts unchanged."
+    },
+    "pages": [
+      {
+        "slug": "spicybox-vs-musebox-ai",
+        "file": "src/content/blog/spicybox-vs-musebox-ai.md",
+        "contentSha256": "2154780d91a508a9c2d3f8010ca668304d7b2fb7072010fca49da4ca871440a0",
+        "sourceTitle": "\"SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-musebox-ai/",
+        "responseSha256": "7733d7243d6c87544fb7eabe250a0060fed9edf82a71cffb9063d54dddf5ef89",
+        "actualCheckedAt": "2026-11-03T04:20:52.689Z",
+        "bodyFile": "c7940cea8c1d509c10c0dc2b8a00a119f1ac890a245a29de173c17aa295c3603.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        "scheduledOrder": null
+      },
+      {
+        "slug": "spicybox-vs-ourdream-ai",
+        "file": "src/content/blog/spicybox-vs-ourdream-ai.md",
+        "contentSha256": "20dfaa5126d0af816d4b1668282e196f1a05befb66de51e02584a18c2e0948ae",
+        "sourceTitle": "\"SpicyBox vs OurDream AI: Video Tool or Companion?\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-ourdream-ai/",
+        "responseSha256": "a9e22296035e80204d41cd64192470e263a2605496779c0f6edc131c99ae9d3b",
+        "actualCheckedAt": "2026-11-03T04:20:52.685Z",
+        "bodyFile": "1e9cb00d86f7dd0cd3c54ca7903ee38c6a62f57675bf04afeeef39a7c2748f5c.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        "scheduledOrder": null
+      },
+      {
+        "slug": "spicybox-vs-pika-motion-control",
+        "file": "src/editorial-drafts/spicybox-vs-pika-motion-control.md",
+        "contentSha256": "29052c23922fb08532a2639a82a67ff602d59df0cfe4821349293602824de768",
+        "sourceTitle": "\"SpicyBox vs Pika: Frame Control and Upload Privacy\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-pika-motion-control/",
+        "responseSha256": "66a4859fd73a99c36bb7cd2c90a5252c1bdf7917f7b3d50f8f4f520cd8779283",
+        "actualCheckedAt": "2026-11-03T04:20:52.710Z",
+        "bodyFile": "f1975adc1d0c8933ff8f3e663aa1483d21eff90e56b1a1044903f44d6d5c61d2.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        "scheduledOrder": 1
+      },
+      {
+        "slug": "spicybox-vs-playbox-ai",
+        "file": "src/content/blog/spicybox-vs-playbox-ai.md",
+        "contentSha256": "a77bafa3375696637c9e944710524630022982835758f11c334e09b37288d5d8",
+        "sourceTitle": "\"SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-playbox-ai/",
+        "responseSha256": "ccb7bf9cd1a1b84b6d38ff11a4a6b947880fa8500afd3b3ea31a4bff66c1a0b1",
+        "actualCheckedAt": "2026-11-03T04:20:52.865Z",
+        "bodyFile": "9cd8d77967d464750b8ace9ee3aabddf8c9f1910efeaa320648810c538e7e6e9.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        "scheduledOrder": null
+      },
+      {
+        "slug": "spicybox-vs-promptchan",
+        "file": "src/content/blog/spicybox-vs-promptchan.md",
+        "contentSha256": "df44f222115874ca5cc8d1cacfa67f0449f7ce485af69afe4bd4f0b62c1c44ea",
+        "sourceTitle": "\"SpicyBox vs Promptchan: Which AI Video Generator Fits?\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-promptchan/",
+        "responseSha256": "fddf2aba8f8c3c45c54cc978af3dfe92b44a32ca07fea14ca229410daf0c90b9",
+        "actualCheckedAt": "2026-11-03T04:20:52.865Z",
+        "bodyFile": "29652bf7608095c44ea37cf1561879950b2af08f298043a6d1281950724d9ee9.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        "scheduledOrder": null
+      },
+      {
+        "slug": "spicybox-vs-runway",
+        "file": "src/content/blog/spicybox-vs-runway.md",
+        "contentSha256": "97e770b4c0d4cf4b78887c3b17c416c182a4fbf89220db4362e4a634829134a4",
+        "sourceTitle": "\"SpicyBox vs Runway: Fast Templates or a General Video Toolkit?\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-runway/",
+        "responseSha256": "cd365b1bdbb80eb713528c7c8ed3450036e07217d2316e0dc6b146a753cebb2f",
+        "actualCheckedAt": "2026-11-03T04:20:52.872Z",
+        "bodyFile": "52f9ca65b3cb9bc986d6b509fb962a030063572be7376096373ffe0de2244b3a.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+        ],
+        "scheduledOrder": null
+      },
+      {
+        "slug": "spicybox-vs-luma-existing-footage",
+        "file": "src/editorial-drafts/spicybox-vs-luma-existing-footage.md",
+        "contentSha256": "46f63f1e00aff9f46294480e88037d155ac689e7580a46be749d7d9571637d45",
+        "sourceTitle": "\"SpicyBox vs Luma: Templates or Footage Editing?\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-luma-existing-footage/",
+        "responseSha256": "94c769172308fdbbc30c0d604ff041d706fa5a4ad6e94e2b35f62c9b0708c87f",
+        "actualCheckedAt": "2026-11-03T04:20:52.907Z",
+        "bodyFile": "eda50e68858d94a35ea6496c1974b4d722dec71ac01dda467d2fda4e372d1f63.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        "scheduledOrder": 2
+      },
+      {
+        "slug": "spicybox-vs-adobe-firefly-client-delivery",
+        "file": "src/editorial-drafts/spicybox-vs-adobe-firefly-client-delivery.md",
+        "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "sourceTitle": "\"SpicyBox vs Adobe Firefly: Client Work and Rights\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+        "responseSha256": "e8864edff995a589a49f8dd264675a63501d1b491332724a81036564b8d71ec7",
+        "actualCheckedAt": "2026-11-03T04:20:53.045Z",
+        "bodyFile": "88dbd256bc92df0a5fdc412629af65524ec93e1fbcb4a06fc953057e7a6d8185.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        "scheduledOrder": 3
+      },
+      {
+        "slug": "spicybox-delete-account-checklist",
+        "file": "src/editorial-drafts/spicybox-delete-account-checklist.md",
+        "contentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+        "sourceTitle": "\"How to Delete a SpicyBox Account: Before You Confirm\"",
+        "status": 200,
+        "canonical": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+        "responseSha256": "2f22d205b635caf2c96043afa8576509138d179d61cb3cab6c8ef05f7fb85c67",
+        "actualCheckedAt": "2026-11-03T04:20:53.052Z",
+        "bodyFile": "f82cd0823648edfc676b91e8b044286b2bfd86b61cf6523e2cd8d9ab83453592.html",
+        "artifactFullVisibleTextParity": true,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        "scheduledOrder": 4
+      },
+      {
+        "slug": "spicybox-privacy-retention-device-copies",
+        "file": "src/editorial-drafts/spicybox-privacy-retention-device-copies.md",
+        "contentSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
+        "sourceTitle": "\"SpicyBox Privacy: Retention, Deletion and Device Copies\"",
+        "status": 404,
+        "responseSha256": "493fda53120050f85836032324409be6c6484f90a0755ae0c6a673ba7626818b",
+        "actualCheckedAt": "2026-11-03T04:20:53.036Z",
+        "bodyFile": "44ecb951ac7186ec85e3ed3a92489d732479fc97b69606f16c31d5bd00c3e356.html",
+        "artifactFullVisibleTextParity": null,
+        "oldPdfSources": [
+          "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+        ],
+        "scheduledOrder": 5
+      }
+    ],
+    "discovery": [
+      {
+        "url": "https://spicybox.fun/blog/",
+        "status": 200,
+        "responseSha256": "119df142d2cfa6a40027ede65aa9623336e5768fc842761dda3cc513ae67de2c",
+        "bodyFile": "ac6fe7476f40b2f8e327e0c3293b90ed51a640dbbff67b779401ed373600ed7f.html",
+        "scheduled": [
+          {
+            "slug": "spicybox-vs-pika-motion-control",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-luma-existing-footage",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-adobe-firefly-client-delivery",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-delete-account-checklist",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-privacy-retention-device-copies",
+            "inBody": false
+          }
+        ]
+      },
+      {
+        "url": "https://spicybox.fun/rss.xml",
+        "status": 200,
+        "responseSha256": "a79ff93ff9e42a8e8bbcc57a317914e7e2111a428453120a77295479e027952f",
+        "bodyFile": "8e9f84af2aa81f0a642c01a68149df0ab2335c2a31b82ac37cd6ad6a8dfde3b9.html",
+        "scheduled": [
+          {
+            "slug": "spicybox-vs-pika-motion-control",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-luma-existing-footage",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-adobe-firefly-client-delivery",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-delete-account-checklist",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-privacy-retention-device-copies",
+            "inBody": false
+          }
+        ]
+      },
+      {
+        "url": "https://spicybox.fun/sitemap-index.xml",
+        "status": 200,
+        "responseSha256": "eaf95f8961fea471f0a19ab4138cd6adc738f71315b8833540163356aa9a7a61",
+        "bodyFile": "c59a0782e33ca65c0c146fe26c2188219aa114df53860df1434d3129efacc151.html",
+        "scheduled": [
+          {
+            "slug": "spicybox-vs-pika-motion-control",
+            "inBody": false
+          },
+          {
+            "slug": "spicybox-vs-luma-existing-footage",
+            "inBody": false
+          },
+          {
+            "slug": "spicybox-vs-adobe-firefly-client-delivery",
+            "inBody": false
+          },
+          {
+            "slug": "spicybox-delete-account-checklist",
+            "inBody": false
+          },
+          {
+            "slug": "spicybox-privacy-retention-device-copies",
+            "inBody": false
+          }
+        ]
+      },
+      {
+        "url": "https://spicybox.fun/sitemap-0.xml",
+        "status": 200,
+        "responseSha256": "f9609d45f9a77f517e61782cb830dd5913190cf1c0a9a0d7cc39acc2646b2969",
+        "bodyFile": "845e283100d65df76eac28647ceac345a0d3bc5422dc2447061e576bcf126a56.html",
+        "scheduled": [
+          {
+            "slug": "spicybox-vs-pika-motion-control",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-luma-existing-footage",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-adobe-firefly-client-delivery",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-delete-account-checklist",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-privacy-retention-device-copies",
+            "inBody": false
+          }
+        ]
+      },
+      {
+        "url": "https://spicybox.fun/llms.txt",
+        "status": 200,
+        "responseSha256": "62fb2044a6b2b15fdca6be4d4b08ebaf0e5b35e3cd65b083bfc91bdf70c7dc36",
+        "bodyFile": "b89ddc11a638c6bd3f174e307cbe393b4be4877300d442d31f4ad5acf4399ff8.html",
+        "scheduled": [
+          {
+            "slug": "spicybox-vs-pika-motion-control",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-luma-existing-footage",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-vs-adobe-firefly-client-delivery",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-delete-account-checklist",
+            "inBody": true
+          },
+          {
+            "slug": "spicybox-privacy-retention-device-copies",
+            "inBody": false
+          }
+        ]
+      }
+    ],
+    "proposedPreservationEntries": [
+      {
+        "order": 3,
+        "slug": "spicybox-vs-adobe-firefly-client-delivery",
+        "releaseAt": "2026-10-23T11:01:53.953Z",
+        "status": 200,
+        "liveVerifiedAt": "2026-11-03T04:20:53.390Z",
+        "canonical": "https://spicybox.fun/blog/spicybox-vs-adobe-firefly-client-delivery/",
+        "language": "en",
+        "titleMatches": true,
+        "discoveryVerified": true,
+        "sourceCommit": "087d197b957e6f4e1482b612f3f132362ebc5527",
+        "deploymentId": "b492177d-c859-428e-894e-57206e7038b7",
+        "responseSha256": "e8864edff995a589a49f8dd264675a63501d1b491332724a81036564b8d71ec7",
+        "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e",
+        "legitimatePriorClearance": {
+          "certificateDigest": "627f3cdbc29ff5e6738da4c71321d43318aca4de5c0b4eb61a33422c5c336559",
+          "activationAt": "2026-10-23T11:01:53.953Z",
+          "contentSha256": "9756bf4d1d2ffee4c3ec0c413fd5d77a31d20ee2c6d781e772b5acd81116ac3e"
+        },
+        "bodyEvidence": "88dbd256bc92df0a5fdc412629af65524ec93e1fbcb4a06fc953057e7a6d8185.html"
+      },
+      {
+        "order": 4,
+        "slug": "spicybox-delete-account-checklist",
+        "releaseAt": "2026-10-30T15:04:04.953Z",
+        "status": 200,
+        "liveVerifiedAt": "2026-11-03T04:20:53.390Z",
+        "canonical": "https://spicybox.fun/blog/spicybox-delete-account-checklist/",
+        "language": "en",
+        "titleMatches": true,
+        "discoveryVerified": true,
+        "sourceCommit": "087d197b957e6f4e1482b612f3f132362ebc5527",
+        "deploymentId": "b492177d-c859-428e-894e-57206e7038b7",
+        "responseSha256": "2f22d205b635caf2c96043afa8576509138d179d61cb3cab6c8ef05f7fb85c67",
+        "contentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
+        "legitimatePriorClearance": {
+          "certificateDigest": "31eb6e57be23ae08a887f877ac3e1aab3f7cc970d68b783cd76f4726a097be66",
+          "activationAt": "2026-10-30T15:04:04.953Z",
+          "contentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee"
+        },
+        "bodyEvidence": "f82cd0823648edfc676b91e8b044286b2bfd86b61cf6523e2cd8d9ab83453592.html"
+      }
+    ],
+    "inMemoryVerification": {
+      "onlyInMemoryNoGateFileWritten": true,
+      "fakeChangedHashesOnlyToExerciseHashMismatchPath": true,
+      "phaseAfterHistoricalPrefixPreservation": 4,
+      "pending": [
+        {
+          "slug": "spicybox-privacy-retention-device-copies",
+          "order": 5,
+          "reason": "missing-certificate"
+        }
+      ],
+      "existingCertificateObjectsUnchanged": true,
+      "existingReceiptObjectsUnchanged": true,
+      "scheduleObjectUnchanged": true
+    },
+    "safeWeeklyPlan": [
+      "Before editing save real current 200/body/canonical/source/deployment and discovery proof for all nine public routes; retain bound existing legally cleared phase4 gate proof.",
+      "Use OPERATIONS Section2 grandfathered-prefix method only for already legal public orders3/4; preserve original orders1/2 proofs, existing certificates and activationReceipt exactly, including all historical times/digests/hashes. Add actual new proof referencing original pre-edit content.",
+      "Apply small citations/current-name corrections only to nine currently public English Markdown files. Do not touch order5 private body, future approval or any dates/notBefore/activationAt. Existing source review hash synchronization for already public pages is technical binding, not new editorial release.",
+      "Do not replace old certificates with new retroactive approvals: reviewedAt/factsCheckedAt after past activation would be invalid. Do not insert activationReceipts using revised content hash or claim old revision was deployed.",
+      "Compile from isolated active worktree caches; current shared helper hashes should match committed before relying on tests. Verify original historical public prefix and all9 public remain200/canonical/listed; order5 stays404/noindex/no-store/absent, including time-cross tests. Preserve Worker/routes and existing own-photo/access/promotion rules.",
+      "Complete build/SEO/production-body+metadata/list readback via full current project flow; after confirmed production run parent backup-four-site-sources.mjs --domain spicybox.fun. No new release clearance from weekly maintenance."
+    ],
+    "notPerformed": [
+      "No repository/gate/schedule/source file modified.",
+      "No approval/certificate minted, source-history digest changed, build, commit, push, deployment, or backup run."
+    ],
+    "officialContentReviewHandledByParent": true
+  },
+  "evidence": [
+    {
+      "path": "private-editorial-evidence/weekly-maintenance-20261103/spicybox-vs-pika-motion-control-before.html"
+    },
+    {
+      "path": "private-editorial-evidence/weekly-maintenance-20261103/spicybox-vs-luma-existing-footage-before.html"
+    },
+    {
+      "path": "private-editorial-evidence/weekly-maintenance-20261103/spicybox-vs-adobe-firefly-client-delivery-before.html"
+    },
+    {
+      "path": "private-editorial-evidence/weekly-maintenance-20261103/spicybox-delete-account-checklist-before.html"
+    }
+  ]
+}
