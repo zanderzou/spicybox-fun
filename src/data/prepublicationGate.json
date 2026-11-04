@@ -252,6 +252,99 @@
         }
       ],
       "certificateDigest": "31eb6e57be23ae08a887f877ac3e1aab3f7cc970d68b783cd76f4726a097be66"
+    },
+    "spicybox-privacy-retention-device-copies": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "spicybox.fun",
+      "slug": "spicybox-privacy-retention-device-copies",
+      "order": 5,
+      "releaseAt": "2026-11-06T17:49:14.953Z",
+      "activationAt": "2026-11-06T17:49:14.953Z",
+      "reviewedAt": "2026-11-04T10:05:42.288Z",
+      "factsCheckedAt": "2026-11-04T10:01:45.487Z",
+      "reviewedBy": "Codex primary-source and independent final editorial review under October27human override",
+      "contentSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Useful three-copy privacy decision guide with honest backend-verification limits. Corrects actual retiredTerms link, explains documented voluntary public-template exception and preserves own-image-only rule. No account/photo/backend deletion or security test is claimed."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-04T10:01:45.487Z",
+          "claim": "Provider retention/deletion/legal-record statements distinguished from verified backend erasure.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-0.json",
+              "sha256": "81f1c286b7306a08cb5824842d59c9fb5eef0a51ecbda5273f31c8131e948be8"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-0.txt",
+              "sha256": "c1413affecee8929836f69fb49588a58b66d46b6c36c9152bab5c6b0f3d94c84"
+            }
+          ]
+        },
+        {
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-04T10:01:45.487Z",
+          "claim": "Current footer Terms4.2 model-improvement licence, own-image-only eligibility, and7.2 voluntary public templates.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-1.json",
+              "sha256": "15eafe3740be474e0d013f287a24f877165b1fe6009af199dc81ba2853ed11f1"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-1.txt",
+              "sha256": "fe6e56975d600260a867f28aaff217658719020b5537ba4aec108c825e65376d"
+            }
+          ]
+        },
+        {
+          "url": "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-04T10:01:45.487Z",
+          "claim": "Browser cookies/site data are local records, not service account erasure.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-2.json",
+              "sha256": "f73a811a211f87bc1a9b8744b12da80ec64aa187b9925b14c112c01916fbcda1"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-2.txt",
+              "sha256": "cee9b79f65b422908c3552d4dfb22b2f70a14360688bf401e06550433ec8004d"
+            }
+          ]
+        },
+        {
+          "url": "https://spicy-box.com/explore",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-04T10:01:45.487Z",
+          "claim": "Actual current product footer links the reviewed privacyPDF and current -new TermsPDF.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-3.json",
+              "sha256": "9de7a10435a78128af93397524bada953d761976be27548cccb25c304fc3f9f7"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261104-095234/web-reader-3.txt",
+              "sha256": "fe6e56975d600260a867f28aaff217658719020b5537ba4aec108c825e65376d"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "78d426fb528fe4612133973c41ae9677241c0928165274f3bbf87eb4f27cda80"
     }
   },
   "activationReceipts": {

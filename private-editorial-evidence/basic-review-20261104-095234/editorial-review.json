@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-04T10:01:45.487Z",
+  "reviewer": "Codex root actual primary-source and final-copy review",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "skill": {
+    "name": "write-tested-seo",
+    "version": "1.5",
+    "humanOverride": "No forcedhands-on/login/24h for sourcedinformationguide."
+  },
+  "domain": "spicybox.fun",
+  "slug": "spicybox-privacy-retention-device-copies",
+  "file": "src/editorial-drafts/spicybox-privacy-retention-device-copies.md",
+  "sourceCommit": "fafbb9312d08ba1dab93b2c358c0979e30cf72aa",
+  "productionAtVerifiedInventory": {
+    "id": "88f1a692-1150-41a5-9701-a8788544c646",
+    "url": "https://88f1a692.spicybox-fun.pages.dev",
+    "commit": "fafbb9312d08ba1dab93b2c358c0979e30cf72aa",
+    "sourceShaRaw": "fafbb9312d08ba1dab93b2c358c0979e30cf72aa",
+    "createdAt": "2026-11-03T04:40:45.638793Z"
+  },
+  "originalContentSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
+  "rawContentSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
+  "finalRecommendedContentSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+  "finalCopy": "source-reviews/spicybox.fun/recommended-final.md",
+  "contentModified": true,
+  "changeType": "factual-source-and-privacy-boundary-correction",
+  "materialRevision": true,
+  "requiredContentChanges": [
+    {
+      "from": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf",
+      "to": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+      "all": true,
+      "reason": "Retired URL actualweb404; actualproductfooterclick resolves current -new officialTerms."
+    },
+    {
+      "from": "updatedDate: \"2026-10-19\"",
+      "to": "updatedDate: \"2026-11-04\"",
+      "reason": "Material corrected Terms source and privacy exception reviewed on actualNov4; originalpublishDate retained."
+    },
+    {
+      "from": "A statement about not sharing content with third parties should not be expanded into an assurance of no internal model development.",
+      "to": "A statement about not sharing content with third parties should not be expanded into an assurance of no internal model development. Section 7.2 also says a template and its selected cover may become public after you voluntarily submit it for publication and it is approved. Review that choice separately from private account content.",
+      "reason": "CurrentTerms express voluntary publication exception relevant to original privacydecision."
+    },
+    {
+      "from": "If you are still deciding whether to submit identifying material, seek an adequate answer first.",
+      "to": "If you are still deciding whether to submit identifying material, seek an adequate answer first. The service requires you to be the person depicted in any image you upload; do not use another person’s image.",
+      "reason": "Retain own-photo/sole-subject constraint beside the article decision about providing identifying material."
+    }
+  ],
+  "basicQualityPassed": true,
+  "readerIntent": "Interpret provider statements, exact-domain policy provenance, internal processing uncertainty and independent copies before sharing identifying data.",
+  "editorialSummary": "Useful three-copy privacy decision guide with honest backend-verification limits. Corrects actual retiredTerms link, explains documented voluntary public-template exception and preserves own-image-only rule. No account/photo/backend deletion or security test is claimed.",
+  "checks": {
+    "clearReaderQuestion": true,
+    "usefulConcreteGuidance": true,
+    "readableEnglish": true,
+    "keyClaimsSupported": true,
+    "honestLimits": true,
+    "noInventedExperience": true,
+    "ownPhotoRestrictionPreserved": true,
+    "originalUrlAndPlannedPublicationDatePreserved": true
+  },
+  "claimReview": [
+    {
+      "articleClaim": "Retention until explicit deletion, legalrecordexceptions",
+      "assessment": "Attributed provider statements in currentpolicy; no independent backend proof claimed."
+    },
+    {
+      "articleClaim": "Modeldevelopment versusprivatecontentsharing",
+      "assessment": "CurrentTerms4.2 supportsmodelimprovementlicense,7.2 permitsapprovedvoluntaryPublicTemplates; no particulartrainingactionalleged."
+    },
+    {
+      "articleClaim": "Browser/download/servicecopydistinction",
+      "assessment": "Practical copyinventory plusMozilla documentedlocalcleanup; no inventedplatform test."
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf",
+      "status": "content-retrieved",
+      "checkedAt": "2026-11-04T10:01:45.487Z",
+      "bodyEvidence": "source-reviews/spicybox.fun/web-reader-0.txt",
+      "bodySha256": "c1413affecee8929836f69fb49588a58b66d46b6c36c9152bab5c6b0f3d94c84",
+      "evidence": "source-reviews/spicybox.fun/web-reader-0.json",
+      "evidenceSha256": "81f1c286b7306a08cb5824842d59c9fb5eef0a51ecbda5273f31c8131e948be8",
+      "actualPrimaryTextRead": true,
+      "claim": "Provider retention/deletion/legal-record statements distinguished from verified backend erasure."
+    },
+    {
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+      "status": "content-retrieved",
+      "checkedAt": "2026-11-04T10:01:45.487Z",
+      "bodyEvidence": "source-reviews/spicybox.fun/web-reader-1.txt",
+      "bodySha256": "fe6e56975d600260a867f28aaff217658719020b5537ba4aec108c825e65376d",
+      "evidence": "source-reviews/spicybox.fun/web-reader-1.json",
+      "evidenceSha256": "15eafe3740be474e0d013f287a24f877165b1fe6009af199dc81ba2853ed11f1",
+      "actualPrimaryTextRead": true,
+      "claim": "Current footer Terms4.2 model-improvement licence, own-image-only eligibility, and7.2 voluntary public templates."
+    },
+    {
+      "url": "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox",
+      "status": "content-retrieved",
+      "checkedAt": "2026-11-04T10:01:45.487Z",
+      "bodyEvidence": "source-reviews/spicybox.fun/web-reader-2.txt",
+      "bodySha256": "cee9b79f65b422908c3552d4dfb22b2f70a14360688bf401e06550433ec8004d",
+      "evidence": "source-reviews/spicybox.fun/web-reader-2.json",
+      "evidenceSha256": "f73a811a211f87bc1a9b8744b12da80ec64aa187b9925b14c112c01916fbcda1",
+      "actualPrimaryTextRead": true,
+      "claim": "Browser cookies/site data are local records, not service account erasure."
+    },
+    {
+      "url": "https://spicy-box.com/explore",
+      "status": "content-retrieved",
+      "checkedAt": "2026-11-04T10:01:45.487Z",
+      "bodyEvidence": "source-reviews/spicybox.fun/web-reader-3.txt",
+      "bodySha256": "fe6e56975d600260a867f28aaff217658719020b5537ba4aec108c825e65376d",
+      "evidence": "source-reviews/spicybox.fun/web-reader-3.json",
+      "evidenceSha256": "9de7a10435a78128af93397524bada953d761976be27548cccb25c304fc3f9f7",
+      "actualPrimaryTextRead": true,
+      "claim": "Actual current product footer links the reviewed privacyPDF and current -new TermsPDF."
+    }
+  ],
+  "limits": [
+    "Source PDF lastupdated26.03.26 is distinct from actualNov4check.",
+    "Actualwebreader is saved; nativeconnection unknowns are preserved, not labelled200.",
+    "No personalimage/login/accountdeletion/permissionchange or destructiveoperation performed."
+  ],
+  "finalWordCount": 808,
+  "approvalCertificateOrRepositoryChangesPerformed": false,
+  "recommendedSources": [
+    [
+      "SpicyBox Privacy Policy linked from the product footer",
+      "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
+    ],
+    [
+      "SpicyBox Terms, user-content license and public-template exception",
+      "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+    ],
+    [
+      "Mozilla: clear cookies and site data",
+      "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
+    ]
+  ],
+  "parentReviewedAt": "2026-11-04T10:05:42.287Z",
+  "parentReview": "Final copy and actual current primary-source evidence reviewed independently. Informational guidance under the October27basic standard; no invented account/product/payment test.",
+  "finalContentSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+  "currentPublicPrefixBeforeBuild": {
+    "source": "fafbb9312d08ba1dab93b2c358c0979e30cf72aa",
+    "production": {
+      "id": "88f1a692-1150-41a5-9701-a8788544c646",
+      "url": "https://88f1a692.spicybox-fun.pages.dev",
+      "commit": "fafbb9312d08ba1dab93b2c358c0979e30cf72aa",
+      "sourceShaRaw": "fafbb9312d08ba1dab93b2c358c0979e30cf72aa",
+      "createdAt": "2026-11-03T04:40:45.638793Z"
+    },
+    "phase": 4,
+    "proof": "Separate actual baseline-readback.json, four saved200HTML predecessors, discovery andprivate5 proof; existinggrandfather1..3 andbasic4certificate retained."
+  }
+}

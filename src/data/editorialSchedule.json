@@ -143,9 +143,9 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
-      "reviewedSha256": "7785e83e5b0d7d051472c00d9f5aa8c00c9af768ed67aa01d521a77ef30e7590",
-      "wordCount": 757,
+      "sourcesCheckedAt": "2026-11-04",
+      "reviewedSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+      "wordCount": 808,
       "editorialIntent": "A three-copy inventory and a precise processing question; distinguishes no-third-party-sharing from no-internal-processing without alleging actual training.",
       "sources": [
         [
@@ -153,8 +153,8 @@
           "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
         ],
         [
-          "SpicyBox Terms, user-content license",
-          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+          "SpicyBox Terms, user-content license and public-template exception",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
         ],
         [
           "Mozilla: clear cookies and site data",

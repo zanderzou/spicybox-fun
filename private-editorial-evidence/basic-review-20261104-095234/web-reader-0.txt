@@ -1,0 +1,86 @@
+
+SpicyBoxPrivacyPolicy (https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf)
+citeturn574view1 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 4; Source: open({"ref_id":"https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf","lineno":null}); Total lines: 83
+L0@P0: Privacy Policy
+L1@P0: Last Updated 26.03.26
+L2@P0: Spicy-box.com ("we" , "us" , "our") respects your privacy and is committed to protecting your
+L3@P0: personal information. This Privacy Policy explains what data we collect, how we use it, how
+L4@P0: we share it and your rights.
+L5@P0: 1. Information We Collect
+L6@P0: Category Examples
+L7@P0: Information you provide Account credentials, email address,
+L8@P0: uploaded images, payment details
+L9@P0: (handled by third-party processors)
+L10@P0: Content data User Content (images) and
+L11@P0: AI-Generated Content
+L12@P0: Automatically collected data IP address, browser type, device
+L13@P0: identifiers, log files, usage statistics,
+L14@P0: cookies
+L15@P0: Derived data Embeddings, model outputs, analytics
+L16@P0: 2. How We Use Information
+L17@P0: - Provide & operate the Service and generate AI-Generated Content.
+L18@P0: - Process payments and manage subscriptions.
+L19@P0: - Improve, test and develop our models, algorithms and features.
+L20@P0: - Monitor and secure the Service, prevent fraud and abuse.
+L21@P0: - Comply with legal obligations and enforce our Terms.
+L22@P0: - Communicate with you about updates, security alerts and support
+L23@P0: 3. Sharing of Information
+L24@P0: We only share personal information as follows:
+L25@P0: • Service Providers - cloud hosting, payment processors, analytics vendors and content
+L26@P0: delivery networks, bound by confidentiality agreements.
+L27@P0: • Legal & Compliance - when required by law, subpoena or court order, or to protect rights,
+L28@P0-1: safety or property.• Business Transfers - in connection with a merger, acquisition or asset sale (with notice to
+L29@P1: you).
+L30@P1: • With Your Consent - where you explicitly authorise us to share data.
+L31@P1: Important: We never share your uploaded images or AI-generated videos with any third
+L32@P1: parties. Your content remains private and is only processed by our systems to provide the
+L33@P1: Service. We never sell your personal data.
+L34@P1: 4. Cookies & Tracking
+L35@P1: • We use cookies andsimilar technologies to remember preferences, perform analytics, and
+L36@P1: improve the Service.
+L37@P1: • You can disable cookiesin your browser, but some features may not function.
+L38@P1: 5. Data Retention
+L39@P1: We retain personal data only as long as necessary for the purposes outlined here, unless a
+L40@P1: longer retention period is required to comply with law, resolve disputes or enforce our
+L41@P1: agreements.
+L42@P1: Content Retention:
+L43@P1: We store your uploaded images and generated videos to provide you with access to your
+L44@P1: content. Content is only deleted when you explicitly take a deletion action (such as deleting
+L45@P1: specific content or your entire account). We do not automatically delete your content - it
+L46@P1: remains available until you choose to remove it.
+L47@P1: Content Deletion:
+L48@P1: When you delete your content (individual images/videos or through account deletion), the
+L49@P1: deletion is irreversible and we immediately and permanently remove it from our systems. We
+L50@P1: do not retain any copies of your deleted content.
+L51@P1: 6. International Transfers
+L52@P1: • Your data may be processedincountriesoutside your jurisdiction where privacy laws may be
+L53@P1: different.
+L54@P1: • We take steps to ensure appropriate safeguards are in place to protect your personal
+L55@P1-2: information.7. Security
+L56@P2: • We implement industry-standard administrative, technical and physical safeguards to
+L57@P2: protect personal data.
+L58@P2: • However, security measures are unconditional; you use the Service at your own risk.
+L59@P2: 8. Your Rights
+L60@P2: You may have rights to:
+L61@P2: • Access, correct or delete personal data.
+L62@P2: • Object to or restrict processing.
+L63@P2: • Data portability.
+L64@P2: • Withdraw consent at any time (processing prior to withdrawal remains lawful).
+L65@P2: You can exercise these rights by contacting us at @spicyboxsupport (telegram contact).
+L66@P2: 9. Delete Your Account
+L67@P2: You can permanently delete your Spicy-Box.com account at any time.
+L68@P2: To delete your account, follow this link: https://spicy-box.com/delete
+L69@P2: Deletion is irreversible. All credits, videos, uploaded images and personal data will be
+L70@P2: completely erased from our systems and we do not retain any copies of your content after
+L71@P2: deletion, except where retention is required by law (e.g., fraud-prevention and bookkeeping
+L72@P2: records which do not include your content)
+L73@P2: 10. Children's Privacy
+L74@P2: • The Service is not directed to children under 18.
+L75@P2: • We do not knowingly collect personal data from minors.
+L76@P2: • If you believe a child has provided us with personal data, please contact us to delete it.
+L77@P2: 11. Changes to This Policy
+L78@P2: • We may update this Privacy Policy periodically.
+L79@P2: • We will post the revised version and revise the "Last updated" date.
+L80@P2-3: • Material changes will be notified by email or prominent notice.12. Contact Us
+L81@P3: For questions about privacy, please write to @spicyboxsupport (telegram contact).
+L82@P3: © 2026 spicy-box.com. All rights reserved.

@@ -1,0 +1,218 @@
+
+Clear cookies and site data in Firefox | Firefox Help (https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox)
+citeturn574view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox","lineno":null}); Total lines: 215
+L0:   * 【0†Skip to main content】
+L1:   * 【1†Switch language】
+L2:   * 【2†Skip to search】
+L3: 
+L4: [Button: Search] [Button: Menu] 【3†Image: Avatar for Username†assets-prod.sumo.prod.webservices.mozgcp.net】
+L5: 
+L6:   * 【4†Explore Help Articles】
+L7: 
+L8: [Button: Close Firefox menu]
+L9: 
+L10: #### Explore by product
+L11: 
+L12:     * 【5†Firefox desktop】
+L13:     * 【6†Mozilla VPN】
+L14:     * 【7†Firefox for iOS】
+L15:     * 【8†Thunderbird】
+L16:     * 【9†Firefox for Android】
+L17:     * 【10†View all products】
+L18: #### Explore by topic
+L19: 
+L20:     * 【11†Settings】
+L21:     * 【12†Installation and updates】
+L22:     * 【13†Email and messaging】
+L23:     * 【14†Performance and connectivity】
+L24:     * 【15†Privacy and security】
+L25:     * 【16†Browse】
+L26: 
+L27:   * 【17†Community Forums】
+L28: 
+L29: [Button: Close Firefox menu]
+L30: 
+L31: #### Browse by product
+L32: 
+L33:     * 【18†Firefox desktop】
+L34:     * 【19†Firefox Focus】
+L35:     * 【20†Firefox for iOS】
+L36:     * 【21†Thunderbird】
+L37:     * 【22†Firefox for Android】
+L38:     * 【4†View all forums】
+L39: #### Browse all forum threads by topic
+L40: 
+L41:     * 【23†Settings】
+L42:     * 【24†Installation and updates】
+L43:     * 【25†Email and messaging】
+L44:     * 【26†Performance and connectivity】
+L45:     * 【27†Privacy and security】
+L46:     * 【28†Browse】
+L47: 
+L48:   * 【4†Ask a Question】
+L49: 
+L50: [Button: Close Firefox menu ]
+L51: #### Get help with
+L52: 
+L53:     * 【29†Firefox desktop】
+L54:     * 【30†Firefox for Enterprise】
+L55:     * 【31†Thunderbird】
+L56:     * 【32†Mozilla Account】
+L57:     * 【33†Firefox for Android】
+L58:     * 【34†Firefox for iOS】
+L59:     * 【35†Thunderbird for Android】
+L60:     * 【36†Mozilla VPN】
+L61:     * 【37†Firefox Focus】
+L62:     * 【38†Firefox Relay】
+L63:     * 【39†Monitor】
+L64:     * 【40†View all】
+L65: 
+L66:   * 【41†Contribute】
+L67: 
+L68:   * [Input] [Input: Search questions, articles, or topics (example: saving passwords in Firefox)] [Button: Search]
+L69: 
+L70:   * 【42†Sign In/Up】
+L71: [Input] [Input: Search questions, articles, or topics (example: saving passwords in Firefox)] [Button: Search]
+L72: #### Search Support
+L73: 
+L74: [Input] [Input: Search questions, articles, or topics (example: saving passwords in Firefox)] [Button: Search]
+L75: 
+L76: [Input] [Input: Search questions, articles, or topics (example: saving passwords in Firefox)] [Button: Search]
+L77: 
+L78: ## Ask a Question
+L79: 
+L80: Still need help? Sign in to ask your question on our forums.
+L81: 
+L82: 【43†Continue】
+L83: 
+L84:   *     * ### Customize this article
+L85: 
+L86: [Input] Firefox
+L87: 
+L88: [Select]
+L89: 
+L90: [Select]
+L91: 
+L92: [Input]
+L93: #### Was this article helpful?
+L94: 
+L95: [Input] [Input] [Button: Yes👍] [Button: No👎] 【44†Image: Please wait...†assets-prod.sumo.prod.webservices.mozgcp.net】
+L96: # Clear cookies and site data in Firefox
+L97: 
+L98: (Redirected from 【45†Delete cookies to remove the information websites have stored on your computer】)
+L99: 
+L100: Firefox Firefox 【46†Image†assets-prod.sumo.prod.webservices.mozgcp.net】 Last updated: 6/11/26 【47†Image†assets-prod.sumo.prod.webservices.mozgcp.net】57% of users voted this helpful
+L101: 【48†Cookies】 are stored on your computer by websites you visit and contain information such as site preferences and login status. This article describes how to delete Firefox cookies, other site data and 【49†cached web content†wikipedia.org】.
+L102: 
+L103:   * If you just want to clear the Firefox cache, see 【50†How to clear the Firefox cache】.
+L104:   * To prevent websites from storing cookies on your computer, see 【51†Block websites from storing cookies and site data in Firefox】.
+L105: ## Table of Contents
+L106: 
+L107:   * 【52†1 Clear cookies for the current website】
+L108:   * 【53†2 Clear cookies for any website】
+L109:   * 【54†3 Clear all cookies, site data and cache】
+L110:   * 【55†4 Clear all cookies and keep other data】
+L111:   * 【56†5 Related articles】
+L112: # Clear cookies for the current website
+L113: 
+L114: To delete cookies, site data, and temporary cached files and pages for a website you're currently visiting:
+L115: 
+L116:   1. Click the padlock 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】shield 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】 icon to the left of the address bar.
+L117: 【57†Image: Clear cookies and site data†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image: Fx149UnifiedTrustPanel†assets-prod.sumo.prod.webservices.mozgcp.net】
+L118:   2. Click Clear Cookies and Site data Clear cookies and site data.
+L119: # Clear cookies for any website
+L120: 
+L121: To delete cookies and site data for any single website:
+L122: 
+L123:   1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】 and select Settings.
+L124:   2. Select Privacy & Security Privacy and security on the left and go to the Cookies and Site Data Browsing data section.
+L125: 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】
+L126:   3. Click Manage browsing data the Manage Data… button Clear data for specific sites. The Manage Cookies and Site Data dialog will appear.
+L127:   4. In the Search websites field, type the name of the site whose cookies you want to remove. Items that match your search will be displayed.
+L128: 【57†Image: ClearCookies†assets-prod.sumo.prod.webservices.mozgcp.net】
+L129:      * To remove all cookies and 【58†storage data†developer.mozilla.org】 for the website, click Remove All Shown.
+L130:      * To remove selected items, select an entry and click Remove Selected.
+L131:   5. Click Save Changes.
+L132:   6. In the Removing Cookies and Site Data confirmation dialog that opens, click OK.
+L133:   7. Close the about:preferences page.
+L134: To learn more about managing site data in Firefox, see 【59†Manage local site storage settings】 and 【60†Enhanced Cookie Clearing†blog.mozilla.org】.
+L135: Note: You can use the 【61†Storage Inspector†firefox-source-docs.mozilla.org】 to remove individual cookies for a specific website, via the right-click context menu. To open the Storage Inspector, go to the menu button 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】, click More tools and then click Web Developer Tools (or press Ctrl + Shift + I Cmd + Opt + I on the keyboard) and select Storage.
+L136: # Clear all cookies, site data and cache
+L137: 
+L138:   1. In the Menu bar at the top of the screen, click Firefox and select Settings (or Preferences, in some cases).Click the menu button 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】 and select Settings.
+L139:   2. Select Privacy & Security Privacy and security on the left and go to the Cookies and Site Data section.
+L140: 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】
+L141:   3. Click Clear browsing data the Clear Data… button. The Clear browsing data and cookies dialog will appear.
+L142: 【57†Image: Fx136CookiesAndSiteData-ClearData†assets-prod.sumo.prod.webservices.mozgcp.net】
+L143:   4. Set When: to Everything or a shorter time period, such as the last hour.
+L144:   5. Ensure Cookies and site data and Temporary cached files and pages are checked.
+L145:   6. Click Clear.
+L146: # Clear all cookies and keep other data
+L147: 
+L148: To delete only cookies while keeping other data, do the following:
+L149: 
+L150:   1. Click the menu button 【57†Image†assets-prod.sumo.prod.webservices.mozgcp.net】, click History and then click Clear Recent History….
+L151:   2. Set When: to Everything.
+L152:   3. Select Cookies and site data and make sure that other items you want to keep are not selected.
+L153: 【57†Image: Fx136CookiesAndSiteData-ClearData-ALL†assets-prod.sumo.prod.webservices.mozgcp.net】
+L154:   4. Click Clear to clear all cookies and close the Clear browsing data and cookies window.
+L155: # Related articles
+L156: 
+L157:   * 【62†Delete browsing, search and download history on Firefox】.
+L158:   * 【59†Manage local site storage settings】
+L159: 
+L160: These fine people helped write this article:
+L161: 【63†AliceWyman】, 【64†Chris Ilias】, 【65†jscher2000 - Support Volunteer】, 【66†Underpass】, 【67†novica】, 【68†Tonnes】, 【69†Michele Rodaro】, 【70†smo】, 【71†Michael Verdi】, 【72†scoobidiver】, 【73†Swarnava Sengupta】, 【74†soucet】, 【75†Joergen】, 【76†ideato】, 【77†Mozinet】, 【78†user832823】, 【79†Lan】, 【80†pollti】, 【81†scootergrisen】, 【82†Joni】, 【83†Ömer Timur】, 【84†Mark Heijl】, 【85†risirajdey】, 【86†Fabi】, 【87†Lucas Siebert】, 【88†Flavius Floare】
+L162: 【89†Image: Illustration of hands†assets-prod.sumo.prod.webservices.mozgcp.net】
+L163: ### Volunteer
+L164: 
+L165: Grow and share your expertise with others. Answer questions and improve our knowledge base.
+L166: 
+L167: 【41†Learn More】
+L168: 
+L169: 【90†Mozilla†www.mozilla.org】
+L170: 
+L171: ##### Mozilla
+L172: 
+L173:   * 【91†Report Trademark Abuse†www.mozilla.org】
+L174:   * 【92†Source code†github.com】
+L175:   * 【93†Twitter†twitter.com】
+L176:   * 【41†Join our Community】
+L177:   * 【94†Explore Help Articles】
+L178: ##### Firefox
+L179: 
+L180:   * 【95†Download†www.firefox.com】
+L181:   * 【96†Firefox desktop†www.firefox.com】
+L182:   * 【97†Android Browser†www.firefox.com】
+L183:   * 【98†iOS Browser†www.firefox.com】
+L184:   * 【99†Focus Browser†www.firefox.com】
+L185: 
+L186: ##### Firefox for Developers
+L187: 
+L188:   * 【100†Developer Edition†www.firefox.com】
+L189:   * 【101†Beta†www.firefox.com】
+L190:   * 【102†Beta for Android†www.firefox.com】
+L191:   * 【103†Nightly†www.firefox.com】
+L192:   * 【104†Nightly for Android†www.firefox.com】
+L193: ##### Mozilla Account
+L194: 
+L195:   * 【42†Sign In/Up】
+L196:   * 【105†What Is It?】
+L197:   * 【106†Reset Password†accounts.firefox.com】
+L198:   * 【107†Sync Your Data】
+L199:   * 【108†Get Help】
+L200: 
+L201: 【1†Language】 Language [Select] [Button: Go]
+L202: 
+L203:   * 【93†Twitter(@firefox)†twitter.com】
+L204:   * 【109†YouTube (firefoxchannel)†www.youtube.com】
+L205:   * 【110†Instagram (firefox)†www.instagram.com】
+L206: 
+L207: Visit 【90†Mozilla Corporation's†www.mozilla.org】 not-for-profit parent, the 【111†Mozilla Foundation†foundation.mozilla.org】.
+L208: Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under a 【112†Creative Commons license†www.mozilla.org】.
+L209: 
+L210:   * 【90†mozilla.org†www.mozilla.org】
+L211:   * 【113†Terms of Service†www.mozilla.org】
+L212:   * 【114†Privacy†www.mozilla.org】
+L213:   * 【115†Cookies†www.mozilla.org】
+L214:   * 【116†Contact†www.mozilla.org】

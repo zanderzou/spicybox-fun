@@ -2,7 +2,7 @@
 title: "SpicyBox Privacy: Retention, Deletion and Device Copies"
 description: "Understand which SpicyBox privacy document applies, separate content-sharing claims from internal processing, and map server, browser and downloaded copies."
 publishDate: "2026-11-06"
-updatedDate: "2026-10-19"
+updatedDate: "2026-11-04"
 category: "Privacy literacy"
 readTime: "5 min read"
 accent: "violet"
@@ -12,7 +12,7 @@ sources:
   - name: "SpicyBox Privacy Policy linked from the product footer"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "SpicyBox Terms, user-content license"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
   - name: "Mozilla: clear cookies and site data"
     url: "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
 ---
@@ -31,7 +31,7 @@ This simple record is useful if you later need to explain which terms you relied
 
 ## Separate a sharing promise from a processing question
 
-The documents discuss both content privacy and uses of information. The [user-content license in the Terms](https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse.pdf), section 4.2, includes operating the service and model improvement. A statement about not sharing content with third parties should not be expanded into an assurance of no internal model development.
+The documents discuss both content privacy and uses of information. The [user-content license in the Terms](https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf), section 4.2, includes operating the service and model improvement. A statement about not sharing content with third parties should not be expanded into an assurance of no internal model development. Section 7.2 also says a template and its selected cover may become public after you voluntarily submit it for publication and it is approved. Review that choice separately from private account content.
 
 That distinction does not establish that any particular file was used for training. It establishes a question that the wording alone does not settle for an individual account.
 
@@ -63,6 +63,6 @@ A useful follow-up separates content, account identifiers, payment or bookkeepin
 
 ## Choose the next action from the unresolved question
 
-If your immediate problem is an account you want removed, use the [account-deletion preparation guide](/blog/spicybox-delete-account-checklist/). If you are still deciding whether to submit identifying material, seek an adequate answer first. When the residual uncertainty is unacceptable, the appropriate choice is to withhold that material.
+If your immediate problem is an account you want removed, use the [account-deletion preparation guide](/blog/spicybox-delete-account-checklist/). If you are still deciding whether to submit identifying material, seek an adequate answer first. The service requires you to be the person depicted in any image you upload; do not use another person’s image. When the residual uncertainty is unacceptable, the appropriate choice is to withhold that material.
 
 Document the domain, the policy you read, the specific question you asked and the response received. That gives you a more useful privacy record than an unsupported label declaring an entire service “safe.”
