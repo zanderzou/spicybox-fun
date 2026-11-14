@@ -345,6 +345,284 @@
         }
       ],
       "certificateDigest": "78d426fb528fe4612133973c41ae9677241c0928165274f3bbf87eb4f27cda80"
+    },
+    "spicybox-credits-retry-budget": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-credits-retry-budget",
+      "order": 6,
+      "releaseAt": "2026-11-14T05:07:00.000Z",
+      "activationAt": "2026-11-14T05:07:00.000Z",
+      "contentSha256": "dad25d5f2e552d60eff0f8b6e042b69901eef7719a4803a40d864fce2fd7caed",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-14T05:00:08.590Z",
+      "factsCheckedAt": "2026-11-14T05:00:08.590Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "supported"
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+          "note": "The current product footer links this version. Sections 2 and 4.1 require the uploader to be the sole eligible adult depicted, with the necessary rights. Section 5 identifies artifacts and distortions. Sections 7 and 7.1 describe billing and limits on refunds and credit restoration, with Section 7 retaining law and express exceptions. No individual failed-job balance behavior was verified.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-credits-retry-budget/review.json",
+              "sha256": "0fb3257423746d9d4fcc1042211bfd26f7974d9df3bf4113003db4cabbccdaf6"
+            }
+          ]
+        },
+        {
+          "name": "SpicyBox Explore",
+          "url": "https://spicy-box.com/explore",
+          "note": "Public Explore advertised a first-generation offer and linked current terms, privacy and support. Accounts, template eligibility, checkout quotes, charges and refunds were not tested. The landing copy does not supersede the tighter sole-subject terms.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-credits-retry-budget/review.json",
+              "sha256": "0fb3257423746d9d4fcc1042211bfd26f7974d9df3bf4113003db4cabbccdaf6"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "task": "Exercise a per-attempt credit ceiling and compute cost per accepted clip.",
+          "inputs": [
+            "Fictional 100-credit ceiling",
+            "Three simulated debits of 30 credits",
+            "One accepted clip"
+          ],
+          "steps": [
+            "Calculate remaining credits after each debit.",
+            "Compare the remaining balance with another 30-credit attempt.",
+            "Divide total debits by accepted clips."
+          ],
+          "result": "The running balances were 70, 40 and 10. The fourth attempt exceeded the ceiling. One accepted clip cost 90 example credits.",
+          "readerImpact": "Use a ceiling to prevent another attempt and count the cost of discarded results.",
+          "limits": "Arithmetic simulation only. No vendor pricing, transaction, credit deduction or refund was tested.",
+          "kind": "hands-on",
+          "id": "local-example",
+          "testedAt": "2026-11-14T04:56:39.704Z",
+          "conditions": "Local Windows workstation; original synthetic or numerical sample only; all inputs local.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-credits-retry-budget/budget-example.json",
+              "sha256": "27b0979cce87845df742ee712baa7b91e307a5d18be10bd29386525a1994e65e"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "94e0d39a01fed021caff13a3b683032f136df82635cbce6caa677888468f0379"
+    },
+    "spicybox-selfie-location-metadata": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-selfie-location-metadata",
+      "order": 7,
+      "releaseAt": "2026-11-21T05:07:00.000Z",
+      "activationAt": "2026-11-21T05:07:00.000Z",
+      "contentSha256": "9a86598f01662c7f947bc567322a7be5ec6d85196a1730e61ffb7fffc4bca850",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-14T05:00:08.590Z",
+      "factsCheckedAt": "2026-11-14T05:00:08.590Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "supported"
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+          "note": "The current product footer links this version. Sections 2 and 4.1 require the uploader to be the sole eligible adult depicted, with the necessary rights. Section 5 identifies artifacts and distortions. Sections 7 and 7.1 describe billing and limits on refunds and credit restoration, with Section 7 retaining law and express exceptions. No individual failed-job balance behavior was verified.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/review.json",
+              "sha256": "86b18d7d642a0a81e3c2b9a5b85267dbe5e08c7efda286eda21aa59ce838d197"
+            }
+          ]
+        },
+        {
+          "name": "Apple Personal Safety User Guide, Manage location metadata in Photos",
+          "url": "https://support.apple.com/en-gb/guide/personal-safety/ips0d7a5df82/web",
+          "note": "Photos Info reveals location when present. Apple documents Adjust Location, No Location, and a separate Share Options Location toggle for that share.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/review.json",
+              "sha256": "86b18d7d642a0a81e3c2b9a5b85267dbe5e08c7efda286eda21aa59ce838d197"
+            }
+          ]
+        },
+        {
+          "name": "Google Photos Help, Android photo locations",
+          "url": "https://support.google.com/photos/answer/6153599?co=GENIE.Platform%3DAndroid&hl=en-en",
+          "note": "Google Photos distinguishes the location recorded by a camera from estimated and user-entered locations. It cannot remove the camera location through this UI. External copies may retain the original. Landmarks can reveal place independently.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/review.json",
+              "sha256": "86b18d7d642a0a81e3c2b9a5b85267dbe5e08c7efda286eda21aa59ce838d197"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "task": "Check whether a crop can retain GPS metadata in the exported JPEG.",
+          "inputs": [
+            "Original 160×120 abstract JPEG with a synthetic GPS tag"
+          ],
+          "steps": [
+            "Crop and save once with original EXIF passed to the encoder.",
+            "Save the same crop with no EXIF passed.",
+            "Reopen all three JPEGs and read the EXIF GPS directory."
+          ],
+          "result": "The original and metadata-preserving crop contained GPS tags. The copy saved without EXIF had no GPS tag.",
+          "readerImpact": "Check the exact exported file, even if the visible crop looks ready.",
+          "limits": "Local synthetic sample with no user image. It does not establish how mobile apps or SpicyBox process metadata.",
+          "kind": "hands-on",
+          "id": "local-example",
+          "testedAt": "2026-11-14T04:56:39.873Z",
+          "conditions": "Local Windows workstation; original synthetic or numerical sample only; all inputs local.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/gps-check.json",
+              "sha256": "c9f9c8c0157fef23e0f470b6f9d3c39ec7edd5145035507323952f8e6034c011"
+            },
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/abstract-with-gps.jpg",
+              "sha256": "2d32a8f59f916bee3bdd59659d9cfe5ca6f3c47ebbc8e77647acedbf577dc45b"
+            },
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/crop-with-gps.jpg",
+              "sha256": "9f2071618b6ce3bdeaa29549a1105b44dbc248521c7bec8d3ee9c8329071424f"
+            },
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/crop-without-gps.jpg",
+              "sha256": "96aff608b4f0392efd7727acf7efabeeea82629e28100999d3fc801d91e7bd20"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "151e040605ce1b3500b05f86a8eeaeab71b92539475c24a475398ee20b0ee81c"
+    },
+    "spicybox-video-export-check": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-video-export-check",
+      "order": 8,
+      "releaseAt": "2026-11-28T05:07:00.000Z",
+      "activationAt": "2026-11-28T05:07:00.000Z",
+      "contentSha256": "f8c67b10ef3cda4fc93d91e16f488c5ba0ca0c5d890f4d1b3186df3bee20100d",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-14T05:00:08.590Z",
+      "factsCheckedAt": "2026-11-14T05:00:08.590Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "supported"
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+          "note": "The current product footer links this version. Sections 2 and 4.1 require the uploader to be the sole eligible adult depicted, with the necessary rights. Section 5 identifies artifacts and distortions. Sections 7 and 7.1 describe billing and limits on refunds and credit restoration, with Section 7 retaining law and express exceptions. No individual failed-job balance behavior was verified.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/review.json",
+              "sha256": "e56d926c34c5f9bc784118f6aecf9372cff33a4c07b677cc658e29883323662b"
+            }
+          ]
+        },
+        {
+          "name": "FFprobe official documentation",
+          "url": "https://ffmpeg.org/ffprobe.html",
+          "note": "The show_streams option reports the streams that exist. It does not establish whether an audio track carries audible sound.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/review.json",
+              "sha256": "e56d926c34c5f9bc784118f6aecf9372cff33a4c07b677cc658e29883323662b"
+            }
+          ]
+        },
+        {
+          "name": "FFmpeg Filters documentation, silence detection",
+          "url": "https://ffmpeg.org/ffmpeg-filters.html#silencedetect",
+          "note": "The filter detects intervals at or below a configured threshold lasting at least the configured minimum duration.",
+          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/review.json",
+              "sha256": "e56d926c34c5f9bc784118f6aecf9372cff33a4c07b677cc658e29883323662b"
+            }
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "task": "Determine whether a visibly playable silent MP4 has an audio stream.",
+          "inputs": [
+            "Original abstract two-second MP4 with deliberately silent AAC audio"
+          ],
+          "steps": [
+            "Use ffprobe to enumerate video, audio and duration.",
+            "Run FFmpeg silencedetect at -50 dB over at least a quarter second.",
+            "Compare reported silence duration with the file duration."
+          ],
+          "result": "ffprobe reported H.264 320×180 video at 24 fps and an AAC stream. FFmpeg reported silence from 0 to 2 seconds.",
+          "readerImpact": "Sound can be absent in playback even when a file contains an audio track.",
+          "limits": "A local sample file, not a SpicyBox export. No vendor format, resolution, audio behavior or output quality was measured.",
+          "kind": "hands-on",
+          "id": "local-example",
+          "testedAt": "2026-11-14T04:55:23.722Z",
+          "conditions": "Local Windows workstation; original synthetic or numerical sample only; all inputs local.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/video-streams.json",
+              "sha256": "b13a05cd2cb36a3e770508c4419e4541c05c36b4a2d922455d534fad0ac2ac4c"
+            },
+            {
+              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/audio-detect.txt",
+              "sha256": "d39be0e6cbb1fe505b6c75c6b32c4de7b45c2ca981d5c77e6b26b35deb885bfe"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "56f6dab78cce60f96c45a6bbfc1ce41c459375fadfcc844362f6cdbbab97c2b4"
     }
   },
   "activationReceipts": {

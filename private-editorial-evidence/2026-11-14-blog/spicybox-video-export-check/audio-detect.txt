@@ -1,0 +1,2 @@
+[Parsed_silencedetect_0 @ 000002de0c1fdcc0] silence_start: 0
+[Parsed_silencedetect_0 @ 000002de0c1fdcc0] silence_end: 2 | silence_duration: 2

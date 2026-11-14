@@ -1,0 +1,96 @@
+{
+  "domain": "spicybox.fun",
+  "slug": "spicybox-credits-retry-budget",
+  "order": 6,
+  "checkedAt": "2026-11-14T05:00:08.590Z",
+  "contentSha256": "dad25d5f2e552d60eff0f8b6e042b69901eef7719a4803a40d864fce2fd7caed",
+  "activationAt": "2026-11-14T05:07:00.000Z",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "officialSources": [
+    {
+      "name": "SpicyBox Terms of Use",
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+      "note": "The current product footer links this version. Sections 2 and 4.1 require the uploader to be the sole eligible adult depicted, with the necessary rights. Section 5 identifies artifacts and distortions. Sections 7 and 7.1 describe billing and limits on refunds and credit restoration, with Section 7 retaining law and express exceptions. No individual failed-job balance behavior was verified."
+    },
+    {
+      "name": "SpicyBox Explore",
+      "url": "https://spicy-box.com/explore",
+      "note": "Public Explore advertised a first-generation offer and linked current terms, privacy and support. Accounts, template eligibility, checkout quotes, charges and refunds were not tested. The landing copy does not supersede the tighter sole-subject terms."
+    }
+  ],
+  "editorGuidance": [
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "note": "Original worked examples, clear reader decisions and transparent evidence limits."
+    },
+    {
+      "url": "https://blogs.bing.com/webmaster/2025/7/Keeping-Content-Discoverable-with-Sitemaps-in-AI-Powered-Search/",
+      "note": "Verify accurate publication listing and preserve actual dates."
+    }
+  ],
+  "example": {
+    "task": "Exercise a per-attempt credit ceiling and compute cost per accepted clip.",
+    "inputs": [
+      "Fictional 100-credit ceiling",
+      "Three simulated debits of 30 credits",
+      "One accepted clip"
+    ],
+    "steps": [
+      "Calculate remaining credits after each debit.",
+      "Compare the remaining balance with another 30-credit attempt.",
+      "Divide total debits by accepted clips."
+    ],
+    "result": "The running balances were 70, 40 and 10. The fourth attempt exceeded the ceiling. One accepted clip cost 90 example credits.",
+    "readerImpact": "Use a ceiling to prevent another attempt and count the cost of discarded results.",
+    "limits": "Arithmetic simulation only. No vendor pricing, transaction, credit deduction or refund was tested.",
+    "kind": "hands-on",
+    "id": "local-example",
+    "testedAt": "2026-11-14T04:56:39.704Z",
+    "conditions": "Local Windows workstation; original synthetic or numerical sample only; all inputs local.",
+    "evidence": [
+      {
+        "path": "private-editorial-evidence/2026-11-14-blog/spicybox-credits-retry-budget/budget-example.json",
+        "sha256": "27b0979cce87845df742ee712baa7b91e307a5d18be10bd29386525a1994e65e"
+      }
+    ]
+  },
+  "illustration": {
+    "path": "public/assets/spicybox-retry-budget.webp",
+    "sha256": "8a824f87a5947eab0dba29b66868c885d0dc36ba99d6de80218acc6e476dd017",
+    "type": "Original diagram",
+    "verifiedAgainstCopy": true
+  },
+  "limits": "No SpicyBox account operation, personal photo upload, purchase, generation or export test was performed.",
+  "editorialScores": [
+    {
+      "item": "Reader intent",
+      "score": 5,
+      "basis": "A per-clip ceiling answers the billing question directly."
+    },
+    {
+      "item": "Sources and observed results",
+      "score": 4,
+      "basis": "Terms and Explore verified. The example is a local arithmetic simulation."
+    },
+    {
+      "item": "Independent practical value",
+      "score": 5,
+      "basis": "A running ledger distinguishes retry pressure, unsettled jobs and the cost per retained clip."
+    },
+    {
+      "item": "Illustration",
+      "score": 4,
+      "basis": "The illustration displays the same 70, 40 and 10 balances as the text."
+    },
+    {
+      "item": "Clarity",
+      "score": 4,
+      "basis": "Separate pack purchase, generation and support decisions."
+    },
+    {
+      "item": "SEO and format",
+      "score": 4,
+      "basis": "Distinct billing title and summary, native Markdown and internal deletion link."
+    }
+  ]
+}

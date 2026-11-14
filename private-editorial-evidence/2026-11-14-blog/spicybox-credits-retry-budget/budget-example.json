@@ -1,0 +1,13 @@
+{
+  "budget": 100,
+  "exampleOnly": true,
+  "previewedCost": 30,
+  "balances": [
+    70,
+    40,
+    10
+  ],
+  "acceptedClips": 1,
+  "creditsPerAcceptedClip": 90,
+  "test": "100-credit ceiling; simulated entries only"
+}

@@ -1,0 +1,103 @@
+{
+  "domain": "spicybox.fun",
+  "slug": "spicybox-video-export-check",
+  "order": 8,
+  "checkedAt": "2026-11-14T05:00:08.590Z",
+  "contentSha256": "f8c67b10ef3cda4fc93d91e16f488c5ba0ca0c5d890f4d1b3186df3bee20100d",
+  "activationAt": "2026-11-28T05:07:00.000Z",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "officialSources": [
+    {
+      "name": "SpicyBox Terms of Use",
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+      "note": "The current product footer links this version. Sections 2 and 4.1 require the uploader to be the sole eligible adult depicted, with the necessary rights. Section 5 identifies artifacts and distortions. Sections 7 and 7.1 describe billing and limits on refunds and credit restoration, with Section 7 retaining law and express exceptions. No individual failed-job balance behavior was verified."
+    },
+    {
+      "name": "FFprobe official documentation",
+      "url": "https://ffmpeg.org/ffprobe.html",
+      "note": "The show_streams option reports the streams that exist. It does not establish whether an audio track carries audible sound."
+    },
+    {
+      "name": "FFmpeg Filters documentation, silence detection",
+      "url": "https://ffmpeg.org/ffmpeg-filters.html#silencedetect",
+      "note": "The filter detects intervals at or below a configured threshold lasting at least the configured minimum duration."
+    }
+  ],
+  "editorGuidance": [
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "note": "Original worked examples, clear reader decisions and transparent evidence limits."
+    },
+    {
+      "url": "https://blogs.bing.com/webmaster/2025/7/Keeping-Content-Discoverable-with-Sitemaps-in-AI-Powered-Search/",
+      "note": "Verify accurate publication listing and preserve actual dates."
+    }
+  ],
+  "example": {
+    "task": "Determine whether a visibly playable silent MP4 has an audio stream.",
+    "inputs": [
+      "Original abstract two-second MP4 with deliberately silent AAC audio"
+    ],
+    "steps": [
+      "Use ffprobe to enumerate video, audio and duration.",
+      "Run FFmpeg silencedetect at -50 dB over at least a quarter second.",
+      "Compare reported silence duration with the file duration."
+    ],
+    "result": "ffprobe reported H.264 320×180 video at 24 fps and an AAC stream. FFmpeg reported silence from 0 to 2 seconds.",
+    "readerImpact": "Sound can be absent in playback even when a file contains an audio track.",
+    "limits": "A local sample file, not a SpicyBox export. No vendor format, resolution, audio behavior or output quality was measured.",
+    "kind": "hands-on",
+    "id": "local-example",
+    "testedAt": "2026-11-14T04:55:23.722Z",
+    "conditions": "Local Windows workstation; original synthetic or numerical sample only; all inputs local.",
+    "evidence": [
+      {
+        "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/video-streams.json",
+        "sha256": "b13a05cd2cb36a3e770508c4419e4541c05c36b4a2d922455d534fad0ac2ac4c"
+      },
+      {
+        "path": "private-editorial-evidence/2026-11-14-blog/spicybox-video-export-check/audio-detect.txt",
+        "sha256": "d39be0e6cbb1fe505b6c75c6b32c4de7b45c2ca981d5c77e6b26b35deb885bfe"
+      }
+    ]
+  },
+  "illustration": {
+    "path": "public/assets/spicybox-export-check.webp",
+    "sha256": "837711d12d36a59117d6279fa5b68488c7f73d8e43d3da7bd9b1af02e979fde8",
+    "type": "Original diagram",
+    "verifiedAgainstCopy": true
+  },
+  "limits": "No SpicyBox account operation, personal photo upload, purchase, generation or export test was performed.",
+  "editorialScores": [
+    {
+      "item": "Reader intent",
+      "score": 5,
+      "basis": "The reader checks the saved file before keeping or sharing it."
+    },
+    {
+      "item": "Sources and observed results",
+      "score": 5,
+      "basis": "Terms limit vendor claims. Local FFprobe and FFmpeg output establish the sample details."
+    },
+    {
+      "item": "Independent practical value",
+      "score": 5,
+      "basis": "The example distinguishes a silent stream from an absent stream."
+    },
+    {
+      "item": "Illustration",
+      "score": 4,
+      "basis": "The graphic corresponds to picture, sound and destination checks."
+    },
+    {
+      "item": "Clarity",
+      "score": 4,
+      "basis": "Screening order leads into an optional terminal command."
+    },
+    {
+      "item": "SEO and format",
+      "score": 4,
+      "basis": "Distinct export intent, native metadata and a relevant internal privacy link."
+    }
+  ]
+}

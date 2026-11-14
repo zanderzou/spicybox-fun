@@ -163,6 +163,89 @@
       ],
       "notBefore": "2026-11-06T17:49:14.953Z",
       "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
+    },
+    {
+      "order": 6,
+      "slug": "spicybox-credits-retry-budget",
+      "title": "SpicyBox Credits: Set a Retry Budget Before You Generate",
+      "readerQuestion": "How can I limit the cost of retrying a SpicyBox template, and what should I record if a job fails?",
+      "releaseAt": "2026-11-14T05:07:00.000Z",
+      "notBefore": "2026-11-14T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-14",
+      "reviewedSha256": "dad25d5f2e552d60eff0f8b6e042b69901eef7719a4803a40d864fce2fd7caed",
+      "wordCount": 630,
+      "editorialIntent": "Budget by the clip kept, distinguish unusable output from unsettled or failed jobs, and avoid assuming a refund.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+        ],
+        [
+          "SpicyBox Explore",
+          "https://spicy-box.com/explore"
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "spicybox-selfie-location-metadata",
+      "title": "Before You Upload a SpicyBox Selfie: Check Location Data and Background",
+      "readerQuestion": "How can I check the exact selfie I plan to upload for both visible and embedded location clues?",
+      "releaseAt": "2026-11-21T05:07:00.000Z",
+      "notBefore": "2026-11-21T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-14",
+      "reviewedSha256": "9a86598f01662c7f947bc567322a7be5ec6d85196a1730e61ffb7fffc4bca850",
+      "wordCount": 560,
+      "editorialIntent": "Show how to verify the selected file, separate visible clues from metadata and explain mobile differences.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+        ],
+        [
+          "Apple Personal Safety User Guide, Manage location metadata in Photos",
+          "https://support.apple.com/en-gb/guide/personal-safety/ips0d7a5df82/web"
+        ],
+        [
+          "Google Photos Help, Android photo locations",
+          "https://support.google.com/photos/answer/6153599?co=GENIE.Platform%3DAndroid&hl=en-en"
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "spicybox-video-export-check",
+      "title": "SpicyBox Video Export: Check the Download Before You Share",
+      "readerQuestion": "What should I check in a downloaded SpicyBox clip before keeping or sharing it?",
+      "releaseAt": "2026-11-28T05:07:00.000Z",
+      "notBefore": "2026-11-28T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-14",
+      "reviewedSha256": "f8c67b10ef3cda4fc93d91e16f488c5ba0ca0c5d890f4d1b3186df3bee20100d",
+      "wordCount": 565,
+      "editorialIntent": "Provide a practical playback and file-inspection workflow with a measured silent-track example.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+        ],
+        [
+          "FFprobe official documentation",
+          "https://ffmpeg.org/ffprobe.html"
+        ],
+        [
+          "FFmpeg Filters documentation, silence detection",
+          "https://ffmpeg.org/ffmpeg-filters.html#silencedetect"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,
