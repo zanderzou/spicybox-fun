@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-18T09:30:59.000Z",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "readerIntent": "Check the exact own-photo file for visible and embedded location clues.",
+  "materialCorrection": "Apple's current September 2026 safety guide includes Adjust Info before Adjust Location. Add the missing menu step.",
+  "officialSources": [
+    {
+      "name": "SpicyBox Terms of Use",
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
+      "checkedAt": "2026-11-18T09:30:59.000Z",
+      "status": "content-retrieved",
+      "retrieval": "Opened the current PDF online; sections 2 and 4.1 read.",
+      "finding": "The user must be the sole eligible adult subject and control the necessary rights. The guide preserves its non-explicit self-photo scope."
+    },
+    {
+      "name": "Apple Personal Safety User Guide, Manage location metadata in Photos",
+      "url": "https://support.apple.com/en-gb/guide/personal-safety/ips0d7a5df82/web",
+      "checkedAt": "2026-11-18T09:30:59.000Z",
+      "status": "content-retrieved",
+      "retrieval": "Direct online HTTP 200 after the search reader returned 429; matching readable text saved in direct-primary-followup.json.",
+      "finding": "Apple's current guide includes Adjust Info before Adjust Location and No Location. It separately documents reviewing Info, the Share Options location toggle, and disabling Camera Location Services."
+    },
+    {
+      "name": "Google Photos Help, Android photo locations",
+      "url": "https://support.google.com/photos/answer/6153599?co=GENIE.Platform%3DAndroid&hl=en-en",
+      "checkedAt": "2026-11-18T09:30:59.000Z",
+      "status": "content-retrieved",
+      "retrieval": "Opened official Android instructions online.",
+      "finding": "Google distinguishes camera location from estimated and manually added location. The documented app cannot remove camera-added data; outside shares may keep the original location, and visible landmarks remain informative."
+    }
+  ],
+  "experienceClaims": "The existing local abstract-JPEG example remains limited to the committed sample files. No iPhone, Android or SpicyBox product operation is claimed.",
+  "publicAttribution": "Source names only; verification URLs remain internal.",
+  "domain": "spicybox.fun",
+  "slug": "spicybox-selfie-location-metadata",
+  "previousContentSha256": "9a86598f01662c7f947bc567322a7be5ec6d85196a1730e61ffb7fffc4bca850",
+  "finalContentSha256": "6b900d482d701ec3b8b2fb73bfe7e1160dbb4ef52bcf2526b19e9922945c4350",
+  "readerQuestion": "How can I check the exact selfie I plan to upload for both visible and embedded location clues?",
+  "editorialReview": {
+    "readable": true,
+    "useful": true,
+    "factual": true,
+    "experienceClaims": "supported"
+  }
+}

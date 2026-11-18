@@ -199,9 +199,9 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-11-14",
-      "reviewedSha256": "9a86598f01662c7f947bc567322a7be5ec6d85196a1730e61ffb7fffc4bca850",
-      "wordCount": 560,
+      "sourcesCheckedAt": "2026-11-18",
+      "reviewedSha256": "6b900d482d701ec3b8b2fb73bfe7e1160dbb4ef52bcf2526b19e9922945c4350",
+      "wordCount": 563,
       "editorialIntent": "Show how to verify the selected file, separate visible clues from metadata and explain mobile differences.",
       "sources": [
         [

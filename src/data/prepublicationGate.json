@@ -433,58 +433,59 @@
       "order": 7,
       "releaseAt": "2026-11-21T05:07:00.000Z",
       "activationAt": "2026-11-21T05:07:00.000Z",
-      "contentSha256": "9a86598f01662c7f947bc567322a7be5ec6d85196a1730e61ffb7fffc4bca850",
+      "contentSha256": "6b900d482d701ec3b8b2fb73bfe7e1160dbb4ef52bcf2526b19e9922945c4350",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
       },
       "reviewStandard": "portfolio-basic-quality-20261027",
       "status": "validated",
-      "reviewedAt": "2026-11-14T05:00:08.590Z",
-      "factsCheckedAt": "2026-11-14T05:00:08.590Z",
+      "reviewedAt": "2026-11-18T09:31:31.335Z",
+      "factsCheckedAt": "2026-11-18T09:30:59.000Z",
       "editorialReview": {
         "readable": true,
         "useful": true,
         "factual": true,
-        "experienceClaims": "supported"
+        "experienceClaims": "supported",
+        "note": "The current Apple guide includes Adjust Info before Adjust Location. The local JPEG example retains its original evidence and limits; the rest of the guide is preserved."
       },
       "officialSources": [
         {
           "name": "SpicyBox Terms of Use",
           "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf",
-          "note": "The current product footer links this version. Sections 2 and 4.1 require the uploader to be the sole eligible adult depicted, with the necessary rights. Section 5 identifies artifacts and distortions. Sections 7 and 7.1 describe billing and limits on refunds and credit restoration, with Section 7 retaining law and express exceptions. No individual failed-job balance behavior was verified.",
-          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "note": "The user must be the sole eligible adult subject and control the necessary rights. The guide preserves its non-explicit self-photo scope.",
+          "checkedAt": "2026-11-18T09:30:59.000Z",
           "status": "content-retrieved",
           "evidence": [
             {
-              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/review.json",
-              "sha256": "86b18d7d642a0a81e3c2b9a5b85267dbe5e08c7efda286eda21aa59ce838d197"
+              "path": "private-editorial-evidence/20261118-location-guide/spicybox-selfie-location-metadata.json",
+              "sha256": "cedb1d880064e89cb4be4bcb335937b500ee6b9c780256b7ed85bc7e39f33e76"
             }
           ]
         },
         {
           "name": "Apple Personal Safety User Guide, Manage location metadata in Photos",
           "url": "https://support.apple.com/en-gb/guide/personal-safety/ips0d7a5df82/web",
-          "note": "Photos Info reveals location when present. Apple documents Adjust Location, No Location, and a separate Share Options Location toggle for that share.",
-          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "note": "Apple's current guide includes Adjust Info before Adjust Location and No Location. It separately documents reviewing Info, the Share Options location toggle, and disabling Camera Location Services.",
+          "checkedAt": "2026-11-18T09:30:59.000Z",
           "status": "content-retrieved",
           "evidence": [
             {
-              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/review.json",
-              "sha256": "86b18d7d642a0a81e3c2b9a5b85267dbe5e08c7efda286eda21aa59ce838d197"
+              "path": "private-editorial-evidence/20261118-location-guide/spicybox-selfie-location-metadata.json",
+              "sha256": "cedb1d880064e89cb4be4bcb335937b500ee6b9c780256b7ed85bc7e39f33e76"
             }
           ]
         },
         {
           "name": "Google Photos Help, Android photo locations",
           "url": "https://support.google.com/photos/answer/6153599?co=GENIE.Platform%3DAndroid&hl=en-en",
-          "note": "Google Photos distinguishes the location recorded by a camera from estimated and user-entered locations. It cannot remove the camera location through this UI. External copies may retain the original. Landmarks can reveal place independently.",
-          "checkedAt": "2026-11-14T05:00:08.590Z",
+          "note": "Google distinguishes camera location from estimated and manually added location. The documented app cannot remove camera-added data; outside shares may keep the original location, and visible landmarks remain informative.",
+          "checkedAt": "2026-11-18T09:30:59.000Z",
           "status": "content-retrieved",
           "evidence": [
             {
-              "path": "private-editorial-evidence/2026-11-14-blog/spicybox-selfie-location-metadata/review.json",
-              "sha256": "86b18d7d642a0a81e3c2b9a5b85267dbe5e08c7efda286eda21aa59ce838d197"
+              "path": "private-editorial-evidence/20261118-location-guide/spicybox-selfie-location-metadata.json",
+              "sha256": "cedb1d880064e89cb4be4bcb335937b500ee6b9c780256b7ed85bc7e39f33e76"
             }
           ]
         }
@@ -527,7 +528,7 @@
           ]
         }
       ],
-      "certificateDigest": "151e040605ce1b3500b05f86a8eeaeab71b92539475c24a475398ee20b0ee81c"
+      "certificateDigest": "2c39847a24fe22532b97a0a01ea8ad3143e2e2f051eacd09dfe6879a463b5a36"
     },
     "spicybox-video-export-check": {
       "schemaVersion": 1,

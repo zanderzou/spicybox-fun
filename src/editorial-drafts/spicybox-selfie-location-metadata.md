@@ -2,7 +2,7 @@
 title: "Before You Upload a SpicyBox Selfie: Check Location Data and Background"
 description: "Check whether your own adult portrait exposes a location in the scene or in the selected file, with iPhone and Android guidance."
 publishDate: "2026-11-21"
-updatedDate: "2026-11-21"
+updatedDate: "2026-11-18"
 category: "Upload privacy"
 readTime: "3 min read"
 accent: "violet"
@@ -31,7 +31,7 @@ If the picture reveals a place you would rather keep private, take a new one aga
 
 ## Check the file you intend to select
 
-**iPhone and iPad.** In Photos, open the image and swipe up or tap Info to see whether a location appears. Apple documents an option to remove the location associated with a photo under More → Adjust Location → No Location. In the Share sheet, you can also use Options → Location off for a share from Photos. If your next step is to pick a local file in a browser, verify that copy. It is easy to select the original by mistake.
+**iPhone and iPad.** In Photos, open the image and swipe up or tap Info to see whether a location appears. Apple documents an option to remove the location associated with a photo under More → Adjust Info → Adjust Location → No Location. In the Share sheet, you can also use Options → Location off for a share from Photos. If your next step is to pick a local file in a browser, verify that copy. It is easy to select the original by mistake.
 
 **Android.** Google Photos distinguishes locations estimated by the app or entered manually from location recorded by the camera. Its help page says the app cannot remove camera-added location information and that outside shares can retain the original device location. Use your device’s documented export controls to make a separate copy, or take a new self-portrait after disabling location tagging for the camera if your device offers that control. Then check the new file’s Details or Info. Android menus and the available inspection tools vary. A gallery that hides a location field gives you less evidence than a tool that actually looks for GPS tags.
 
