@@ -14,7 +14,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-03",
-      "reviewedSha256": "089ac22b37ec46f8b25ab7975a9f5c79de57d5ea1cf66c96108c5c6d07600863",
+      "reviewedSha256": "57841272c50c7dfe8d5bca0cead3608c2399a95cbe401785bf7a9f387fbf0b21",
       "wordCount": 1088,
       "editorialIntent": "Choose between a preset result and a directed transition without uploading sensitive images or mistaking vendor documentation for a tested performance result.",
       "sources": [
@@ -144,7 +144,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-04",
-      "reviewedSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+      "reviewedSha256": "89126c312e1f82a65e1c8b104c26d93deaa1c55e4a3f3d3a36ab331a951e0eab",
       "wordCount": 808,
       "editorialIntent": "A three-copy inventory and a precise processing question; distinguishes no-third-party-sharing from no-internal-processing without alleging actual training.",
       "sources": [

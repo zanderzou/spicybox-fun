@@ -69,6 +69,28 @@
         "priorContentSha256": "0c367e60e1e3a55636fa86e8cc49b712770311fd166d0c5adca0f8791a50c1ee",
         "proof": "private-editorial-evidence/weekly-maintenance-20261103/publication-preservation.json"
       }
+    },
+    {
+      "order": 5,
+      "slug": "spicybox-privacy-retention-device-copies",
+      "releaseAt": "2026-11-06T17:49:14.953Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-24T01:09:29.653Z",
+      "canonical": "https://spicybox.fun/blog/spicybox-privacy-retention-device-copies/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "d056a50fcca86b2079057f23a713acb5b7c02a8e",
+      "deploymentId": "ba29d5fb-086d-4573-b85b-6f334bd37f5d",
+      "responseSha256": "e98a05c19bd9975d371cfa611eb9e8d6dc89a794ada362e2b3f37ef7196f1db3",
+      "publicationProvenance": {
+        "priorCertificateDigest": "78d426fb528fe4612133973c41ae9677241c0928165274f3bbf87eb4f27cda80",
+        "activationAt": "2026-11-06T17:49:14.953Z",
+        "priorContentSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+        "runtimeSha256": "f398a325a7468a2562b1c2f1d189899ee3088468b881ce178529f4833ce4f014",
+        "responsePath": "private-editorial-evidence/weekly-maintenance-20261124/spicybox-privacy-retention-device-copies-before.html",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261124/publication-preservation.json"
+      }
     }
   ],
   "certificates": {

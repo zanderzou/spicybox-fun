@@ -1,0 +1,60 @@
+{
+  "domain": "spicybox.fun",
+  "recordedAt": "2026-11-24T03:25:42.402Z",
+  "previousProduction": {
+    "main": "d056a50fcca86b2079057f23a713acb5b7c02a8e",
+    "commit": "d056a50fcca86b2079057f23a713acb5b7c02a8e",
+    "id": "ba29d5fb-086d-4573-b85b-6f334bd37f5d",
+    "url": "https://ba29d5fb.spicybox-fun.pages.dev",
+    "createdAt": "2026-11-18T09:34:36.410226Z",
+    "triggerType": "ad_hoc",
+    "gitIntegration": false,
+    "productionBranch": "main"
+  },
+  "addedLawfullyPublishedPrefix": [
+    {
+      "order": 5,
+      "slug": "spicybox-privacy-retention-device-copies",
+      "releaseAt": "2026-11-06T17:49:14.953Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-11-24T01:09:29.653Z",
+      "canonical": "https://spicybox.fun/blog/spicybox-privacy-retention-device-copies/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "d056a50fcca86b2079057f23a713acb5b7c02a8e",
+      "deploymentId": "ba29d5fb-086d-4573-b85b-6f334bd37f5d",
+      "responseSha256": "e98a05c19bd9975d371cfa611eb9e8d6dc89a794ada362e2b3f37ef7196f1db3",
+      "publicationProvenance": {
+        "priorCertificateDigest": "78d426fb528fe4612133973c41ae9677241c0928165274f3bbf87eb4f27cda80",
+        "activationAt": "2026-11-06T17:49:14.953Z",
+        "priorContentSha256": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+        "runtimeSha256": "f398a325a7468a2562b1c2f1d189899ee3088468b881ce178529f4833ce4f014",
+        "responsePath": "private-editorial-evidence/weekly-maintenance-20261124/spicybox-privacy-retention-device-copies-before.html",
+        "proof": "private-editorial-evidence/weekly-maintenance-20261124/publication-preservation.json"
+      }
+    }
+  ],
+  "changedAlreadyPublicArticles": [
+    {
+      "slug": "spicybox-vs-pika-motion-control",
+      "previousHash": "089ac22b37ec46f8b25ab7975a9f5c79de57d5ea1cf66c96108c5c6d07600863",
+      "finalHash": "57841272c50c7dfe8d5bca0cead3608c2399a95cbe401785bf7a9f387fbf0b21"
+    },
+    {
+      "slug": "spicybox-privacy-retention-device-copies",
+      "previousHash": "534f1aad4bf8a35755e7b2de0d5864747b6e88021f4b9d61428c21d3d4a096b3",
+      "finalHash": "89126c312e1f82a65e1c8b104c26d93deaa1c55e4a3f3d3a36ab331a951e0eab"
+    }
+  ],
+  "actualOriginalActivationTimesRetained": true,
+  "sourceProof": {
+    "path": "research/prepublish-tested-seo-20261023/runs/2026-11-24T005903Z/current-production-readback.json",
+    "sha256": "bb3510563a8f2d0112bafbc0631da9dc5417e13b8008df78f216512138f5b44f"
+  },
+  "preflightProof": {
+    "path": "research/prepublish-tested-seo-20261023/runs/2026-11-24T005903Z/verified-sites/spicybox.fun.json",
+    "sha256": "e39580c76e2630bac09c638683f6709ec2edee51c6c58aed216e4d41f526d32f"
+  },
+  "observation": "Existing 200 body, canonical, exact source and previously validated deployed clearance establish lawful publication. This is maintenance of already-public content, not a new or backdated clearance."
+}

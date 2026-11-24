@@ -2,7 +2,7 @@
 title: "SpicyBox vs Playbox AI: Two Self-Image Video Tools Compared"
 description: "A focused SpicyBox vs Playbox AI comparison of self-image rules, template selection, motion consistency, credits, deletion, and the cost of retries."
 publishDate: 2026-09-22
-updatedDate: 2026-09-26
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "7 min read"
 accent: "violet"
@@ -12,7 +12,7 @@ sources:
   - name: "SpicyBox — Explore"
     url: "https://spicy-box.com/explore"
   - name: "SpicyBox — Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
   - name: "SpicyBox — Privacy Policy"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "Playbox — official product"
@@ -31,7 +31,7 @@ sources:
 | Entry | Focused Explore page with template and short-format routes | Large Explore catalogue, collection and training entry |
 | Output to inspect | Generated still or short clip from a selected treatment | Template video, with duration and quality depending on plan |
 | Payment question | Check whether attempts and unusable results consume credits | Check monthly allocation, expiry and extra credits |
-| Data question | Policy describes content held until explicit deletion | Policy also describes stored uploads and explicit deletion |
+| Data question | Terms set plan-based storage limits; check deletion separately | Policy describes stored uploads and explicit deletion |
 
 ## Start with the shared boundary
 
@@ -55,7 +55,7 @@ Neither service's published pages give a reliable cross-platform quality score f
 
 SpicyBox's Terms describe credits being consumed even when an output is unsatisfactory and a restrictive refund stance, subject to applicable law. Playbox publishes plan allocations and extra-credit options, but those details can change. Calculate the cost of two useful clips after retries, not the headline plan price. Check expiry, renewal or cancellation on the current checkout screen.
 
-Both privacy policies describe account information, uploads, generated content and technical data. They say content is stored until an explicit deletion action. Locate the image, output and account deletion controls before uploading. A provider's deletion promise is a policy statement, not something this independent site can technically verify. Avoid revealing background addresses, documents or another person's face in any trial.
+Both privacy policies discuss account details, uploads, generated content and technical data. SpicyBox's current Terms also describe storage limits tied to the active plan, which conflict with the Privacy Policy's wording about content remaining available until deletion. Do not assume indefinite access. Check the applicable storage period and locate image, output and account deletion controls before uploading. A provider's deletion promise is a policy statement, not something this independent site can technically verify. Avoid revealing background addresses, documents or another person's face in any trial.
 
 ## Which one fits?
 

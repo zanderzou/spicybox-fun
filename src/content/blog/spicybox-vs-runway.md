@@ -2,7 +2,7 @@
 title: "SpicyBox vs Runway: Fast Templates or a General Video Toolkit?"
 description: "Compare SpicyBox and Runway by supported projects, image-to-video controls, moderation, lawful inputs, editing workflow, credits, and privacy."
 publishDate: 2026-09-22
-updatedDate: 2026-09-26
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "7 min read"
 accent: "violet"
@@ -12,7 +12,7 @@ sources:
   - name: "SpicyBox — Explore"
     url: "https://spicy-box.com/explore"
   - name: "SpicyBox — Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
   - name: "SpicyBox — Privacy Policy"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "Runway — Gen-4.5 creation guide"
@@ -55,7 +55,7 @@ Count every attempt needed to reach one clip you would keep. This is a suggested
 
 SpicyBox's published Terms say credits used for a generation generally are not restored because the result disappointed you, subject to applicable law. Runway's help distinguishes a failed generation error, which may lead to credits being returned, from a policy-moderated request; its API guidance says moderated requests may still carry a cost. Check the live billing and help pages for the exact model and account type. Do not treat all failures as free retries.
 
-Privacy also differs by workflow. SpicyBox's policy discusses retention of identifiable uploads until explicit deletion. For Runway, review current input rights, storage and sharing settings for the project. Remove unnecessary identifiers from any permissible source, and do not upload someone else's private media.
+Privacy also differs by workflow. SpicyBox's current Terms set plan-based storage limits, while its Privacy Policy still describes content remaining available until an explicit deletion action. Confirm the account's applicable period; neither wording establishes that an inaccessible file has been erased from every system. For Runway, review current input rights, storage and sharing settings for the project. Remove unnecessary identifiers from any permissible source, and do not upload someone else's private media.
 
 ## Which should you choose?
 

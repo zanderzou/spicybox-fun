@@ -2,7 +2,7 @@
 title: "SpicyBox vs Pika: Frame Control and Upload Privacy"
 description: "Compare SpicyBox templates with Pika frame controls, then check self-image rules, privacy, retries and export terms before choosing a video workflow."
 publishDate: 2026-10-08T04:02:35.477Z
-updatedDate: 2026-10-08T04:02:35.477Z
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "6 min read"
 answer: "SpicyBox suits an eligible adult seeking a preset transformation of their own image. Pika is a candidate when a non-explicit project needs a specified beginning and ending, subject to its current model and plan. Neither choice removes upload, privacy or export restrictions."
@@ -10,7 +10,7 @@ accent: "rose"
 keywords: ["SpicyBox vs Pika","Pika","motion control"]
 sources:
   - name: "SpicyBox Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
   - name: "SpicyBox Privacy Policy"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "Pika Help Center"
@@ -23,7 +23,7 @@ sources:
 
 SpicyBox and Pika are worth comparing when the question is how much direction a short video needs. A preset can be sufficient for an adult's personal, non-sensitive self-image. A brief with a particular opening, ending or transition requires a different evaluation. The useful comparison is the amount of control your project needs, followed by the rules governing the source and the finished file.
 
-This guide reviews public documentation checked on October 8, 2026. We did not upload a portrait, buy credits or run a generation comparison. The examples below are proposed acceptance tests, not reported output quality.
+The original comparison reviewed public documentation on October 8, 2026; its SpicyBox retention guidance was updated on November 24, 2026. We did not upload a portrait, buy credits or run a generation comparison. The examples below are proposed acceptance tests, not reported output quality.
 
 ## Decide what must survive the animation
 
@@ -70,7 +70,7 @@ Record each rejected attempt and why it failed. This separates “the template w
 
 ## Retention and sharing can outweigh a successful render
 
-SpicyBox's Privacy Policy says uploads and generated videos remain stored until a deletion action. Its deletion assurances are the provider's stated policy, not an independent infrastructure audit. Decide whether you are comfortable creating that stored copy before uploading.
+SpicyBox's Privacy Policy describes storage until a deletion action, but its current Terms also impose plan-based retention periods. Do not treat the account as permanent storage or assume a storage deadline proves complete backend erasure. Confirm the period for your active plan and decide whether you accept creating that stored copy before uploading.
 
 Pika's FAQ warns that outputs can be selected for a template page and gives plan-specific commercial-use answers. Its Terms are newer than some FAQ language. Resolve any conflict against the current account offer and governing terms; ask support if privacy is essential and the documentation is unclear. “I did not click Share” is insufficient evidence of a contractual private mode.
 

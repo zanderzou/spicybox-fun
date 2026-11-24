@@ -2,7 +2,7 @@
 title: "SpicyBox vs Musebox AI: Self-Image Templates or a Broader Video Studio?"
 description: "Compare SpicyBox and Musebox AI by starting input, video workflow, creative controls, credit risk, publishing rights, and consent rules."
 publishDate: 2026-09-22
-updatedDate: 2026-09-26
+updatedDate: "2026-11-24"
 category: "Comparison"
 readTime: "7 min read"
 accent: "violet"
@@ -12,7 +12,7 @@ sources:
   - name: "SpicyBox — Explore"
     url: "https://spicy-box.com/explore"
   - name: "SpicyBox — Terms of Use"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
   - name: "SpicyBox — Privacy Policy"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "Musebox — official product"
@@ -53,7 +53,7 @@ For a fictional-character project, test Musebox's text-first route separately. S
 
 ## Retention, credits and rights
 
-SpicyBox's Privacy Policy says uploaded and generated material is held until an explicit deletion action. Its Terms state that used credits generally are not restored for an unsatisfactory result, subject to law. Musebox describes credits, tiers and downloads on its current pages; check its live agreement for permitted publication, source handling and the price of extensions. Work out the cost of a finished sequence, including abandoned versions.
+SpicyBox's Privacy Policy describes deletion on request, while its current Terms also set plan-based storage limits. Do not rely on that policy wording as a promise of indefinite access; confirm the active plan's retention period before using the account as an archive. Its Terms state that used credits generally are not restored for an unsatisfactory result, subject to law. Musebox describes credits, tiers and downloads on its current pages; check its live agreement for permitted publication, source handling and the price of extensions. Work out the cost of a finished sequence, including abandoned versions.
 
 Product marketing may say a generated video is yours to use, but that cannot transfer rights in somebody else's input or override a platform's rules. Keep copyright, likeness permission, contractual eligibility and public-distribution rights as four separate questions.
 

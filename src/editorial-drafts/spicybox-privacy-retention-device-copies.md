@@ -2,7 +2,7 @@
 title: "SpicyBox Privacy: Retention, Deletion and Device Copies"
 description: "Understand which SpicyBox privacy document applies, separate content-sharing claims from internal processing, and map server, browser and downloaded copies."
 publishDate: "2026-11-06"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-24"
 category: "Privacy literacy"
 readTime: "5 min read"
 accent: "violet"
@@ -12,12 +12,12 @@ sources:
   - name: "SpicyBox Privacy Policy linked from the product footer"
     url: "https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf"
   - name: "SpicyBox Terms, user-content license"
-    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf"
+    url: "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
   - name: "Mozilla: clear cookies and site data"
     url: "https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox"
 ---
 
-**SpicyBox privacy is not a single yes-or-no property.** Check the service's stated content handling, the account and browser you use, and any copies saved elsewhere. The [Privacy Policy linked by `spicy-box.com`](https://spicy-box.com/assets/files/sb/SpicyBoxPrivacyPolicy-new.pdf) discusses content retained until a deletion action. Logging out or closing a browser tab should not be treated as an equivalent request.
+**SpicyBox privacy is not a single yes-or-no property.** Check the service's stated content handling, the account and browser you use, and any copies saved elsewhere. The Privacy Policy linked by `spicy-box.com` describes content retained until deletion, while the current Terms also set plan-based storage limits. Check both documents. Logging out or closing a browser tab should not be treated as a deletion request.
 
 This is a reading and decision guide, not a security certification. We reviewed the published documents; we did not audit infrastructure, submit personal images or test whether a backend deletion removes every technical representation.
 
@@ -29,9 +29,15 @@ During our source check, the `spicy-box.com` footer led to the policy whose file
 
 This simple record is useful if you later need to explain which terms you relied on. Avoid combining a retention promise from one hostname with a support address or cancellation rule copied from another.
 
+## Check the storage deadline separately from deletion
+
+The Terms currently linked from the product footer include section 7.3, which lists storage from the generation date as one month on Basic, two months on Pro and three months on VIP. The section says those periods apply across monthly, quarterly and annual billing cycles; paying annually does not itself provide a year of storage.
+
+That differs from the Privacy Policy's section 5, which still says content stays available until you delete it. Both documents display March 26, 2026 as their update date, so the date alone does not resolve the conflict. Confirm the period shown for your active plan or ask support before relying on continued access. Save any permitted result you need while it remains available. A storage deadline is not independent proof that every backend representation was erased.
+
 ## Separate a sharing promise from a processing question
 
-The documents discuss both content privacy and uses of information. The [user-content license in the Terms](https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-new.pdf), section 4.2, includes operating the service and model improvement. A statement about not sharing content with third parties should not be expanded into an assurance of no internal model development. Section 7.2 also says a template and its selected cover may become public after you voluntarily submit it for publication and it is approved. Review that choice separately from private account content.
+The documents discuss both content privacy and uses of information. The user-content license in the Terms, section 4.2, includes operating the service and model improvement. A statement about not sharing content with third parties should not be expanded into an assurance of no internal model development. Section 7.2 also says a template and its selected cover may become public after you voluntarily submit it for publication and it is approved. Review that choice separately from private account content.
 
 That distinction does not establish that any particular file was used for training. It establishes a question that the wording alone does not settle for an individual account.
 
@@ -59,7 +65,7 @@ The policy identifies legal-record exceptions around account removal. Before rel
 
 A useful follow-up separates content, account identifiers, payment or bookkeeping records, and derived representations. Ask what is removed, what is retained, and why. Whether a particular exception is lawful depends on circumstances; a general guide cannot determine the result for every person or jurisdiction.
 
-[Mozilla's browser-data guidance](https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox) can help with the browser layer. Treat it as local cleanup guidance rather than a substitute for the service's account-removal process.
+Mozilla's browser-data guidance can help with the browser layer. Treat it as local cleanup guidance rather than a substitute for the service's account-removal process.
 
 ## Choose the next action from the unresolved question
 
