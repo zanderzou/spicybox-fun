@@ -246,6 +246,48 @@
           "https://ffmpeg.org/ffmpeg-filters.html#silencedetect"
         ]
       ]
+    },
+    {
+      "order": 9,
+      "slug": "spicybox-self-portrait-light-and-edges",
+      "title": "SpicyBox Self-Portrait Input: Light, Edges, and a Clear Subject",
+      "readerQuestion": "How should I choose between my own eligible self-portraits before an image-to-video attempt?",
+      "releaseAt": "2026-12-05T05:07:00.000Z",
+      "notBefore": "2026-12-05T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "1fe14f508341aadb26acbc03d1c836069c505db4a7598602485841dd2937622e",
+      "wordCount": 493,
+      "editorialIntent": "Choose a readable self-portrait by checking light, facial detail and the subject outline before spending credits on motion.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
+        ]
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "spicybox-public-template-cover-choice",
+      "title": "SpicyBox Public Templates: Choose a Cover Deliberately",
+      "readerQuestion": "What should I review before submitting my own template and cover for public display?",
+      "releaseAt": "2026-12-12T05:07:00.000Z",
+      "notBefore": "2026-12-12T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "ffb0949b6339cb9eb8307a06f0ea819bc21d7b16e43359e76bb3b666d6b8ddd0",
+      "wordCount": 490,
+      "editorialIntent": "Separate a private creation from a public template submission, then review the cover, title and visible personal details together.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

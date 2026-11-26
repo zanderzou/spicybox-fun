@@ -646,6 +646,92 @@
         }
       ],
       "certificateDigest": "56f6dab78cce60f96c45a6bbfc1ce41c459375fadfcc844362f6cdbbab97c2b4"
+    },
+    "spicybox-self-portrait-light-and-edges": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-self-portrait-light-and-edges",
+      "order": 9,
+      "releaseAt": "2026-12-05T05:07:00.000Z",
+      "activationAt": "2026-12-05T05:07:00.000Z",
+      "contentSha256": "1fe14f508341aadb26acbc03d1c836069c505db4a7598602485841dd2937622e",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T01:04:13.407Z",
+      "factsCheckedAt": "2026-11-26T01:04:13.407Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+          "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1040view3",
+          "checkedAt": "2026-11-26T01:04:13.407Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/spicybox-self-portrait-light-and-edges.json",
+              "sha256": "87f3ca97164eb3119f2de90c644451b7f893d99c49d06f6cac350c7429d99601"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "0a7487dc4e20dbf9cb8eae922d7032967cba0a27dd3b57f443632c56abe52489"
+    },
+    "spicybox-public-template-cover-choice": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-public-template-cover-choice",
+      "order": 10,
+      "releaseAt": "2026-12-12T05:07:00.000Z",
+      "activationAt": "2026-12-12T05:07:00.000Z",
+      "contentSha256": "ffb0949b6339cb9eb8307a06f0ea819bc21d7b16e43359e76bb3b666d6b8ddd0",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T01:04:13.407Z",
+      "factsCheckedAt": "2026-11-26T01:04:13.407Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+          "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1040view3",
+          "checkedAt": "2026-11-26T01:04:13.407Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/spicybox-public-template-cover-choice.json",
+              "sha256": "ee4d6e3b26589a06462ff73a7ff8208440a1c16e5b0d8df6a202ac1fd07c3ef1"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "cb3efe2af5d84890f80401669b48f6e204ee6565a0822da87e14725fa9f38697"
     }
   },
   "activationReceipts": {

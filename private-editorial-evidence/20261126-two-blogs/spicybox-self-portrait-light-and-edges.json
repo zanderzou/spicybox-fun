@@ -1,0 +1,46 @@
+{
+  "domain": "spicybox.fun",
+  "slug": "spicybox-self-portrait-light-and-edges",
+  "order": 9,
+  "reviewedAt": "2026-11-26T01:04:13.407Z",
+  "factsCheckedAt": "2026-11-26T01:04:13.407Z",
+  "contentSha256": "1fe14f508341aadb26acbc03d1c836069c505db4a7598602485841dd2937622e",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-05T05:07:00.000Z",
+  "readerQuestion": "How should I choose between my own eligible self-portraits before an image-to-video attempt?",
+  "applicableClaims": [
+    {
+      "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+      "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1040view3"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/spicybox.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-spicybox-self-portrait-light-and-edges.webp",
+    "sha256": "22ea910af797b51f354ce44c0642c8db10e4d70c648b18efe9992b62922f4c56",
+    "originalPngSha256": "0d7b67e5b0b5ade48d502904a2eee89b71cd640dc81b8233f78baaa3996c689c",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "Original illustration of an adult making a self-portrait beside a softly lit window, with a clear outline against a plain wall.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Choose a readable self-portrait by checking light, facial detail and the subject outline before spending credits on motion.",
+    "wordCount": 493,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How should I choose between my own eligible self-portraits before an image-to-video attempt?",
+      "independentValue": "Choose a readable self-portrait by checking light, facial detail and the subject outline before spending credits on motion.",
+      "image": "Original illustration of an adult making a self-portrait beside a softly lit window, with a clear outline against a plain wall.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}
