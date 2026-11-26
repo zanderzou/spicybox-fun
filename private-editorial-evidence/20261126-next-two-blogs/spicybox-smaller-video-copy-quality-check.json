@@ -4,7 +4,7 @@
   "order": 12,
   "reviewedAt": "2026-11-26T12:23:50.028Z",
   "factsCheckedAt": "2026-11-26T12:23:50.028Z",
-  "contentSha256": "f9adfb71347ef915b352c0214e0ce371995be89d5e877a09ee699c24b263e4c6",
+  "contentSha256": "84f58d6924e51094f9f13783bebd3dc614571832d28d24983ebc6899e44d5a10",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-26T05:07:00.000Z",
   "readerQuestion": "What should I inspect when reducing a downloaded video file for sharing?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-26T14:08:10.025Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "f9adfb71347ef915b352c0214e0ce371995be89d5e877a09ee699c24b263e4c6",
+    "previousCertificateDigest": "33b050b43c40f237ba5294f245fc66ea6af4de1bbd641f996a51d4218d20e968",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

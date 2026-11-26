@@ -2,7 +2,7 @@
 title: "SpicyBox Self-Portrait Input: Light, Edges, and a Clear Subject"
 description: "Choose a readable self-portrait by checking light, facial detail and the subject outline before spending credits on motion."
 publishDate: "2026-12-05"
-updatedDate: "2026-12-05"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "3 min read"
 answer: "Choose the self-portrait in which your face and outline are easiest to read, rather than the one with the strongest filter. A dramatic still can hide an eye, merge hair into the background or crop away a shoulder that a moving shot would need."

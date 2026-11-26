@@ -2,7 +2,7 @@
 title: "Trim a SpicyBox Clip Around One Complete Movement"
 description: "Keep one understandable movement, remove empty lead-in time and inspect both cut points before sharing the edited copy."
 publishDate: "2026-12-19"
-updatedDate: "2026-12-19"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Keep one understandable movement, remove empty lead-in time and inspect both cut points before sharing the edited copy."

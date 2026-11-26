@@ -654,7 +654,7 @@
       "order": 9,
       "releaseAt": "2026-12-05T05:07:00.000Z",
       "activationAt": "2026-12-05T05:07:00.000Z",
-      "contentSha256": "1fe14f508341aadb26acbc03d1c836069c505db4a7598602485841dd2937622e",
+      "contentSha256": "980f736991e1f6c4fa17ce3a5ced2cf0afc497ac10b8aaea4d87ea1cf8bf224a",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -682,13 +682,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/spicybox-self-portrait-light-and-edges.json",
-              "sha256": "87f3ca97164eb3119f2de90c644451b7f893d99c49d06f6cac350c7429d99601"
+              "sha256": "050cda9bb3ac87434d59d7653ac3215a30a1e541aec054f6606d4572b5364730"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "0a7487dc4e20dbf9cb8eae922d7032967cba0a27dd3b57f443632c56abe52489"
+      "certificateDigest": "2cec11de2745da880b41974ac381666b8b024f5145cdda3103845733160155e6"
     },
     "spicybox-public-template-cover-choice": {
       "schemaVersion": 1,
@@ -697,7 +697,7 @@
       "order": 10,
       "releaseAt": "2026-12-12T05:07:00.000Z",
       "activationAt": "2026-12-12T05:07:00.000Z",
-      "contentSha256": "ffb0949b6339cb9eb8307a06f0ea819bc21d7b16e43359e76bb3b666d6b8ddd0",
+      "contentSha256": "1a31de5d52719383a7be94295ff5f433fa6375b16532977350cf646398013383",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -725,13 +725,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/spicybox-public-template-cover-choice.json",
-              "sha256": "ee4d6e3b26589a06462ff73a7ff8208440a1c16e5b0d8df6a202ac1fd07c3ef1"
+              "sha256": "35db5b7e484d393a198c8a9b0c5f25d883d86755dbff090a1c263f8f9899339f"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "cb3efe2af5d84890f80401669b48f6e204ee6565a0822da87e14725fa9f38697"
+      "certificateDigest": "680991d17848643bf8b2aeaaf2008c419a199a7d04a8ed10d480bd58471c2ea1"
     },
     "spicybox-clip-trim-clean-start-finish": {
       "schemaVersion": 1,
@@ -740,7 +740,7 @@
       "order": 11,
       "releaseAt": "2026-12-19T05:07:00.000Z",
       "activationAt": "2026-12-19T05:07:00.000Z",
-      "contentSha256": "351836fcb67a977ad280d4ffe0839524f872f3aedad86c8d5bcec0539f862609",
+      "contentSha256": "7c4e6ed3a083f0bb5531905825c61f1e3def2ad04b340a2c7eaa6f8b94b8f978",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -768,7 +768,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-clip-trim-clean-start-finish.json",
-              "sha256": "6db2ec3739ea88f45e9cb5bff266e870a9706c71d3fc9bd1210e0355f9067c58"
+              "sha256": "22de95fa62e8ff146abbe85916bfeae70bcae61c23844bd6635e178e23dbbe91"
             }
           ]
         },
@@ -783,13 +783,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-clip-trim-clean-start-finish.json",
-              "sha256": "6db2ec3739ea88f45e9cb5bff266e870a9706c71d3fc9bd1210e0355f9067c58"
+              "sha256": "22de95fa62e8ff146abbe85916bfeae70bcae61c23844bd6635e178e23dbbe91"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "afdb6b114702fd2d788e39b4cb0a51285fc5d1629cc2c47140660898a41ff55f"
+      "certificateDigest": "c4ab5bb658533ee8d01ec50d7c562ac8f1b85d0d26b3e66ba8bbf18260d5db84"
     },
     "spicybox-smaller-video-copy-quality-check": {
       "schemaVersion": 1,
@@ -798,7 +798,7 @@
       "order": 12,
       "releaseAt": "2026-12-26T05:07:00.000Z",
       "activationAt": "2026-12-26T05:07:00.000Z",
-      "contentSha256": "f9adfb71347ef915b352c0214e0ce371995be89d5e877a09ee699c24b263e4c6",
+      "contentSha256": "84f58d6924e51094f9f13783bebd3dc614571832d28d24983ebc6899e44d5a10",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -826,7 +826,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-smaller-video-copy-quality-check.json",
-              "sha256": "8e1b7c26ab7bd04787b6ae1651795e49eef9e49e198dfd068e23212b809a0b70"
+              "sha256": "a2186ee37ad02bfe493e10a80e1d278bf8fd7dbf150b3003cd8e7782b46d74fe"
             }
           ]
         },
@@ -841,13 +841,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-smaller-video-copy-quality-check.json",
-              "sha256": "8e1b7c26ab7bd04787b6ae1651795e49eef9e49e198dfd068e23212b809a0b70"
+              "sha256": "a2186ee37ad02bfe493e10a80e1d278bf8fd7dbf150b3003cd8e7782b46d74fe"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "33b050b43c40f237ba5294f245fc66ea6af4de1bbd641f996a51d4218d20e968"
+      "certificateDigest": "87e17f32101ef18f9cbbb4acc65260b7734a84570403b1fc9d2a2932b2f7f633"
     }
   },
   "activationReceipts": {

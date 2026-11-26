@@ -2,7 +2,7 @@
 title: "Make a Smaller SpicyBox Video Copy Without Losing the Point"
 description: "Choose a delivery copy by checking the actual file size, facial detail and moving edges rather than assuming a smaller export is equally clear."
 publishDate: "2026-12-26"
-updatedDate: "2026-12-26"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Choose a delivery copy by checking the actual file size, facial detail and moving edges rather than assuming a smaller export is equally clear."

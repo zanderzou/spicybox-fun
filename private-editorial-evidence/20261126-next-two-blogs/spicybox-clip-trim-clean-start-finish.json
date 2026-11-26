@@ -4,7 +4,7 @@
   "order": 11,
   "reviewedAt": "2026-11-26T12:23:50.028Z",
   "factsCheckedAt": "2026-11-26T12:23:50.028Z",
-  "contentSha256": "351836fcb67a977ad280d4ffe0839524f872f3aedad86c8d5bcec0539f862609",
+  "contentSha256": "7c4e6ed3a083f0bb5531905825c61f1e3def2ad04b340a2c7eaa6f8b94b8f978",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-19T05:07:00.000Z",
   "readerQuestion": "Where should I start and end a short clip after downloading it?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-26T14:08:10.025Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "351836fcb67a977ad280d4ffe0839524f872f3aedad86c8d5bcec0539f862609",
+    "previousCertificateDigest": "afdb6b114702fd2d788e39b4cb0a51285fc5d1629cc2c47140660898a41ff55f",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

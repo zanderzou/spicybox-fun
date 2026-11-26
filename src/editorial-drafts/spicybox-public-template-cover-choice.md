@@ -2,7 +2,7 @@
 title: "SpicyBox Public Templates: Choose a Cover Deliberately"
 description: "Separate a private creation from a public template submission, then review the cover, title and visible personal details together."
 publishDate: "2026-12-12"
-updatedDate: "2026-12-12"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "3 min read"
 answer: "Treat a public template submission as a separate sharing decision. A clip you are comfortable keeping in your account may still have a cover, title or background detail you would not choose for a public gallery."

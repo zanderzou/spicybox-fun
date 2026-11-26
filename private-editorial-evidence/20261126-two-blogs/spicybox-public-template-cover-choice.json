@@ -4,7 +4,7 @@
   "order": 10,
   "reviewedAt": "2026-11-26T01:04:13.407Z",
   "factsCheckedAt": "2026-11-26T01:04:13.407Z",
-  "contentSha256": "ffb0949b6339cb9eb8307a06f0ea819bc21d7b16e43359e76bb3b666d6b8ddd0",
+  "contentSha256": "1a31de5d52719383a7be94295ff5f433fa6375b16532977350cf646398013383",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-12T05:07:00.000Z",
   "readerQuestion": "What should I review before submitting my own template and cover for public display?",
@@ -42,5 +42,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-26T14:08:10.025Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "ffb0949b6339cb9eb8307a06f0ea819bc21d7b16e43359e76bb3b666d6b8ddd0",
+    "previousCertificateDigest": "cb3efe2af5d84890f80401669b48f6e204ee6565a0822da87e14725fa9f38697",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }
