@@ -1,0 +1,53 @@
+{
+  "domain": "spicybox.fun",
+  "slug": "spicybox-clip-trim-clean-start-finish",
+  "order": 11,
+  "reviewedAt": "2026-11-26T12:23:50.028Z",
+  "factsCheckedAt": "2026-11-26T12:23:50.028Z",
+  "contentSha256": "351836fcb67a977ad280d4ffe0839524f872f3aedad86c8d5bcec0539f862609",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-19T05:07:00.000Z",
+  "readerQuestion": "Where should I start and end a short clip after downloading it?",
+  "applicableClaims": [
+    {
+      "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+      "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1040view3"
+    },
+    {
+      "name": "Adobe Express: Trim videos",
+      "url": "https://helpx.adobe.com/express/web/video-creation-and-editing/edit-videos/trim-videos.html",
+      "note": "Current official instructions set start and end times in the separate Adobe Express Trim video quick action. This is an external editing option, not a SpicyBox feature or a performed edit.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1166view0"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/spicybox.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-spicybox-clip-trim-clean-start-finish.webp",
+    "sha256": "cca980c2522547d0e78a830d5011c2f0e124420ee3559293e05518717d5c419b",
+    "originalPngSha256": "d64f8d89d20203bdd697830e8cff3da7a3a94e5cdae3e72e80d8a03c76da588f",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "Editorial film-strip illustration of an adult lifting a sunhat, with markers suggesting a chosen beginning and ending.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Keep one understandable movement, remove empty lead-in time and inspect both cut points before sharing the edited copy.",
+    "wordCount": 371,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "Where should I start and end a short clip after downloading it?",
+      "independentValue": "Keep one understandable movement, remove empty lead-in time and inspect both cut points before sharing the edited copy.",
+      "image": "Editorial film-strip illustration of an adult lifting a sunhat, with markers suggesting a chosen beginning and ending.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

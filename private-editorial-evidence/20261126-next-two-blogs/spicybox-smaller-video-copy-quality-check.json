@@ -1,0 +1,53 @@
+{
+  "domain": "spicybox.fun",
+  "slug": "spicybox-smaller-video-copy-quality-check",
+  "order": 12,
+  "reviewedAt": "2026-11-26T12:23:50.028Z",
+  "factsCheckedAt": "2026-11-26T12:23:50.028Z",
+  "contentSha256": "f9adfb71347ef915b352c0214e0ce371995be89d5e877a09ee699c24b263e4c6",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-26T05:07:00.000Z",
+  "readerQuestion": "What should I inspect when reducing a downloaded video file for sharing?",
+  "applicableClaims": [
+    {
+      "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+      "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+      "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1040view3"
+    },
+    {
+      "name": "Adobe Express MP4 compression guidance",
+      "url": "https://www.adobe.com/express/feature/video/compress/mp4",
+      "note": "The compression slider estimates output size; stronger compression may introduce blur or distortion. Marketing quality and processing-time assurances are not adopted.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1166view1"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/spicybox.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-spicybox-smaller-video-copy-quality-check.webp",
+    "sha256": "42362eeafca9c2b341301e0875d4e5ac56395ca21c48d33e999223febb51d46e",
+    "originalPngSha256": "24d9e28210e9989d10890eeb4df6106e74cb9bc8dca6d27f158901b0e3c28edd",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "Clay-and-glass editorial diorama with a mature adult in swimwear and large and small framed scene tiles linked by a ribbon.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Choose a delivery copy by checking the actual file size, facial detail and moving edges rather than assuming a smaller export is equally clear.",
+    "wordCount": 361,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "What should I inspect when reducing a downloaded video file for sharing?",
+      "independentValue": "Choose a delivery copy by checking the actual file size, facial detail and moving edges rather than assuming a smaller export is equally clear.",
+      "image": "Clay-and-glass editorial diorama with a mature adult in swimwear and large and small framed scene tiles linked by a ribbon.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

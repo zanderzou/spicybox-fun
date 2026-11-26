@@ -732,6 +732,122 @@
       ],
       "observations": [],
       "certificateDigest": "cb3efe2af5d84890f80401669b48f6e204ee6565a0822da87e14725fa9f38697"
+    },
+    "spicybox-clip-trim-clean-start-finish": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-clip-trim-clean-start-finish",
+      "order": 11,
+      "releaseAt": "2026-12-19T05:07:00.000Z",
+      "activationAt": "2026-12-19T05:07:00.000Z",
+      "contentSha256": "351836fcb67a977ad280d4ffe0839524f872f3aedad86c8d5bcec0539f862609",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T12:23:50.028Z",
+      "factsCheckedAt": "2026-11-26T12:23:50.028Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+          "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1040view3",
+          "checkedAt": "2026-11-26T12:23:50.028Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-clip-trim-clean-start-finish.json",
+              "sha256": "6db2ec3739ea88f45e9cb5bff266e870a9706c71d3fc9bd1210e0355f9067c58"
+            }
+          ]
+        },
+        {
+          "name": "Adobe Express: Trim videos",
+          "url": "https://helpx.adobe.com/express/web/video-creation-and-editing/edit-videos/trim-videos.html",
+          "note": "Current official instructions set start and end times in the separate Adobe Express Trim video quick action. This is an external editing option, not a SpicyBox feature or a performed edit.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1166view0",
+          "checkedAt": "2026-11-26T12:23:50.028Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-clip-trim-clean-start-finish.json",
+              "sha256": "6db2ec3739ea88f45e9cb5bff266e870a9706c71d3fc9bd1210e0355f9067c58"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "afdb6b114702fd2d788e39b4cb0a51285fc5d1629cc2c47140660898a41ff55f"
+    },
+    "spicybox-smaller-video-copy-quality-check": {
+      "schemaVersion": 1,
+      "domain": "spicybox.fun",
+      "slug": "spicybox-smaller-video-copy-quality-check",
+      "order": 12,
+      "releaseAt": "2026-12-26T05:07:00.000Z",
+      "activationAt": "2026-12-26T05:07:00.000Z",
+      "contentSha256": "f9adfb71347ef915b352c0214e0ce371995be89d5e877a09ee699c24b263e4c6",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T12:23:50.028Z",
+      "factsCheckedAt": "2026-11-26T12:23:50.028Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "url": "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf",
+          "note": "Read the current PDF. It requires eligible adults to upload only themselves, warns of generated distortions, and distinguishes private templates from reviewed public templates and their covers. No generation or quality result is claimed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1040view3",
+          "checkedAt": "2026-11-26T12:23:50.028Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-smaller-video-copy-quality-check.json",
+              "sha256": "8e1b7c26ab7bd04787b6ae1651795e49eef9e49e198dfd068e23212b809a0b70"
+            }
+          ]
+        },
+        {
+          "name": "Adobe Express MP4 compression guidance",
+          "url": "https://www.adobe.com/express/feature/video/compress/mp4",
+          "note": "The compression slider estimates output size; stronger compression may introduce blur or distortion. Marketing quality and processing-time assurances are not adopted.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1166view1",
+          "checkedAt": "2026-11-26T12:23:50.028Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/spicybox-smaller-video-copy-quality-check.json",
+              "sha256": "8e1b7c26ab7bd04787b6ae1651795e49eef9e49e198dfd068e23212b809a0b70"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "33b050b43c40f237ba5294f245fc66ea6af4de1bbd641f996a51d4218d20e968"
     }
   },
   "activationReceipts": {

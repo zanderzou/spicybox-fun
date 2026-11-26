@@ -288,6 +288,56 @@
           "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
         ]
       ]
+    },
+    {
+      "order": 11,
+      "slug": "spicybox-clip-trim-clean-start-finish",
+      "title": "Trim a SpicyBox Clip Around One Complete Movement",
+      "readerQuestion": "Where should I start and end a short clip after downloading it?",
+      "releaseAt": "2026-12-19T05:07:00.000Z",
+      "notBefore": "2026-12-19T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "351836fcb67a977ad280d4ffe0839524f872f3aedad86c8d5bcec0539f862609",
+      "wordCount": 371,
+      "editorialIntent": "Keep one understandable movement, remove empty lead-in time and inspect both cut points before sharing the edited copy.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
+        ],
+        [
+          "Adobe Express: Trim videos",
+          "https://helpx.adobe.com/express/web/video-creation-and-editing/edit-videos/trim-videos.html"
+        ]
+      ]
+    },
+    {
+      "order": 12,
+      "slug": "spicybox-smaller-video-copy-quality-check",
+      "title": "Make a Smaller SpicyBox Video Copy Without Losing the Point",
+      "readerQuestion": "What should I inspect when reducing a downloaded video file for sharing?",
+      "releaseAt": "2026-12-26T05:07:00.000Z",
+      "notBefore": "2026-12-26T05:07:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "f9adfb71347ef915b352c0214e0ce371995be89d5e877a09ee699c24b263e4c6",
+      "wordCount": 361,
+      "editorialIntent": "Choose a delivery copy by checking the actual file size, facial detail and moving edges rather than assuming a smaller export is equally clear.",
+      "sources": [
+        [
+          "SpicyBox Terms of Use, sections 2, 4, 5 and 7.2",
+          "https://spicy-box.com/assets/files/sb/SpicyBoxTermsofUse-2026-11.pdf"
+        ],
+        [
+          "Adobe Express MP4 compression guidance",
+          "https://www.adobe.com/express/feature/video/compress/mp4"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,
